@@ -1,3 +1,5 @@
+import 'package:guitar_chord_library/src/instrument/brazilian_ukulele.dart';
+
 import 'instrument/ukulele.dart';
 import 'instrument/instrument.dart';
 import 'instrument/guitar.dart';
@@ -12,7 +14,7 @@ class GuitarChordLibrary {
 
   /// Choose your instrument
   /// [InstrumentType] is optional default is [InstrumentType.guitar]
-  /// [InstrumentType.guitar] and [InstrumentType.ukulele]
+  /// [InstrumentType.guitar], [InstrumentType.ukulele] and [InstrumentType.brazilianUkulele]
   static Instrument instrument([InstrumentType type = InstrumentType.guitar]) {
     switch (type) {
       case InstrumentType.guitar:
@@ -25,9 +27,14 @@ class GuitarChordLibrary {
           return _instrument!;
         }
         return _instrument = Ukulele();
+      case InstrumentType.brazilianUkulele:
+        if (_instrument != null && _instrument is BrazilianUkulele) {
+          return _instrument!;
+        }
+        return _instrument = BrazilianUkulele();
     }
   }
 }
 
 /// Instrument Type
-enum InstrumentType { guitar, ukulele }
+enum InstrumentType { guitar, ukulele, brazilianUkulele }

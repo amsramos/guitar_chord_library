@@ -9,6 +9,7 @@ Supported instruments:
 
 - Guitar
 - Ukulele
+- Brazilian Ukulele (Cavaquinho, in Portuguese)
 
 ```dart
 /// Default is guitar
