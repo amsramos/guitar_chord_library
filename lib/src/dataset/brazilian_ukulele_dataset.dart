@@ -1,8 +1,7 @@
 import '../chord.dart';
 
-/// Dataset de acordes para cavaquinho na afinação ré–si–sol–ré (D–B–G–D), de baixo pra cima.
-/// Gerado por enumeração de digitações válidas (casas 0–15) e filtrado para posições tocáveis (abertura <= 4 casas).
-final Map<String, List<Chord>> cavaquinhoDataSet = {
+/// (tune D-G-B-D)
+final Map<String, List<Chord>> ukuleleDataSet = {
   'A': [
     Chord(
       name: 'A11',
@@ -10,34 +9,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 5',
-          fingers: '0 1 1 2',
+          baseFret: 5,
+          frets: '0 6 0 5',
+          fingers: '0 2 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 2 0',
-          fingers: '2 1 1 0',
+          baseFret: 5,
+          frets: '5 6 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 0 0 11',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '11 0 0 0',
+          fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
+          frets: '0 4 2 5',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '5 4 2 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          baseFret: 11,
+          frets: '0 0 12 11',
+          fingers: '0 0 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 6 7',
-          fingers: '1 0 2 3',
+          baseFret: 11,
+          frets: '0 12 0 11',
+          fingers: '0 2 0 1',
         ),
       ],
     ),
@@ -47,34 +56,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 5',
-          fingers: '0 1 1 2',
+          baseFret: 4,
+          frets: '4 6 0 5',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
+          baseFret: 4,
+          frets: '5 6 0 4',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
+          frets: '4 4 2 5',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '5 4 2 4',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 3',
-          fingers: '3 1 1 2',
+          baseFret: 5,
+          frets: '5 6 7 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 6 7 5',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 0 7 11',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 0 7 9',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
@@ -84,34 +103,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '13b5b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 3',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          baseFret: 1,
+          frets: '1 3 2 5',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          frets: '5 3 2 1',
+          fingers: '4 3 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 2 1',
-          fingers: '3 2 2 1',
+          baseFret: 4,
+          frets: '5 6 4 8',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '1 3 2 3',
-          fingers: '1 3 2 3',
+          baseFret: 4,
+          frets: '8 6 4 5',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 8 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 8 8',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -122,33 +141,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
+          frets: '4 3 2 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 3',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          frets: '5 3 2 4',
+          fingers: '4 2 1 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          frets: '5 6 7 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 7 5',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 8 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 8 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 0 7 11',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 0 7 8',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
@@ -159,33 +188,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
+          frets: '2 2 2 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
+          frets: '4 2 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '4 2 2 4',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          baseFret: 4,
+          frets: '7 6 5 4',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 5 7',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '7 6 7 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
+          baseFret: 4,
+          frets: '7 6 7 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 7 7',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -195,34 +234,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '69',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
+          baseFret: 4,
+          frets: '7 6 0 4',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
+          frets: '2 4 2 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '4 4 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 0 7',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          frets: '4 4 2 4',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 7',
-          fingers: '2 0 1 2',
+          baseFret: 4,
+          frets: '4 6 0 4',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          baseFret: 2,
+          frets: '2 6 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 0 2',
+          fingers: '2 3 0 1',
         ),
       ],
     ),
@@ -233,33 +282,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
+          frets: '2 0 2 2',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '2 2 2 5',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          frets: '5 2 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 2 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 2 5',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 2 2',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          frets: '7 6 5 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '5 6 5 7',
+          fingers: '1 2 4 3',
         ),
       ],
     ),
@@ -270,33 +329,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
+          frets: '2 5 2 5',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '5 5 2 2',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          frets: '5 5 2 5',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          baseFret: 10,
+          frets: '10 0 10 11',
+          fingers: '1 0 3 2',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 10,
+          frets: '11 0 10 10',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '7 6 8 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 8 7',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 0 8 11',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -306,34 +375,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          baseFret: 1,
+          frets: '1 0 2 1',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
           frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
           frets: '5 2 2 1',
-          fingers: '3 2 2 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 2 5',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 2 1',
+          fingers: '3 0 2 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
+          frets: '7 6 4 5',
+          fingers: '4 3 1 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
+          frets: '5 6 4 7',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 4,
+          frets: '5 6 4 5',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -344,33 +423,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
+          frets: '2 3 2 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '5 3 2 2',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          frets: '5 3 2 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '7 6 8 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 8 7',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 0 11 11',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 0 10 11',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 0 10 8',
+          fingers: '3 0 2 1',
         ),
       ],
     ),
@@ -381,33 +470,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
+          frets: '3 3 2 5',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          frets: '5 3 2 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          frets: '5 6 6 8',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
+          frets: '8 6 6 5',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 8,
+          frets: '8 10 8 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 8 8',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -417,34 +506,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '7sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 5',
-          fingers: '0 2 1 3',
+          baseFret: 10,
+          frets: '0 0 10 0',
+          fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 5',
-          fingers: '0 2 1 2',
+          baseFret: 5,
+          frets: '7 0 5 0',
+          fingers: '2 0 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 3 2 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 2 0',
-          fingers: '2 2 1 0',
+          baseFret: 5,
+          frets: '0 0 5 7',
+          fingers: '0 0 1 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 2 1 4',
-          fingers: '1 2 1 3',
+          frets: '0 2 3 5',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 1 1',
-          fingers: '3 2 1 1',
+          frets: '5 2 3 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 3 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 3 2',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -454,34 +553,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 6 7',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 5',
-          fingers: '3 0 2 1',
+          baseFret: 5,
+          frets: '7 6 0 5',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          frets: '5 6 0 7',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 0 0 11',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 0 0 7',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 5',
+          fingers: '1 3 0 2',
         ),
       ],
     ),
@@ -491,34 +600,24 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          baseFret: 1,
+          frets: '1 4 2 5',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          frets: '5 4 2 1',
+          fingers: '4 3 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 2 1',
-          fingers: '3 2 2 1',
+          baseFret: 8,
+          frets: '9 8 8 11',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 6 7',
-          fingers: '1 0 2 3',
+          baseFret: 8,
+          frets: '11 8 8 9',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -528,34 +627,24 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          baseFret: 1,
+          frets: '1 4 2 5',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          frets: '5 4 2 1',
+          fingers: '4 3 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 6 7',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 5',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 3 4',
+          baseFret: 8,
+          frets: '9 8 8 11',
           fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 8 9',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -565,34 +654,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'add9',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
+          baseFret: 6,
+          frets: '7 6 0 7',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 7',
-          fingers: '2 0 1 2',
+          baseFret: 6,
+          frets: '7 6 0 9',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 9',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '9 0 6 7',
-          fingers: '3 0 1 2',
+          baseFret: 6,
+          frets: '9 6 0 7',
+          fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 2 5',
-          fingers: '3 1 2 4',
+          frets: '7 6 5 9',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 6 5 7',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 9 0 7',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 10 9',
+          fingers: '2 1 4 3',
         ),
       ],
     ),
@@ -602,34 +701,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'alt',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          baseFret: 1,
+          frets: '1 0 2 1',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
           frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 2 5',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 1,
           frets: '5 2 2 1',
-          fingers: '3 2 2 1',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          baseFret: 2,
+          frets: '5 2 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 2 3',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 2 1',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 0 2 3',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -640,33 +749,38 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
+          frets: '3 2 2 3',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
+          frets: '7 6 6 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 4 4 5',
-          fingers: '1 2 2 3',
+          frets: '7 6 6 3',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '5 4 4 1',
-          fingers: '3 2 2 1',
+          frets: '3 6 6 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 10 11',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
+          frets: '11 10 10 11',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 7,
+          frets: '11 10 10 7',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -677,33 +791,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
+          frets: '3 2 2 5',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
+          frets: '5 2 2 3',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          frets: '3 0 2 3',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 0 2 5',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 2 3',
+          fingers: '3 0 1 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          frets: '7 6 6 5',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
+          frets: '5 6 6 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 2,
+          frets: '3 6 2 5',
+          fingers: '2 4 1 3',
         ),
       ],
     ),
@@ -714,33 +838,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
+          frets: '3 4 2 5',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
+          frets: '5 4 2 3',
+          fingers: '4 3 1 2',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          baseFret: 3,
+          frets: '3 6 0 5',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 6 7',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 5',
-          fingers: '3 0 2 1',
+          baseFret: 3,
+          frets: '5 6 0 3',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          frets: '5 6 6 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 6 6 5',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 10 8 11',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 8 9',
+          fingers: '4 3 1 2',
         ),
       ],
     ),
@@ -751,33 +885,23 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
+          frets: '3 5 2 5',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
+          frets: '5 5 2 3',
+          fingers: '3 4 1 2',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
+          baseFret: 8,
+          frets: '10 10 8 11',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          baseFret: 8,
+          frets: '11 10 8 10',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -788,33 +912,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
+          frets: '3 3 2 5',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
+          frets: '5 3 2 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          frets: '5 6 6 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 6 5',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 8 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 8 8',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -825,33 +949,28 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 1',
-          fingers: '1 3 2 1',
+          frets: '1 2 1 1',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 5 4',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
+          frets: '7 5 4 7',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '1 4 2 1',
-          fingers: '1 3 2 1',
+          frets: '7 8 10 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 10 7',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 10 10',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -861,34 +980,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'dim7',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
+          baseFret: 1,
+          frets: '1 2 1 4',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
+          frets: '4 2 1 1',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 4',
-          fingers: '1 3 2 3',
+          baseFret: 4,
+          frets: '7 5 4 4',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 4,
+          frets: '4 5 4 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
+          baseFret: 7,
+          frets: '7 8 7 10',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 4 2 1',
-          fingers: '3 3 2 1',
+          baseFret: 7,
+          frets: '10 8 7 7',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -898,34 +1017,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'm11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 5',
-          fingers: '0 1 2 3',
+          baseFret: 5,
+          frets: '0 5 0 5',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 0 0 10',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 0 0 0',
+          fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 1 2 0',
-          fingers: '3 1 2 0',
+          frets: '0 4 1 5',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 2 5',
-          fingers: '2 1 2 3',
+          frets: '5 4 1 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 1 2 2',
-          fingers: '3 1 2 2',
+          baseFret: 10,
+          frets: '0 0 12 10',
+          fingers: '0 0 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 5 7',
-          fingers: '1 0 1 2',
+          baseFret: 10,
+          frets: '0 12 0 10',
+          fingers: '0 2 0 1',
         ),
       ],
     ),
@@ -936,33 +1065,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
+          frets: '2 2 1 4',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
+          frets: '4 2 1 2',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
+          frets: '4 2 1 4',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
+          baseFret: 4,
+          frets: '7 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 7 4',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          frets: '7 5 7 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
+          baseFret: 4,
+          frets: '4 5 7 7',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -972,34 +1111,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'm69',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
+          baseFret: 4,
+          frets: '7 5 0 4',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 0 7',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
+          frets: '2 4 1 4',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
+          frets: '4 4 1 2',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 5 0 2',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 5 7',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 7',
-          fingers: '1 0 2 3',
+          frets: '4 4 1 4',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -1010,33 +1159,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 2 5',
-          fingers: '2 1 2 3',
+          frets: '2 2 1 5',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 1 2 2',
-          fingers: '3 1 2 2',
+          frets: '5 2 1 2',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
+          frets: '5 2 1 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
+          frets: '7 5 5 5',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '5 5 5 7',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
+          frets: '7 5 8 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 0 8 10',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 8 7',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -1047,33 +1206,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 2 5',
-          fingers: '1 1 2 3',
+          frets: '1 0 1 1',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 1 2 1',
-          fingers: '3 1 2 1',
+          frets: '1 2 1 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
+          frets: '5 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 1 5',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 1',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
+          frets: '7 5 4 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
+          frets: '5 5 4 7',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
+          baseFret: 1,
+          frets: '1 5 1 5',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -1083,34 +1252,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'm9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 5',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 5 7',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 5 5',
-          fingers: '2 0 1 1',
+          baseFret: 5,
+          frets: '7 5 0 5',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
+          frets: '5 5 0 7',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 0 0 10',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 0 0 7',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 4 1 5',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -1121,33 +1300,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
+          frets: '1 4 1 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 2 5',
-          fingers: '1 1 2 3',
+          frets: '1 5 0 5',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 1 2 1',
-          fingers: '3 1 2 1',
+          frets: '5 4 1 1',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
+          frets: '5 5 0 1',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 5 7',
-          fingers: '1 0 1 2',
+          baseFret: 8,
+          frets: '9 8 8 10',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 5 5',
-          fingers: '2 0 1 1',
+          baseFret: 8,
+          frets: '10 8 8 9',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -1157,34 +1336,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'madd9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 5 7',
-          fingers: '2 0 1 2',
+          baseFret: 5,
+          frets: '7 5 0 7',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          frets: '7 5 0 9',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 5 9',
-          fingers: '2 0 1 3',
+          baseFret: 7,
+          frets: '7 9 0 10',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '9 0 5 7',
-          fingers: '3 0 1 2',
+          baseFret: 5,
+          frets: '9 5 0 7',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 5 9',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 0 7',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 5 5 7',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
+          frets: '9 9 10 10',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -1194,34 +1383,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 7',
-          fingers: '1 0 1 2',
+          baseFret: 6,
+          frets: '0 6 0 6',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 6',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 2 2 0',
-          fingers: '2 1 1 0',
+          baseFret: 6,
+          frets: '6 6 0 0',
+          fingers: '1 2 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
+          frets: '0 4 2 6',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '6 4 2 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 6 9 9',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 9 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 7 9 11',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 7 9 9',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -1231,34 +1430,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj13',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 7',
-          fingers: '1 0 1 2',
+          baseFret: 4,
+          frets: '4 6 0 6',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 6',
-          fingers: '2 0 1 1',
+          baseFret: 4,
+          frets: '6 6 0 4',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 6',
-          fingers: '0 1 1 2',
+          baseFret: 2,
+          frets: '4 4 2 6',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '6 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
+          baseFret: 2,
+          frets: '6 4 2 4',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
+          frets: '6 6 7 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 7 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 11 9 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 9 9',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -1269,33 +1478,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
+          frets: '2 2 2 6',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
+          frets: '6 2 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
+          frets: '6 2 2 6',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
+          frets: '7 6 5 6',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
+          frets: '6 6 5 7',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
+          frets: '7 6 9 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 9 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 9 7',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -1305,34 +1524,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj7#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 2',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 1 1 1',
-          fingers: '2 1 1 1',
+          baseFret: 2,
+          frets: '3 2 2 6',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 1 5',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
+          frets: '6 2 2 3',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
+          frets: '7 6 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 9 11',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 10 9 7',
+          fingers: '4 3 2 1',
         ),
       ],
     ),
@@ -1342,34 +1561,24 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
+          baseFret: 4,
+          frets: '7 6 4 6',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '3 1 3 4',
-          fingers: '2 1 2 3',
+          frets: '6 6 4 7',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '4 1 3 3',
-          fingers: '3 1 2 2',
+          baseFret: 7,
+          frets: '7 8 9 11',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 7,
+          frets: '11 8 9 7',
+          fingers: '4 2 3 1',
         ),
       ],
     ),
@@ -1379,34 +1588,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 7',
-          fingers: '1 0 1 2',
+          baseFret: 6,
+          frets: '7 6 0 6',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 6',
-          fingers: '2 0 1 1',
+          baseFret: 6,
+          frets: '6 6 0 7',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
+          baseFret: 6,
+          frets: '6 6 0 6',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
+          frets: '2 4 2 6',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
+          baseFret: 2,
+          frets: '2 6 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 2 6',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -1417,33 +1636,28 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
+          frets: '2 2 2 2',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
+          frets: '7 6 5 7',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 7,
+          frets: '7 9 10 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 9 10 7',
+          fingers: '4 2 3 1',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '1 4 3 5',
-          fingers: '1 3 2 4',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '5 4 3 1',
-          fingers: '4 3 2 1',
+          frets: '11 9 10 11',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -1454,33 +1668,28 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          frets: '7 5 5 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 10 10',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '10 9 10 10',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
+          frets: '10 9 10 7',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -1490,34 +1699,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'mmaj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '6 0 5 7',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 5 6',
-          fingers: '3 0 1 2',
+          baseFret: 5,
+          frets: '0 5 0 6',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
+          frets: '6 5 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
+          frets: '0 5 9 9',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '4 1 3 5',
+          baseFret: 5,
+          frets: '9 5 9 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 0 10',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 7 0 6',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 7 9 10',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 7 9 9',
           fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '5 1 3 4',
-          fingers: '4 1 2 3',
         ),
       ],
     ),
@@ -1528,33 +1747,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
+          frets: '7 5 5 6',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
+          frets: '6 5 5 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
+          frets: '7 5 9 6',
+          fingers: '3 1 4 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
+          frets: '7 5 9 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
+          frets: '6 5 9 7',
+          fingers: '2 1 4 3',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '1 3 3 4',
-          fingers: '1 2 2 3',
+          frets: '7 9 9 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 9 7',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 10 10',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -1565,33 +1794,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '3 1 2 4',
-          fingers: '3 1 2 4',
+          frets: '7 5 4 6',
+          fingers: '4 2 1 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 1 2 3',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
+          frets: '6 5 4 7',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '1 3 2 4',
-          fingers: '1 3 2 4',
+          frets: '7 8 9 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 9 7',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 10 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 8 10 6',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -1601,34 +1830,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'mmaj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '6 0 5 7',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 5 6',
-          fingers: '3 0 1 2',
+          baseFret: 5,
+          frets: '7 5 0 6',
+          fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
+          frets: '6 5 0 7',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
+          frets: '6 5 0 6',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 0 2',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
+          frets: '7 5 9 9',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
+          frets: '9 5 9 7',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 0 9',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -1638,34 +1877,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'sus2',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 2',
-          fingers: '1 0 1 1',
+          baseFret: 2,
+          frets: '2 2 0 2',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 4 7',
-          fingers: '2 0 1 2',
+          baseFret: 7,
+          frets: '7 9 0 7',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
+          frets: '7 4 5 7',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 9 7',
-          fingers: '1 0 2 1',
+          baseFret: 7,
+          frets: '7 9 0 9',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 9 9',
-          fingers: '1 0 2 2',
+          baseFret: 7,
+          frets: '9 9 0 7',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '9 0 9 7',
-          fingers: '2 0 2 1',
+          baseFret: 5,
+          frets: '7 9 5 9',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 9 5 7',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 10 9',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -1675,3442 +1924,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 2',
-          fingers: '0 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 2 0',
-          fingers: '1 2 1 0',
+          baseFret: 2,
+          frets: '0 2 3 2',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 2',
-          fingers: '0 2 1 1',
-        ),
-      ],
-    ),
-  ],
-  'G#': [
-    Chord(
-      name: 'G#11',
-      chordKey: 'G#',
-      suffix: '11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          frets: '2 2 3 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 4 5',
-          fingers: '2 1 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#13',
-      chordKey: 'G#',
-      suffix: '13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 3',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#13b5b9',
-      chordKey: 'G#',
-      suffix: '13b5b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 3',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 3 2 3',
-          fingers: '1 3 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#13b9',
-      chordKey: 'G#',
-      suffix: '13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 3',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#6',
-      chordKey: 'G#',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#69',
-      chordKey: 'G#',
-      suffix: '69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#7',
-      chordKey: 'G#',
-      suffix: '7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#7#9',
-      chordKey: 'G#',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 6',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 5 4',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#7b5',
-      chordKey: 'G#',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 5 6',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#7b9',
-      chordKey: 'G#',
-      suffix: '7b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#7b9#5',
-      chordKey: 'G#',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#7sus4',
-      chordKey: 'G#',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 4',
-          fingers: '1 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 1 1',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 3',
-          fingers: '1 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 3 1',
-          fingers: '2 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#9',
-      chordKey: 'G#',
-      suffix: '9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#9#11',
-      chordKey: 'G#',
-      suffix: '9#11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#9b5',
-      chordKey: 'G#',
-      suffix: '9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 5 6',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#add9',
-      chordKey: 'G#',
-      suffix: 'add9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 5',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 2 3',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 5 1 4',
-          fingers: '2 4 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#alt',
-      chordKey: 'G#',
-      suffix: 'alt',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 6',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#aug',
-      chordKey: 'G#',
-      suffix: 'aug',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 4 5',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 4 4 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#aug7',
-      chordKey: 'G#',
-      suffix: 'aug7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#aug9',
-      chordKey: 'G#',
-      suffix: 'aug9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#b13#9',
-      chordKey: 'G#',
-      suffix: 'b13#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 6',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#b13b9',
-      chordKey: 'G#',
-      suffix: 'b13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#dim',
-      chordKey: 'G#',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 6',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 6',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 6',
-          fingers: '2 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#dim7',
-      chordKey: 'G#',
-      suffix: 'dim7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 3',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 3',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#m11',
-      chordKey: 'G#',
-      suffix: 'm11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 4',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 6',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 6 6',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 4',
-          fingers: '2 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#m6',
-      chordKey: 'G#',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 1',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 3',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 3',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 6',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 6',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#m69',
-      chordKey: 'G#',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 1',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 3',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 3',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 6',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 3 6',
-          fingers: '1 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#m7',
-      chordKey: 'G#',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 4',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 6',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 4',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#m7b5',
-      chordKey: 'G#',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 4',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 6',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 4',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#m9',
-      chordKey: 'G#',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 4',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 6',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 4',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 6',
-          fingers: '2 0 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#m9b5',
-      chordKey: 'G#',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 4',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 6',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 0',
-          fingers: '2 0 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#madd9',
-      chordKey: 'G#',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 1',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 6',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 3 6',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 8 6',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 8 8',
-          fingers: '1 0 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#maj11',
-      chordKey: 'G#',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 4 5',
-          fingers: '2 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#maj13',
-      chordKey: 'G#',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 5',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 3',
-          fingers: '3 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#maj7',
-      chordKey: 'G#',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#maj7#5',
-      chordKey: 'G#',
-      suffix: 'maj7#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 2',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 5',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#maj7b5',
-      chordKey: 'G#',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 5',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '3 1 3 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 3 3',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 8 5 6',
-          fingers: '0 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#maj9',
-      chordKey: 'G#',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#major',
-      chordKey: 'G#',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 4 3 5',
+          frets: '2 2 3 2',
           fingers: '1 3 2 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '5 4 3 1',
-          fingers: '4 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#minor',
-      chordKey: 'G#',
-      suffix: 'minor',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 1',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 6',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 8 6',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 8 9',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#mmaj11',
-      chordKey: 'G#',
-      suffix: 'mmaj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 6',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 6',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 5',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 6 6',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 5',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 5',
-          fingers: '1 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#mmaj7',
-      chordKey: 'G#',
-      suffix: 'mmaj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 6',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 6',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 5',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 5',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 1 5',
-          fingers: '2 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#mmaj7b5',
-      chordKey: 'G#',
-      suffix: 'mmaj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 6',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 6',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 6',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 5',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 5',
-          fingers: '0 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#mmaj9',
-      chordKey: 'G#',
-      suffix: 'mmaj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 6',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 6',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 0 5',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 5',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 1 5',
-          fingers: '2 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#sus2',
-      chordKey: 'G#',
-      suffix: 'sus2',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 5 3',
-          fingers: '3 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 4 3 1',
-          fingers: '2 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G#sus4',
-      chordKey: 'G#',
-      suffix: 'sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
+          baseFret: 2,
+          frets: '0 2 5 0',
+          fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 1 5 5',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 4 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-  ],
-  'B': [
-    Chord(
-      name: 'B11',
-      chordKey: 'B',
-      suffix: '11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 2',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 1',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B13',
-      chordKey: 'B',
-      suffix: '13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 2',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 1',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B13b5b9',
-      chordKey: 'B',
-      suffix: '13b5b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 8 7',
-          fingers: '1 0 3 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B13b9',
-      chordKey: 'B',
-      suffix: '13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 8 7',
-          fingers: '1 0 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B6',
-      chordKey: 'B',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 1',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 4',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B69',
-      chordKey: 'B',
-      suffix: '69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 1',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 4',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B7',
-      chordKey: 'B',
-      suffix: '7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B7#9',
-      chordKey: 'B',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 1',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 8 7',
-          fingers: '0 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B7b5',
-      chordKey: 'B',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B7b9',
-      chordKey: 'B',
-      suffix: '7b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B7b9#5',
-      chordKey: 'B',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 5',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B7sus4',
-      chordKey: 'B',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 2',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 2',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 1 4',
-          fingers: '1 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 2 1 1',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B9',
-      chordKey: 'B',
-      suffix: '9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B9#11',
-      chordKey: 'B',
-      suffix: '9#11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'B9b5',
-      chordKey: 'B',
-      suffix: '9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Badd9',
-      chordKey: 'B',
-      suffix: 'add9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 4',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 1',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 1',
-          fingers: '1 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 4',
-          fingers: '1 2 3 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Balt',
-      chordKey: 'B',
-      suffix: 'alt',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 1',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 5',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Baug',
-      chordKey: 'B',
-      suffix: 'aug',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 1',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 1',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Baug7',
-      chordKey: 'B',
-      suffix: 'aug7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 5',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Baug9',
-      chordKey: 'B',
-      suffix: 'aug9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 5',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bb13#9',
-      chordKey: 'B',
-      suffix: 'b13#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 1',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 5',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bb13b9',
-      chordKey: 'B',
-      suffix: 'b13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 5',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 8 7',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bdim',
-      chordKey: 'B',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 3',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bdim7',
-      chordKey: 'B',
-      suffix: 'dim7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 3',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 3',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 6',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 0',
-          fingers: '2 0 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bm11',
-      chordKey: 'B',
-      suffix: 'm11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 2',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 7',
-          fingers: '0 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bm6',
-      chordKey: 'B',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 4',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 4',
-          fingers: '0 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bm69',
-      chordKey: 'B',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 4',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 0',
-          fingers: '0 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bm7',
-      chordKey: 'B',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 7',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 7 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 7 7',
-          fingers: '1 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bm7b5',
-      chordKey: 'B',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 3',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 7',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 7 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 7 7',
-          fingers: '1 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bm9',
-      chordKey: 'B',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 7',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 7 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 6 7',
-          fingers: '0 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bm9b5',
-      chordKey: 'B',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 3',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 0',
-          fingers: '0 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmadd9',
-      chordKey: 'B',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 4',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 4',
-          fingers: '0 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmaj11',
-      chordKey: 'B',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 2',
-          fingers: '1 0 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 3 1',
-          fingers: '2 0 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 8',
-          fingers: '1 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmaj13',
-      chordKey: 'B',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 2',
-          fingers: '1 0 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 3 1',
-          fingers: '2 0 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 8',
-          fingers: '1 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmaj7',
-      chordKey: 'B',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 8',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 9',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '9 0 8 8',
-          fingers: '2 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmaj7#5',
-      chordKey: 'B',
-      suffix: 'maj7#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 5',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 3 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 8',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 8 8',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 5',
-          fingers: '2 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmaj7b5',
-      chordKey: 'B',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 3',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 3 1',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 8',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 9',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '9 0 8 8',
-          fingers: '2 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmaj9',
-      chordKey: 'B',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 3 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 8',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 8 9',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '9 0 8 8',
-          fingers: '2 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmajor',
-      chordKey: 'B',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 4 4',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 1',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 4 4',
-          fingers: '1 2 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bminor',
-      chordKey: 'B',
-      suffix: 'minor',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 4',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 4',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 4 0',
-          fingers: '2 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmmaj11',
-      chordKey: 'B',
-      suffix: 'mmaj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 2',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 3 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 8',
-          fingers: '0 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmmaj7',
-      chordKey: 'B',
-      suffix: 'mmaj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 8',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 7 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 7 8',
-          fingers: '2 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmmaj7b5',
-      chordKey: 'B',
-      suffix: 'mmaj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 3',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 3 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 8',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 7 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 7 8',
-          fingers: '2 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bmmaj9',
-      chordKey: 'B',
-      suffix: 'mmaj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 7 8',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 0 7 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 6 8',
-          fingers: '0 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bsus2',
-      chordKey: 'B',
-      suffix: 'sus2',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 6 4',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '9 0 6 9',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '11 0 11 11',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '9 0 11 11',
-          fingers: '1 0 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Bsus4',
-      chordKey: 'B',
-      suffix: 'sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 4 2',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 4 4',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 2',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          frets: '0 2 5 2',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 4 3 1',
-          fingers: '1 3 2 1',
+          frets: '2 2 5 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
+          baseFret: 5,
+          frets: '7 7 5 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 9 10 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -5123,33 +1974,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
+          frets: '0 1 1 1',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 4 3 6',
+          frets: '1 1 1 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 4 6',
           fingers: '0 2 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 4 3 0',
+          baseFret: 4,
+          frets: '6 5 4 0',
           fingers: '3 2 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
+          baseFret: 8,
+          frets: '0 8 9 10',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 9 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 9 12',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '12 8 9 10',
+          fingers: '4 1 2 3',
         ),
       ],
     ),
@@ -5160,33 +2021,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
+          frets: '0 1 1 5',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 4 3 6',
-          fingers: '0 2 1 3',
+          frets: '5 1 1 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
+          baseFret: 9,
+          frets: '0 0 9 10',
+          fingers: '0 0 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
+          baseFret: 9,
+          frets: '10 0 9 0',
+          fingers: '2 0 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '6 4 3 0',
-          fingers: '3 2 1 0',
+          baseFret: 3,
+          frets: '5 5 3 6',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
+          baseFret: 3,
+          frets: '6 5 3 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 8 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 8 0',
+          fingers: '2 1 3 0',
         ),
       ],
     ),
@@ -5197,33 +2068,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 3 6',
-          fingers: '0 0 1 2',
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '6 0 3 0',
-          fingers: '2 0 1 0',
+          frets: '2 1 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
+          baseFret: 4,
+          frets: '0 4 5 6',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 6',
-          fingers: '0 2 1 3',
+          baseFret: 4,
+          frets: '6 4 5 0',
+          fingers: '3 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
+          baseFret: 6,
+          frets: '0 9 0 6',
+          fingers: '0 2 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '6 5 3 0',
-          fingers: '3 2 1 0',
+          baseFret: 6,
+          frets: '6 9 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 3 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 3 2',
+          fingers: '4 3 2 1',
         ),
       ],
     ),
@@ -5233,3723 +2114,14 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '13b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 6',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 3 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#6',
-      chordKey: 'A#',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 3',
-          fingers: '0 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 3 0',
-          fingers: '1 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 5',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#69',
-      chordKey: 'A#',
-      suffix: '69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 3',
-          fingers: '0 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 3 0',
-          fingers: '1 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 3',
-          fingers: '0 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#7',
-      chordKey: 'A#',
-      suffix: '7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#7#9',
-      chordKey: 'A#',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 3 6',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 2 3 0',
-          fingers: '3 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#7b5',
-      chordKey: 'A#',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 6',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 5 3 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#7b9',
-      chordKey: 'A#',
-      suffix: '7b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 6',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 3 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#7b9#5',
-      chordKey: 'A#',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 6',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 3 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#7sus4',
-      chordKey: 'A#',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 1 4',
-          fingers: '1 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 2 1 1',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
+          baseFret: 6,
+          frets: '0 0 0 6',
+          fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '1 1 3 3',
-          fingers: '1 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 3 1',
-          fingers: '2 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#9',
-      chordKey: 'A#',
-      suffix: '9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#9#11',
-      chordKey: 'A#',
-      suffix: '9#11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 6',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 5 3 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#9b5',
-      chordKey: 'A#',
-      suffix: '9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 6',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 5 3 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#add9',
-      chordKey: 'A#',
-      suffix: 'add9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 3',
-          fingers: '0 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 3 0',
-          fingers: '1 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 3',
-          fingers: '0 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#alt',
-      chordKey: 'A#',
-      suffix: 'alt',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 6',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 3 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 6',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 5 3 0',
-          fingers: '3 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#aug',
-      chordKey: 'A#',
-      suffix: 'aug',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 3 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 7 8',
-          fingers: '0 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#aug7',
-      chordKey: 'A#',
-      suffix: 'aug7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 3 6',
-          fingers: '0 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#aug9',
-      chordKey: 'A#',
-      suffix: 'aug9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 3 6',
-          fingers: '0 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#b13#9',
-      chordKey: 'A#',
-      suffix: 'b13#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 3 6',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 2 3 0',
-          fingers: '3 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#b13b9',
-      chordKey: 'A#',
-      suffix: 'b13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 3 6',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 3 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 6',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 6',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 3 0',
-          fingers: '2 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#dim',
-      chordKey: 'A#',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 1',
-          fingers: '1 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 5 4',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 4 2 1',
-          fingers: '1 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#dim7',
-      chordKey: 'A#',
-      suffix: 'dim7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 4 2 1',
-          fingers: '3 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#m11',
-      chordKey: 'A#',
-      suffix: 'm11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 5',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 3 5',
-          fingers: '2 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#m6',
-      chordKey: 'A#',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#m69',
-      chordKey: 'A#',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#m7',
-      chordKey: 'A#',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 5',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#m7b5',
-      chordKey: 'A#',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#m9',
-      chordKey: 'A#',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 5',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#m9b5',
-      chordKey: 'A#',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#madd9',
-      chordKey: 'A#',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 5',
-          fingers: '2 1 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#maj11',
-      chordKey: 'A#',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 7',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 3 7',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 7',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 4 3 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 6 3 0',
-          fingers: '3 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#maj13',
-      chordKey: 'A#',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 7',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 3 7',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 7',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 4 3 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 6 3 0',
-          fingers: '3 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#maj7',
-      chordKey: 'A#',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 7',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 7',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 6 3 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#maj7#5',
-      chordKey: 'A#',
-      suffix: 'maj7#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 7',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 3 7',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 7 3 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '1 1 1 2',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '2 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#maj7b5',
-      chordKey: 'A#',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 7',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 7',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 5 3 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 1 3 4',
-          fingers: '2 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#maj9',
-      chordKey: 'A#',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 7',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 7',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 6 3 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#major',
-      chordKey: 'A#',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 3',
-          fingers: '0 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 3 0',
-          fingers: '1 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 3',
-          fingers: '0 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#minor',
-      chordKey: 'A#',
-      suffix: 'minor',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#mmaj11',
-      chordKey: 'A#',
-      suffix: 'mmaj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 3 5',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 3 4',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#mmaj7',
-      chordKey: 'A#',
-      suffix: 'mmaj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 3 3 4',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#mmaj7b5',
-      chordKey: 'A#',
-      suffix: 'mmaj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 1 2 4',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 2 3',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 3 2 4',
-          fingers: '1 3 2 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#mmaj9',
-      chordKey: 'A#',
-      suffix: 'mmaj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 5 1 5',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#sus2',
-      chordKey: 'A#',
-      suffix: 'sus2',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '5 1 5 3',
-          fingers: '3 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'A#sus4',
-      chordKey: 'A#',
-      suffix: 'sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 3 1',
-          fingers: '1 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 3 1',
-          fingers: '2 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 5 5',
-          fingers: '2 1 2 2',
-        ),
-      ],
-    ),
-  ],
-  'C': [
-    Chord(
-      name: 'C11',
-      chordKey: 'C',
-      suffix: '11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 3',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 2',
-          fingers: '3 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C13',
-      chordKey: 'C',
-      suffix: '13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 3',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 2',
-          fingers: '3 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C13b5b9',
-      chordKey: 'C',
-      suffix: '13b5b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 3',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C13b9',
-      chordKey: 'C',
-      suffix: '13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C6',
-      chordKey: 'C',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 0 2',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 0 5',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 0 2',
-          fingers: '3 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C69',
-      chordKey: 'C',
-      suffix: '69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 2',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 2',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 0 2',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 0',
-          fingers: '2 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C7',
-      chordKey: 'C',
-      suffix: '7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C7#9',
-      chordKey: 'C',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 2',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 1',
-          fingers: '2 1 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C7b5',
-      chordKey: 'C',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C7b9',
-      chordKey: 'C',
-      suffix: '7b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C7b9#5',
-      chordKey: 'C',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C7sus4',
-      chordKey: 'C',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 5',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 3',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 2 1 4',
-          fingers: '1 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 2 1 1',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C9',
-      chordKey: 'C',
-      suffix: '9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 8',
-          fingers: '0 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C9#11',
-      chordKey: 'C',
-      suffix: '9#11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C9b5',
-      chordKey: 'C',
-      suffix: '9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 8',
-          fingers: '0 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cadd9',
-      chordKey: 'C',
-      suffix: 'add9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 2',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 0 2',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 5',
-          fingers: '0 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 5 0',
-          fingers: '1 1 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Calt',
-      chordKey: 'C',
-      suffix: 'alt',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 2',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 1',
-          fingers: '2 1 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Caug',
-      chordKey: 'C',
-      suffix: 'aug',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 5 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 4 5',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 4 4 1',
-          fingers: '3 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Caug7',
-      chordKey: 'C',
-      suffix: 'aug7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 4',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Caug9',
-      chordKey: 'C',
-      suffix: 'aug9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 8',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 5 5 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cb13#9',
-      chordKey: 'C',
-      suffix: 'b13#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 2',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 1',
-          fingers: '2 1 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cb13b9',
-      chordKey: 'C',
-      suffix: 'b13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 4',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cdim',
-      chordKey: 'C',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 5 4',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 5 1',
-          fingers: '1 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 5 4',
-          fingers: '1 2 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 5 1',
-          fingers: '2 1 3 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cdim7',
-      chordKey: 'C',
-      suffix: 'dim7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cm11',
-      chordKey: 'C',
-      suffix: 'm11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 1',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 3',
-          fingers: '1 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 1',
-          fingers: '2 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 5',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cm6',
-      chordKey: 'C',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 1',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 5',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 0 1',
-          fingers: '2 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 5',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cm69',
-      chordKey: 'C',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 1',
-          fingers: '0 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 0',
-          fingers: '1 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 1',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 1',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cm7',
-      chordKey: 'C',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 2 5',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cm7b5',
-      chordKey: 'C',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 2 5',
-          fingers: '3 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cm9',
-      chordKey: 'C',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 1',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 8',
-          fingers: '0 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cm9b5',
-      chordKey: 'C',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 1',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 4',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 5 0',
-          fingers: '1 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmadd9',
-      chordKey: 'C',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 1',
-          fingers: '0 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 0',
-          fingers: '1 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 1',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 5',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 4 5 0',
-          fingers: '2 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmaj11',
-      chordKey: 'C',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 4 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 5 2',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 3',
-          fingers: '2 1 4 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmaj13',
-      chordKey: 'C',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 4 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 5 2',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 3',
-          fingers: '2 1 4 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmaj7',
-      chordKey: 'C',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 2',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 5',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 5 2',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 4 2',
-          fingers: '4 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmaj7#5',
-      chordKey: 'C',
-      suffix: 'maj7#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 2',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 6',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 5 2',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '9 0 9 10',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '10 0 9 9',
-          fingers: '2 0 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmaj7b5',
-      chordKey: 'C',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 4',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 4 2',
-          fingers: '3 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 2',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 4',
-          fingers: '1 0 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 2',
-          fingers: '2 0 3 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmaj9',
-      chordKey: 'C',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 4 2',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 5 2',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 5 2',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmajor',
-      chordKey: 'C',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 0 2',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 0 5',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 0 2',
-          fingers: '3 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 4 4',
-          fingers: '1 2 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cminor',
-      chordKey: 'C',
-      suffix: 'minor',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 1',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 5',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 0 1',
-          fingers: '2 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 5 5',
-          fingers: '1 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmmaj11',
-      chordKey: 'C',
-      suffix: 'mmaj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 4 1',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 3',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 4 1',
-          fingers: '2 1 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 5 1',
-          fingers: '0 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmmaj7',
-      chordKey: 'C',
-      suffix: 'mmaj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 5 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 5 5',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 5 1',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 4 1',
-          fingers: '3 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmmaj7b5',
-      chordKey: 'C',
-      suffix: 'mmaj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 4',
-          fingers: '1 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 4 1',
-          fingers: '2 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 5 1',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 5 4',
-          fingers: '1 0 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 1',
-          fingers: '2 0 3 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Cmmaj9',
-      chordKey: 'C',
-      suffix: 'mmaj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 4 1',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 4 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 5 1',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 5 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 5 1',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Csus2',
-      chordKey: 'C',
-      suffix: 'sus2',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 5',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 3 5 0',
-          fingers: '2 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 5',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 5 0',
-          fingers: '0 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Csus4',
-      chordKey: 'C',
-      suffix: 'sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 0 3',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 0 5',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 0 3',
-          fingers: '3 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 5 3',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
-        ),
-      ],
-    ),
-  ],
-  'D': [
-    Chord(
-      name: 'D11',
-      chordKey: 'D',
-      suffix: '11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 4',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 4',
-          fingers: '0 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 5 0',
-          fingers: '1 2 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D13',
-      chordKey: 'D',
-      suffix: '13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 4',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 5 4',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 4 4',
-          fingers: '0 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D13b5b9',
-      chordKey: 'D',
-      suffix: '13b5b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 5 4',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 4 4',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 4 0',
-          fingers: '2 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D13b9',
-      chordKey: 'D',
-      suffix: '13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 5 4',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 5 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 4 4',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 4 0',
-          fingers: '2 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D6',
-      chordKey: 'D',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 4',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 4',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 4 0',
-          fingers: '2 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D69',
-      chordKey: 'D',
-      suffix: '69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 4',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 4',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 4 4',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 4 0',
-          fingers: '2 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D7',
-      chordKey: 'D',
-      suffix: '7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 5 4',
-          fingers: '0 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D7#9',
-      chordKey: 'D',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 3 2',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 3 1',
-          fingers: '2 1 3 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D7b5',
-      chordKey: 'D',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 5 4',
-          fingers: '0 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D7b9',
-      chordKey: 'D',
-      suffix: '7b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 4',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 5 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D7b9#5',
-      chordKey: 'D',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 4',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 5 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D7sus4',
-      chordKey: 'D',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 5',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 3 5 0',
-          fingers: '2 1 2 0',
+          frets: '6 0 0 0',
+          fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 1,
@@ -8962,432 +2134,82 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
+          baseFret: 9,
+          frets: '0 0 9 9',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 0 9 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 7 0 6',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 7 0 5',
+          fingers: '2 3 0 1',
         ),
       ],
     ),
     Chord(
-      name: 'D9',
-      chordKey: 'D',
-      suffix: '9',
+      name: 'A#6',
+      chordKey: 'A#',
+      suffix: '6',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 4',
-          fingers: '0 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 5 0',
-          fingers: '1 2 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D9#11',
-      chordKey: 'D',
-      suffix: '9#11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 4',
-          fingers: '0 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 5 0',
-          fingers: '1 2 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D9b5',
-      chordKey: 'D',
-      suffix: '9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 4',
-          fingers: '0 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 5 0',
-          fingers: '1 2 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dadd9',
-      chordKey: 'D',
-      suffix: 'add9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 4',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 2 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 1 3',
-          fingers: '1 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 1 1',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 4',
-          fingers: '0 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dalt',
-      chordKey: 'D',
-      suffix: 'alt',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 4',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 5 0',
-          fingers: '1 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Daug',
-      chordKey: 'D',
-      suffix: 'aug',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 3 0',
-          fingers: '2 1 1 0',
+          baseFret: 11,
+          frets: '0 0 11 0',
+          fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 3 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 7 4',
-          fingers: '0 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Daug7',
-      chordKey: 'D',
-      suffix: 'aug7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 4',
+          frets: '0 3 3 5',
           fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 5 4',
-          fingers: '0 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Daug9',
-      chordKey: 'D',
-      suffix: 'aug9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 4',
-          fingers: '0 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 5 0',
-          fingers: '1 2 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
+          frets: '5 3 3 0',
           fingers: '2 1 3 0',
         ),
-      ],
-    ),
-    Chord(
-      name: 'Db13#9',
-      chordKey: 'D',
-      suffix: 'b13#9',
-      chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
+          baseFret: 8,
+          frets: '8 0 8 0',
+          fingers: '1 0 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 4',
-          fingers: '0 1 2 3',
+          baseFret: 6,
+          frets: '8 0 6 0',
+          fingers: '2 0 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
+          baseFret: 3,
+          frets: '3 3 3 5',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 0',
-          fingers: '3 1 2 0',
+          baseFret: 3,
+          frets: '5 3 3 3',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 5 0',
-          fingers: '2 1 3 0',
+          baseFret: 8,
+          frets: '0 0 8 8',
+          fingers: '0 0 1 2',
         ),
       ],
     ),
     Chord(
-      name: 'Db13b9',
-      chordKey: 'D',
-      suffix: 'b13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 3 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 5 4',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 5 0',
-          fingers: '1 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Ddim',
-      chordKey: 'D',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 7 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 7 6',
-          fingers: '0 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Ddim7',
-      chordKey: 'D',
-      suffix: 'dim7',
+      name: 'A#69',
+      chordKey: 'A#',
+      suffix: '69',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
           frets: '0 0 1 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
@@ -9402,20 +2224,2683 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 4 3',
-          fingers: '0 0 2 1',
+          frets: '0 3 1 5',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 3 4 0',
+          frets: '5 3 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 5',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 0 11 10',
+          fingers: '0 0 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#7',
+      chordKey: 'A#',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 3 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 3 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 3 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 6 0',
+          fingers: '2 1 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#7#9',
+      chordKey: 'A#',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 2 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 3 2 6',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 6 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 9 0',
+          fingers: '2 1 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#7b5',
+      chordKey: 'A#',
+      suffix: '7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 3 2',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 3 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 5 0',
           fingers: '0 1 2 0',
         ),
       ],
     ),
     Chord(
-      name: 'Dm11',
-      chordKey: 'D',
+      name: 'A#7b9',
+      chordKey: 'A#',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 0 6',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 7 0 6',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 0 6',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 0 0',
+          fingers: '2 1 0 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#7b9#5',
+      chordKey: 'A#',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 4 3 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 3 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 0 6',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 7 0 4',
+          fingers: '2 3 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#7sus4',
+      chordKey: 'A#',
+      suffix: '7sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 4 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 4 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 6 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 6 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 8 4 6',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 9 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 8 4 8',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#9',
+      chordKey: 'A#',
+      suffix: '9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 9 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 6',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 0',
+          fingers: '3 2 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#9#11',
+      chordKey: 'A#',
+      suffix: '9#11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 5 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 3 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 3 2',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 9 9 10',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 9 0',
+          fingers: '2 1 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#9b5',
+      chordKey: 'A#',
+      suffix: '9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 5 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 3 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 3 2',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 9 9 10',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 9 0',
+          fingers: '2 1 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#add9',
+      chordKey: 'A#',
+      suffix: 'add9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 1 3',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 6 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 10 11 10',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 10 11 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 7 6 10',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#alt',
+      chordKey: 'A#',
+      suffix: 'alt',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 2 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 0 6',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 2 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 0 0',
+          fingers: '2 1 0 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#aug',
+      chordKey: 'A#',
+      suffix: 'aug',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 3 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 7 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 11 11 0',
+          fingers: '0 1 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#aug7',
+      chordKey: 'A#',
+      suffix: 'aug7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 3 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 3 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 7 7 6',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#aug9',
+      chordKey: 'A#',
+      suffix: 'aug9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 4',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 11 9 10',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 11 9 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#b13#9',
+      chordKey: 'A#',
+      suffix: 'b13#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 2 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 6 7 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 7 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 6 3 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 6 3 4',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 11 9 11',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 9 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#b13b9',
+      chordKey: 'A#',
+      suffix: 'b13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 4 3 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 3 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 0 6',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 7 0 4',
+          fingers: '2 3 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#dim',
+      chordKey: 'A#',
+      suffix: 'dim',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 11 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 11 8',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 11 11',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#dim7',
+      chordKey: 'A#',
+      suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 5 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 8 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 8 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#m11',
+      chordKey: 'A#',
       suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 9 11',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 9 10',
+          fingers: '4 1 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#m6',
+      chordKey: 'A#',
+      suffix: 'm6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 5',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 2 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 2 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 6 5',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 6 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 8 5',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 8 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 0 8 11',
+          fingers: '1 0 3 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#m69',
+      chordKey: 'A#',
+      suffix: 'm69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 5 2 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 2 3',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 2 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 0 11 11',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 0 11 10',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 8 10',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 8 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 0 8 11',
+          fingers: '2 0 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#m7',
+      chordKey: 'A#',
+      suffix: 'm7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 9 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 9 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 9 8',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#m7b5',
+      chordKey: 'A#',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 6 5 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 2 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 6 5 6',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#m9',
+      chordKey: 'A#',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 5 2 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 2 3',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 2 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 9 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 9 8',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 9 10',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#m9b5',
+      chordKey: 'A#',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 9 11',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 9 10',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#madd9',
+      chordKey: 'A#',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 6 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 6 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 10 11 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 10 11 10',
+          fingers: '2 1 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#maj11',
+      chordKey: 'A#',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 1',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 4 7',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 8 10 10',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 10 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 10 12',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '12 8 10 10',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#maj13',
+      chordKey: 'A#',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 0 10 10',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 0 10 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 8 7',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 8 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 3 7',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 3 5',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#maj7',
+      chordKey: 'A#',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 3 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 6 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 3 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 6 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 3 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 7 6 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#maj7#5',
+      chordKey: 'A#',
+      suffix: 'maj7#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 7 7 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 7 7 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 11 10 0',
+          fingers: '1 3 2 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 11 10 8',
+          fingers: '0 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#maj7b5',
+      chordKey: 'A#',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 10 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 7 5 7',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 9 10 8',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 7 5 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 9 11 7',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 11 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#maj9',
+      chordKey: 'A#',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 3',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 6 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 7',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 3 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 7',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#major',
+      chordKey: 'A#',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 3 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 3 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 6 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 6 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 7 6 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 10 11 0',
+          fingers: '0 1 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#minor',
+      chordKey: 'A#',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 6 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 11 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 10 11 11',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 11 8',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#mmaj11',
+      chordKey: 'A#',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 10 11',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 10 10',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#mmaj7',
+      chordKey: 'A#',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 6 7',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 6 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 10 7',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 10 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 10 8',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 10 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 10 8',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 11 11',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#mmaj7b5',
+      chordKey: 'A#',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 7',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 6 5 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 10 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 10 8',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 11 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 9 11 7',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#mmaj9',
+      chordKey: 'A#',
+      suffix: 'mmaj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 10 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 10 8',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 6 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 6 7',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 10 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 10 7',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 10 10 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 10 10 10',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#sus2',
+      chordKey: 'A#',
+      suffix: 'sus2',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 6 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 10 6 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 10 6 8',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 11 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 10 11 10',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 10 11 8',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'A#sus4',
+      chordKey: 'A#',
+      suffix: 'sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 4 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 4 1',
+          fingers: '2 4 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 6 8',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+  ],
+  'B': [
+    Chord(
+      name: 'B11',
+      chordKey: 'B',
+      suffix: '11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 2 1',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B13',
+      chordKey: 'B',
+      suffix: '13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 4 7',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 9 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 8 9 7',
+          fingers: '4 2 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B13b5b9',
+      chordKey: 'B',
+      suffix: '13b5b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 3',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 4 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 4 3',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 8 6 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 8 6 7',
+          fingers: '4 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B13b9',
+      chordKey: 'B',
+      suffix: '13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 4 7',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 6',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 9 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 9 7',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 10 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 8 10 6',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B6',
+      chordKey: 'B',
+      suffix: '6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 1',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 4 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 0 6',
+          fingers: '1 3 0 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B69',
+      chordKey: 'B',
+      suffix: '69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 2 1',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 2 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 1',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 4 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 4 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 8 9 11',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 9 9',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B7',
+      chordKey: 'B',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 1',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 4 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 0 7',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B7#9',
+      chordKey: 'B',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 0 1',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 8 0 7',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 3 1',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 4 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 3 1',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B7b5',
+      chordKey: 'B',
+      suffix: '7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 4 3',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 4 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 6 7',
+          fingers: '4 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B7b9',
+      chordKey: 'B',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 0 10',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 0 7',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B7b9#5',
+      chordKey: 'B',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 5 4 7',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 8 7',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B7sus4',
+      chordKey: 'B',
+      suffix: '7sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 2',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 5 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 5 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 0 7',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 0 7',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 5 7',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B9',
+      chordKey: 'B',
+      suffix: '9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 1',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 2 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 8 0 7',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B9#11',
+      chordKey: 'B',
+      suffix: '9#11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 3',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 2 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 4 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 6 4 3',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'B9b5',
+      chordKey: 'B',
+      suffix: '9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 3',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 2 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 4 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 6 4 3',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Badd9',
+      chordKey: 'B',
+      suffix: 'add9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 2 1',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 2 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 2 1',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 8 0 11',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 0 9',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 0 11',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 8 7 11',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 8 7 9',
+          fingers: '4 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Balt',
+      chordKey: 'B',
+      suffix: 'alt',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 0 1',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 1',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 5',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Baug',
+      chordKey: 'B',
+      suffix: 'aug',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 1',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 5',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 0 1',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 4 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 4 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 4 1',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Baug7',
+      chordKey: 'B',
+      suffix: 'aug7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 4 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 4 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 0 7',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 8 0 5',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 4 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 4 1',
+          fingers: '4 2 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Baug9',
+      chordKey: 'B',
+      suffix: 'aug9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 2 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 6 4 7',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 5',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 8 8 7',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bb13#9',
+      chordKey: 'B',
+      suffix: 'b13#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 4 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 4 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 0 4 7',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 0 4 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 3 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 3 1',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 8 8 7',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bb13b9',
+      chordKey: 'B',
+      suffix: 'b13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 5 4 7',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 8 7',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bdim',
+      chordKey: 'B',
+      suffix: 'dim',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 0 3',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 3 3',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 10 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 7 0 3',
+          fingers: '0 2 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bdim7',
+      chordKey: 'B',
+      suffix: 'dim7',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
@@ -9428,2736 +4913,1667 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 3',
+          baseFret: 4,
+          frets: '0 4 6 6',
           fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 3',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 3',
-          fingers: '0 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dm6',
-      chordKey: 'D',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 3',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 0',
-          fingers: '1 0 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dm69',
-      chordKey: 'D',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 3',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 0',
-          fingers: '1 0 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dm7',
-      chordKey: 'D',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 3',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 3',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 5 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 5 0',
-          fingers: '1 1 2 0',
+          baseFret: 4,
+          frets: '6 4 6 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dm7b5',
-      chordKey: 'D',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 3',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 3',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 5 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 5 0',
-          fingers: '1 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 5 6',
-          fingers: '0 2 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dm9',
-      chordKey: 'D',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 3',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 5 3',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 5 3',
-          fingers: '0 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 5 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 5 0',
-          fingers: '1 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dm9b5',
-      chordKey: 'D',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 3',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 2',
-          fingers: '3 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmadd9',
-      chordKey: 'D',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 3',
-          fingers: '0 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmaj11',
-      chordKey: 'D',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 0 4',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 6 4',
-          fingers: '0 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 6 0',
-          fingers: '0 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmaj13',
-      chordKey: 'D',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 0 4',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 4',
-          fingers: '0 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 4 0',
-          fingers: '2 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmaj7',
-      chordKey: 'D',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 6 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 6 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 6 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 6 7',
-          fingers: '0 2 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmaj7#5',
-      chordKey: 'D',
-      suffix: 'maj7#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 3 4',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 3 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 6 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 6 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 6 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 6 4',
-          fingers: '0 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmaj7b5',
-      chordKey: 'D',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 1 4',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 1 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 6 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 6 4',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 6 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 6 6',
-          fingers: '0 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmaj9',
-      chordKey: 'D',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 6 4',
-          fingers: '0 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 6 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 6 0',
-          fingers: '1 2 3 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 6 4',
-          fingers: '0 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmajor',
-      chordKey: 'D',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 4',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 2 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 7 7',
-          fingers: '0 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 7 7 0',
-          fingers: '1 1 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dminor',
-      chordKey: 'D',
-      suffix: 'minor',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 7 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 2 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 7 7',
-          fingers: '0 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmmaj11',
-      chordKey: 'D',
-      suffix: 'mmaj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 0 3',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 3',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 6 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 6 5',
-          fingers: '0 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmmaj7',
-      chordKey: 'D',
-      suffix: 'mmaj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 3',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 6 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 6 3',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 6 3',
-          fingers: '0 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 6 0',
-          fingers: '1 1 2 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmmaj7b5',
-      chordKey: 'D',
-      suffix: 'mmaj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 1 3',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 1 0',
-          fingers: '3 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 6 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 6 6',
-          fingers: '0 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 6 0',
-          fingers: '1 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 6 3',
-          fingers: '0 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dmmaj9',
-      chordKey: 'D',
-      suffix: 'mmaj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 2 3',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 2 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 6 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 6 3',
-          fingers: '0 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 6 3',
-          fingers: '0 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 6 3',
-          fingers: '0 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dsus2',
-      chordKey: 'D',
-      suffix: 'sus2',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 2',
-          fingers: '0 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 2 0',
-          fingers: '1 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 2',
-          fingers: '0 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 5 2 0',
-          fingers: '1 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Dsus4',
-      chordKey: 'D',
-      suffix: 'sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 5',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 3 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 3 0 5',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 5',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 3 2 0',
-          fingers: '3 2 1 0',
-        ),
-      ],
-    ),
-  ],
-  'C#': [
-    Chord(
-      name: 'C#11',
-      chordKey: 'C#',
-      suffix: '11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 3',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 3 2',
-          fingers: '3 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 3',
+          frets: '3 4 3 6',
           fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#13',
-      chordKey: 'C#',
-      suffix: '13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 3',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 3 2',
-          fingers: '3 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 3',
-          fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#13b5b9',
-      chordKey: 'C#',
-      suffix: '13b5b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 3',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 6 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#13b9',
-      chordKey: 'C#',
-      suffix: '13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 3',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 6 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#6',
-      chordKey: 'C#',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
+          baseFret: 3,
+          frets: '6 4 3 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
+          frets: '3 7 0 6',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 4 4 4',
-          fingers: '1 2 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 4 4 1',
-          fingers: '2 2 2 1',
+          frets: '6 7 0 3',
+          fingers: '2 3 0 1',
         ),
       ],
     ),
     Chord(
-      name: 'C#69',
-      chordKey: 'C#',
-      suffix: '69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 3',
-          fingers: '1 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 3',
-          fingers: '1 2 3 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 1 1',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 3 1',
-          fingers: '3 2 3 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#7',
-      chordKey: 'C#',
-      suffix: '7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 6',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 3',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#7#9',
-      chordKey: 'C#',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 3 2',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 1',
-          fingers: '2 1 3 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 6',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 3',
-          fingers: '2 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#7b5',
-      chordKey: 'C#',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 5',
-          fingers: '1 0 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 6 3',
-          fingers: '2 0 3 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#7b9',
-      chordKey: 'C#',
-      suffix: '7b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 3',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 6 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#7b9#5',
-      chordKey: 'C#',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 3',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 6 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#7sus4',
-      chordKey: 'C#',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 6 4',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 6 6',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 4',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 3 5',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 3 3',
-          fingers: '3 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#9',
-      chordKey: 'C#',
-      suffix: '9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 3',
-          fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 6',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 3',
-          fingers: '2 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#9#11',
-      chordKey: 'C#',
-      suffix: '9#11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 3',
-          fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#9b5',
-      chordKey: 'C#',
-      suffix: '9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 3',
-          fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#add9',
-      chordKey: 'C#',
-      suffix: 'add9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 3',
-          fingers: '1 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 1 1',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 4 1',
-          fingers: '1 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 4 4',
-          fingers: '1 2 3 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#alt',
-      chordKey: 'C#',
-      suffix: 'alt',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 3',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 3 2',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 1',
-          fingers: '2 1 3 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 6 3',
-          fingers: '0 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#aug',
-      chordKey: 'C#',
-      suffix: 'aug',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 5 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 4 5',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '5 4 4 1',
-          fingers: '3 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#aug7',
-      chordKey: 'C#',
-      suffix: 'aug7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 7',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 3',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 1 1 4',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '4 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#aug9',
-      chordKey: 'C#',
-      suffix: 'aug9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 3',
-          fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 7',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '7 0 6 3',
-          fingers: '3 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#b13#9',
-      chordKey: 'C#',
-      suffix: 'b13#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 3 2',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 1',
-          fingers: '2 1 3 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 6',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 3',
-          fingers: '2 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#b13b9',
-      chordKey: 'C#',
-      suffix: 'b13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 4 3',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 4 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 6 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 6 3',
-          fingers: '1 0 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#dim',
-      chordKey: 'C#',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 2',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 5',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 2',
-          fingers: '2 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 5',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#dim7',
-      chordKey: 'C#',
-      suffix: 'dim7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#m11',
-      chordKey: 'C#',
+      name: 'Bm11',
+      chordKey: 'B',
       suffix: 'm11',
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
+          frets: '0 2 2 2',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 3 3',
-          fingers: '1 1 2 2',
+          frets: '2 2 2 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 1 3 1',
-          fingers: '2 1 2 1',
+          baseFret: 5,
+          frets: '0 6 5 7',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 2',
-          fingers: '1 2 3 2',
+          baseFret: 5,
+          frets: '7 6 5 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 4 1',
-          fingers: '2 2 3 1',
+          baseFret: 9,
+          frets: '0 9 10 11',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 6 2',
-          fingers: '1 0 2 1',
+          baseFret: 9,
+          frets: '11 9 10 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 10 12',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '12 9 10 11',
+          fingers: '4 1 2 3',
         ),
       ],
     ),
     Chord(
-      name: 'C#m6',
-      chordKey: 'C#',
+      name: 'Bm6',
+      chordKey: 'B',
       suffix: 'm6',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
+          baseFret: 1,
+          frets: '0 1 0 4',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
+          baseFret: 1,
+          frets: '4 1 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 5',
-          fingers: '1 1 2 3',
+          baseFret: 4,
+          frets: '0 4 0 6',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
+          baseFret: 4,
+          frets: '6 4 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 5 5',
-          fingers: '1 1 2 2',
+          baseFret: 6,
+          frets: '0 7 0 6',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 3 6',
+          fingers: '0 2 1 3',
         ),
       ],
     ),
     Chord(
-      name: 'C#m69',
-      chordKey: 'C#',
+      name: 'Bm69',
+      chordKey: 'B',
       suffix: 'm69',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
+          baseFret: 6,
+          frets: '0 6 0 6',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 0 0',
+          fingers: '1 2 0 0',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
+          frets: '0 4 2 6',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 2 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 3 2',
-          fingers: '1 2 3 2',
+          frets: '0 1 2 4',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 2 3 1',
-          fingers: '2 2 3 1',
+          frets: '4 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 9 0',
+          fingers: '2 1 3 0',
         ),
       ],
     ),
     Chord(
-      name: 'C#m7',
-      chordKey: 'C#',
+      name: 'Bm7',
+      chordKey: 'B',
       suffix: 'm7',
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 6 2',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 6 6',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 2',
-          fingers: '2 0 2 1',
+          frets: '0 2 0 0',
+          fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 3 5',
-          fingers: '1 1 2 3',
+          frets: '0 2 0 4',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 1 3 1',
-          fingers: '3 1 2 1',
+          frets: '4 2 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 7 0 7',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 7 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 0 7',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 7 0 7',
+          fingers: '1 2 0 3',
         ),
       ],
     ),
     Chord(
-      name: 'C#m7b5',
-      chordKey: 'C#',
+      name: 'Bm7b5',
+      chordKey: 'B',
       suffix: 'm7b5',
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
+          frets: '0 2 0 3',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 3 4',
-          fingers: '1 1 2 3',
+          frets: '3 2 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 3 1',
-          fingers: '3 1 2 1',
+          frets: '0 2 3 3',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 6 2',
-          fingers: '1 0 2 1',
+          baseFret: 2,
+          frets: '3 2 3 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 6 5',
-          fingers: '1 0 3 2',
+          baseFret: 2,
+          frets: '3 2 3 3',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 6 2',
-          fingers: '2 0 3 1',
+          baseFret: 4,
+          frets: '0 4 6 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 6 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 10 0 7',
+          fingers: '0 2 0 1',
         ),
       ],
     ),
     Chord(
-      name: 'C#m9',
-      chordKey: 'C#',
+      name: 'Bm9',
+      chordKey: 'B',
       suffix: 'm9',
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
+          frets: '0 2 2 0',
+          fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 2',
-          fingers: '1 2 3 2',
+          baseFret: 6,
+          frets: '0 6 0 7',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 4 1',
-          fingers: '2 2 3 1',
+          baseFret: 6,
+          frets: '7 6 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 6 2',
-          fingers: '1 0 2 1',
+          baseFret: 2,
+          frets: '0 2 2 4',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 6 6',
-          fingers: '1 0 2 2',
+          baseFret: 2,
+          frets: '4 2 2 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '6 0 6 2',
-          fingers: '2 0 2 1',
+          baseFret: 6,
+          frets: '0 6 7 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 10 0',
+          fingers: '2 1 3 0',
         ),
       ],
     ),
     Chord(
-      name: 'C#m9b5',
-      chordKey: 'C#',
+      name: 'Bm9b5',
+      chordKey: 'B',
       suffix: 'm9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 2',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 2',
-          fingers: '1 2 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 1',
-          fingers: '2 2 0 1',
+          baseFret: 2,
+          frets: '0 2 2 3',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
+          frets: '3 2 2 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 2',
-          fingers: '1 2 3 2',
+          baseFret: 6,
+          frets: '0 6 6 7',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 4 1',
-          fingers: '2 2 3 1',
+          baseFret: 6,
+          frets: '7 6 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 3 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 6 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 10 10 11',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 10 10 0',
+          fingers: '2 1 3 0',
         ),
       ],
     ),
     Chord(
-      name: 'C#madd9',
-      chordKey: 'C#',
+      name: 'Bmadd9',
+      chordKey: 'B',
       suffix: 'madd9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
+          baseFret: 6,
+          frets: '0 6 0 0',
+          fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
+          frets: '0 4 2 0',
+          fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 5 5',
-          fingers: '1 1 2 2',
+          frets: '0 4 2 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 2 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 6 0 4',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 6 0 9',
+          fingers: '0 1 0 2',
         ),
       ],
     ),
     Chord(
-      name: 'C#maj11',
-      chordKey: 'C#',
+      name: 'Bmaj11',
+      chordKey: 'B',
       suffix: 'maj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 3',
-          fingers: '2 1 4 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 4 2',
-          fingers: '3 1 4 2',
+          baseFret: 1,
+          frets: '1 3 2 2',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 5 3',
-          fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 5 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 5',
-          fingers: '2 1 3 4',
+          frets: '2 3 2 1',
+          fingers: '2 3 4 1',
         ),
       ],
     ),
     Chord(
-      name: 'C#maj13',
-      chordKey: 'C#',
+      name: 'Bmaj13',
+      chordKey: 'B',
       suffix: 'maj13',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
+          baseFret: 4,
+          frets: '6 6 4 8',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 3',
-          fingers: '2 1 4 3',
+          baseFret: 4,
+          frets: '8 6 4 6',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 1 4 2',
-          fingers: '3 1 4 2',
+          baseFret: 8,
+          frets: '8 8 9 11',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 5 3',
-          fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 5 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 5',
-          fingers: '2 1 3 4',
+          baseFret: 8,
+          frets: '11 8 9 8',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
     Chord(
-      name: 'C#maj7',
-      chordKey: 'C#',
+      name: 'Bmaj7',
+      chordKey: 'B',
       suffix: 'maj7',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
+          baseFret: 1,
+          frets: '1 3 0 1',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 5',
+          baseFret: 1,
+          frets: '1 3 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 0 8',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 8 0 8',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 4 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 0 8',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 4 4',
           fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 4 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '5 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
         ),
       ],
     ),
     Chord(
-      name: 'C#maj7#5',
-      chordKey: 'C#',
+      name: 'Bmaj7#5',
+      chordKey: 'B',
       suffix: 'maj7#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '1 1 1 2',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '2 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 1 1 5',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '5 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#maj7b5',
-      chordKey: 'C#',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 4',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 4 2',
-          fingers: '3 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '5 1 1 5',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '3 1 3 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '4 1 3 3',
-          fingers: '3 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#maj9',
-      chordKey: 'C#',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 2',
-          fingers: '2 1 3 2',
+          baseFret: 1,
+          frets: '1 3 0 5',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 5 3',
-          fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 5 1',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 4 5',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 4 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 5',
-          fingers: '1 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#major',
-      chordKey: 'C#',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 4 4',
-          fingers: '1 2 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 4 4 1',
-          fingers: '2 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 5 2',
-          fingers: '2 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#minor',
-      chordKey: 'C#',
-      suffix: 'minor',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '5 3 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
+          frets: '5 8 0 8',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
+          baseFret: 5,
+          frets: '8 8 0 5',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 1 5 5',
-          fingers: '1 1 2 2',
+          baseFret: 4,
+          frets: '5 4 4 8',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 4 5 1',
-          fingers: '1 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 5 5',
-          fingers: '1 2 3 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#mmaj11',
-      chordKey: 'C#',
-      suffix: 'mmaj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 4 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 4 3',
-          fingers: '1 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 4 1',
-          fingers: '2 1 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 5 2',
-          fingers: '1 2 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 5 1',
-          fingers: '2 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 4 5',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#mmaj7',
-      chordKey: 'C#',
-      suffix: 'mmaj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 4 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 4 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 4 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#mmaj7b5',
-      chordKey: 'C#',
-      suffix: 'mmaj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 4 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 4 4',
-          fingers: '1 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 4 1',
-          fingers: '2 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '3 1 2 4',
+          baseFret: 4,
+          frets: '8 4 4 5',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '4 1 2 3',
-          fingers: '4 1 2 3',
+          frets: '9 8 8 8',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '2 5 1 3',
+          baseFret: 8,
+          frets: '8 8 8 9',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bmaj7b5',
+      chordKey: 'B',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 6 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 6 9',
           fingers: '2 4 1 3',
         ),
       ],
     ),
     Chord(
-      name: 'C#mmaj9',
-      chordKey: 'C#',
+      name: 'Bmaj9',
+      chordKey: 'B',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 2 1',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 2 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 2 1',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 0 8',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 4 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bmajor',
+      chordKey: 'B',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 4 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 8 7 9',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bminor',
+      chordKey: 'B',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 3 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 4 3 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 11 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 4 3 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 7 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 7 0 4',
+          fingers: '0 2 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bmmaj11',
+      chordKey: 'B',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 3 2 2',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 6 5 8',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 9 11 11',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 11 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 11 12',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '12 9 11 11',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bmmaj7',
+      chordKey: 'B',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 7 0 8',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 7 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 0 8',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 11 0 8',
+          fingers: '0 2 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bmmaj7b5',
+      chordKey: 'B',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 10 0 8',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 6 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 10 11 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 7 6 8',
+          fingers: '4 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bmmaj9',
+      chordKey: 'B',
       suffix: 'mmaj9',
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '1 1 4 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 5 2',
-          fingers: '1 2 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 5 1',
-          fingers: '2 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 4 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 4 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#sus2',
-      chordKey: 'C#',
-      suffix: 'sus2',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '5 1 5 3',
-          fingers: '3 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'C#sus4',
-      chordKey: 'C#',
-      suffix: 'sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
+          frets: '0 3 2 0',
+          fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          frets: '0 6 0 8',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 5 3',
-          fingers: '2 1 3 2',
+          frets: '0 3 2 4',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
+          frets: '4 3 2 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '0 6 7 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 7 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 7 0 11',
+          fingers: '2 1 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bsus2',
+      chordKey: 'B',
+      suffix: 'sus2',
+      chordPositions: [
+        ChordPosition(
           baseFret: 2,
-          frets: '5 1 5 3',
-          fingers: '3 1 3 2',
+          frets: '4 4 2 4',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '1 4 3 1',
-          fingers: '1 3 2 1',
+          frets: '4 6 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 11 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '11 11 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 7 9',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 0 9',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 11 7 11',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 11 7 9',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Bsus4',
+      chordKey: 'B',
+      suffix: 'sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 5 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 5 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 5 2',
+          fingers: '2 4 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 7 9',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
   ],
-  'E': [
+  'C': [
     Chord(
-      name: 'E11',
-      chordKey: 'E',
+      name: 'C11',
+      chordKey: 'C',
       suffix: '11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
+          baseFret: 2,
+          frets: '2 3 3 3',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
+          baseFret: 2,
+          frets: '3 3 3 2',
+          fingers: '2 3 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
+          baseFret: 3,
+          frets: '0 3 5 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 5 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 3 6 2',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 9 6 8',
           fingers: '0 3 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
+          baseFret: 6,
+          frets: '8 9 6 0',
           fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C13',
+      chordKey: 'C',
+      suffix: '13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 9 10 8',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 10 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 7 5 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 7 5 7',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 9 11 7',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 11 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C13b5b9',
+      chordKey: 'C',
+      suffix: '13b5b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 5 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 5 4',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 7 11',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 9 7 8',
+          fingers: '4 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C13b9',
+      chordKey: 'C',
+      suffix: '13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 6 5 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 7',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 10 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 10 8',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 11 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 9 11 7',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C6',
+      chordKey: 'C',
+      suffix: '6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '2 2 1 5',
+          fingers: '2 4 1 3',
         ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 1 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 5 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 5 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 8 7',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 8 10',
+          fingers: '1 3 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C69',
+      chordKey: 'C',
+      suffix: '69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 2',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 3 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 3 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 5 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 5 0',
+          fingers: '0 1 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C7',
+      chordKey: 'C',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 1 2',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 5 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 5 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 5 5',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C7#9',
+      chordKey: 'C',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 2',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 4 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 2',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 4 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 5 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 4 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 4 2',
+          fingers: '4 2 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C7b5',
+      chordKey: 'C',
+      suffix: '7b5',
+      chordPositions: [
         ChordPosition(
           baseFret: 1,
           frets: '2 3 1 4',
           fingers: '2 3 1 4',
         ),
-      ],
-    ),
-    Chord(
-      name: 'E13',
-      chordKey: 'E',
-      suffix: '13',
-      chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
+          frets: '4 3 1 2',
+          fingers: '4 3 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
+          baseFret: 2,
+          frets: '2 3 5 4',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 2 1 2',
-          fingers: '0 2 1 2',
+          baseFret: 2,
+          frets: '4 3 5 2',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E13b5b9',
-      chordKey: 'E',
-      suffix: '13b5b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 1 2',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E13b9',
-      chordKey: 'E',
-      suffix: '13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 2 1 2',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E6',
-      chordKey: 'E',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 2',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 3,
+          frets: '4 3 5 4',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
+          frets: '4 5 5 8',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 4 6',
-          fingers: '1 0 2 3',
+          baseFret: 4,
+          frets: '8 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 8',
+          fingers: '4 3 1 2',
         ),
       ],
     ),
     Chord(
-      name: 'E69',
-      chordKey: 'E',
-      suffix: '69',
+      name: 'C7b9',
+      chordKey: 'C',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 5 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 11 11',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 11 10',
+          fingers: '3 1 4 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C7b9#5',
+      chordKey: 'C',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 6 5 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 9 8',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C7sus4',
+      chordKey: 'C',
+      suffix: '7sus4',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '2 0 1 2',
-          fingers: '2 0 1 2',
+          frets: '3 3 1 3',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '3 3 1 5',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 0 1 4',
-          fingers: '2 0 1 3',
+          frets: '5 3 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 1 2',
+          baseFret: 5,
+          frets: '5 5 6 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 6 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 0 6 8',
           fingers: '3 0 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 4',
-          fingers: '2 2 1 3',
+          baseFret: 6,
+          frets: '8 0 6 10',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 2 1 2',
-          fingers: '3 2 1 2',
+          baseFret: 5,
+          frets: '8 5 6 8',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
     Chord(
-      name: 'E7',
-      chordKey: 'E',
-      suffix: '7',
+      name: 'C9',
+      chordKey: 'C',
+      suffix: '9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 1 2',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 3 3 2',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 2',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 5 8',
+          fingers: '0 1 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C9#11',
+      chordKey: 'C',
+      suffix: '9#11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 9 7 8',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 7 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 5 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 7 5 4',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C9b5',
+      chordKey: 'C',
+      suffix: '9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 9 7 8',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 7 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 5 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 7 5 4',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cadd9',
+      chordKey: 'C',
+      suffix: 'add9',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
@@ -12170,93 +6586,29 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '2 0 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
+          baseFret: 5,
+          frets: '0 5 5 0',
+          fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
+          baseFret: 5,
+          frets: '0 5 5 5',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 1 0',
-          fingers: '0 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E7#9',
-      chordKey: 'E',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 0 6',
-          fingers: '0 1 0 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E7b5',
-      chordKey: 'E',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 1 0',
-          fingers: '0 2 1 0',
+          baseFret: 5,
+          frets: '5 5 5 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
           baseFret: 1,
           frets: '0 5 1 2',
           fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 5 3 2',
+          fingers: '0 3 2 1',
         ),
         ChordPosition(
           baseFret: 1,
@@ -12266,209 +6618,19 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       ],
     ),
     Chord(
-      name: 'E7b9',
-      chordKey: 'E',
-      suffix: '7b9',
+      name: 'Calt',
+      chordKey: 'C',
+      suffix: 'alt',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
+          frets: '1 3 1 2',
+          fingers: '1 3 4 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E7b9#5',
-      chordKey: 'E',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 2',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E7sus4',
-      chordKey: 'E',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 2 2',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 0',
-          fingers: '1 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 2',
-          fingers: '0 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 2 0',
-          fingers: '1 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 0',
-          fingers: '0 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E9',
-      chordKey: 'E',
-      suffix: '9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 4',
+          frets: '2 3 1 1',
           fingers: '2 3 1 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E9#11',
-      chordKey: 'E',
-      suffix: '9#11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 4',
-          fingers: '2 3 1 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'E9b5',
-      chordKey: 'E',
-      suffix: '9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
         ),
         ChordPosition(
           baseFret: 1,
@@ -12481,22 +6643,3126 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '4 3 1 2',
         ),
         ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
           baseFret: 1,
-          frets: '0 5 1 0',
-          fingers: '0 2 1 0',
+          frets: '1 3 2 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 2 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 4',
+          fingers: '1 2 4 3',
         ),
       ],
     ),
     Chord(
-      name: 'Eadd9',
-      chordKey: 'E',
-      suffix: 'add9',
+      name: 'Caug',
+      chordKey: 'C',
+      suffix: 'aug',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 5 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 5 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 9 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 9 6',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 9 10',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Caug7',
+      chordKey: 'C',
+      suffix: 'aug7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 5 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 5 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 5 2',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 5 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 9 9 8',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 9 5 8',
+          fingers: '2 4 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Caug9',
+      chordKey: 'C',
+      suffix: 'aug9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 9 9 8',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 7 5 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 7 5 6',
+          fingers: '4 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cb13#9',
+      chordKey: 'C',
+      suffix: 'b13#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 4 2',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 8 5 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 8 5 6',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cb13b9',
+      chordKey: 'C',
+      suffix: 'b13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 6 5 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 9 8',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cdim',
+      chordKey: 'C',
+      suffix: 'dim',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 4',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 4 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 4 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 10',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cdim7',
+      chordKey: 'C',
+      suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 7',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 7 10',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cm11',
+      chordKey: 'C',
+      suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 4 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 4 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 3 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 3 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 8 6 8',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 6 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cm6',
+      chordKey: 'C',
+      suffix: 'm6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 5 4 7',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 7',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 8 7',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 10',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cm69',
+      chordKey: 'C',
+      suffix: 'm69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 1',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 3 1',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 4 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 3 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 4 1',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 4 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cm7',
+      chordKey: 'C',
+      suffix: 'm7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 5 4 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 4 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 4 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 8 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 8 10',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cm7b5',
+      chordKey: 'C',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cm9',
+      chordKey: 'C',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 1 1',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 4 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 3 1',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 3 1',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 4 1',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cm9b5',
+      chordKey: 'C',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 4 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 4 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 3 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 3 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 8 7 8',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 8 7 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 4 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 7 4 4',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmadd9',
+      chordKey: 'C',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 1 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 4 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 4 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 5 4 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 5 1 1',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 5 3 1',
+          fingers: '0 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmaj11',
+      chordKey: 'C',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 3 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 3 2',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 5 3',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 5 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 4 6 2',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 9 6 9',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 9 6 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmaj13',
+      chordKey: 'C',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 9 0 7',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 5 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 9 10 9',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 9 10 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmaj7',
+      chordKey: 'C',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 4 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 2',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 4 1 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 1 2',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 0 9',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 0 10',
+          fingers: '2 1 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmaj7#5',
+      chordKey: 'C',
+      suffix: 'maj7#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 0 2',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 0 6',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 9',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 5 5 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 0 10',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 9 9',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 9 9 10',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmaj7b5',
+      chordKey: 'C',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 4 1 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 1 2',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 5 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 9',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 7 10',
+          fingers: '2 4 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmaj9',
+      chordKey: 'C',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 0 0 2',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 4 1 2',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 4 1 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 5 0 2',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 4 0 2',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 0',
+          fingers: '1 2 0 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmajor',
+      chordKey: 'C',
+      suffix: 'major',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
           frets: '2 0 1 2',
-          fingers: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 0 1 5',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 2',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 5 1 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 1 2',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 5 2',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cminor',
+      chordKey: 'C',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 1 1',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 1 5',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 1',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 5 4 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 4 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 4 1',
+          fingers: '3 4 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmmaj11',
+      chordKey: 'C',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 4 3',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 3 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 4 3 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 8 6 9',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 6 0',
+          fingers: '3 2 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmmaj7',
+      chordKey: 'C',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 1 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 0 1',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 1 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 0 9',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 0 10',
+          fingers: '2 1 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmmaj7b5',
+      chordKey: 'C',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 1 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 9',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 8 7 10',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Cmmaj9',
+      chordKey: 'C',
+      suffix: 'mmaj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 0 1',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 4 1 1',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 1 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 5 0 1',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 4 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 8 0 0',
+          fingers: '0 1 0 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Csus2',
+      chordKey: 'C',
+      suffix: 'sus2',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 5',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 3 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 5 1 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 1 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 8 0',
+          fingers: '0 1 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Csus4',
+      chordKey: 'C',
+      suffix: 'sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 1 3',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 1 5',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 3',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 5 1 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 1 3',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 6 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 6 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 6 3',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+  ],
+  'C#': [
+    Chord(
+      name: 'C#11',
+      chordKey: 'C#',
+      suffix: '11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 4 4 3',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#13',
+      chordKey: 'C#',
+      suffix: '13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 6 9',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 6 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#13b5b9',
+      chordKey: 'C#',
+      suffix: '13b5b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 0 0 3',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 4 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 5',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 0 6 9',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 0 6 0',
+          fingers: '2 0 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#13b9',
+      chordKey: 'C#',
+      suffix: '13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 10 0 8',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 6 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 10 11 9',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 10 11 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#6',
+      chordKey: 'C#',
+      suffix: '6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 6 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 9 8',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 9 11',
+          fingers: '1 3 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#69',
+      chordKey: 'C#',
+      suffix: '69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 2 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 2 1',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 4 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 4 1',
+          fingers: '2 4 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 4 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 6 8',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#7',
+      chordKey: 'C#',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 6 0 3',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 2 3',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 0 6',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#7#9',
+      chordKey: 'C#',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 3',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 2',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 3',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 3',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 0 2',
+          fingers: '2 3 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#7b5',
+      chordKey: 'C#',
+      suffix: '7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 3',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 3',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 0 5',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 6 0 3',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 5',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 0 0 3',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 0 5',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#7b9',
+      chordKey: 'C#',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 4 2 3',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 6 0 3',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 0 3',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 0 0',
+          fingers: '1 2 0 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#7b9#5',
+      chordKey: 'C#',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 6 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 10 0 7',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 7 0 7',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#7sus4',
+      chordKey: 'C#',
+      suffix: '7sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 2 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 0 4',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 2 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 2 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '11 11 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 7 9',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#9',
+      chordKey: 'C#',
+      suffix: '9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 2 3',
+          fingers: '1 4 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 4 2 1',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 0 3',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 4 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 3',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 4 3',
+          fingers: '1 3 4 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#9#11',
+      chordKey: 'C#',
+      suffix: '9#11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 3',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 0 1',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 6 9',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 8 6 5',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#9b5',
+      chordKey: 'C#',
+      suffix: '9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 3',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 0 1',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 6 9',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 8 6 5',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#add9',
+      chordKey: 'C#',
+      suffix: 'add9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 2 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 2 1',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 4 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 4 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 6 4 3',
+          fingers: '3 4 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#alt',
+      chordKey: 'C#',
+      suffix: 'alt',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 0 0 3',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 4 2 3',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 3',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 3',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 6 0 3',
+          fingers: '0 2 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#aug',
+      chordKey: 'C#',
+      suffix: 'aug',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 2 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 6 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 6 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 6 6 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 10 10 11',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 10 10 7',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 10 11',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#aug7',
+      chordKey: 'C#',
+      suffix: 'aug7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 0 7',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 6 0 3',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 0 7',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 4 0 3',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 6 9',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 6 7',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 10 0 7',
+          fingers: '3 2 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#aug9',
+      chordKey: 'C#',
+      suffix: 'aug9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 8 6 9',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 6 7',
+          fingers: '4 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#b13#9',
+      chordKey: 'C#',
+      suffix: 'b13#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 5 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 4 5 3',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 9 6 9',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 9 6 7',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#b13b9',
+      chordKey: 'C#',
+      suffix: 'b13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 6 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 10 0 7',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 7 0 7',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#dim',
+      chordKey: 'C#',
+      suffix: 'dim',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 2 2',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 2 5',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 2 2',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 2 5',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 6 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 5 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 6 5 2',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#dim7',
+      chordKey: 'C#',
+      suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 5 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 8 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 8 11',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#m11',
+      chordKey: 'C#',
+      suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 4 2',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 5 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 5 1',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#m6',
+      chordKey: 'C#',
+      suffix: 'm6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 6 5 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 9 8',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 11',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#m69',
+      chordKey: 'C#',
+      suffix: 'm69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 2 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 2 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 4 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 2',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 4 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 5 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 5 2',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 5 1',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#m7',
+      chordKey: 'C#',
+      suffix: 'm7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 2',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 0 9',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 6 5 9',
+          fingers: '2 4 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#m7b5',
+      chordKey: 'C#',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 2',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 5',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 5',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 0 2',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 5',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#m9',
+      chordKey: 'C#',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 2',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 2 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 4 2 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 0 2',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 4 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 4 2',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 4 2',
+          fingers: '1 3 4 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#m9b5',
+      chordKey: 'C#',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 2',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 0 0 1',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 4 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 4 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 5 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 5 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 8 5 5',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#madd9',
+      chordKey: 'C#',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 2 1',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 4 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 4 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 4 2',
+          fingers: '3 4 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#maj11',
+      chordKey: 'C#',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 4 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 4 3',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#maj13',
+      chordKey: 'C#',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 6 10',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 8 6 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#maj7',
+      chordKey: 'C#',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 5 2 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 5 2 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 2 3',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 6 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 10 9 10',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 10 9 11',
+          fingers: '2 4 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#maj7#5',
+      chordKey: 'C#',
+      suffix: 'maj7#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 6 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 6 7',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 10 10 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 10 10 11',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#maj7b5',
+      chordKey: 'C#',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 5 2 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 2 3',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 8 10',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 10 8 11',
+          fingers: '2 4 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#maj9',
+      chordKey: 'C#',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 2 3',
+          fingers: '1 4 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 5 2 1',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 3',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 5 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 4 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 4 3',
+          fingers: '1 4 3 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#major',
+      chordKey: 'C#',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 6 2 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 2 3',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 6 6 3',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 10 9 11',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#minor',
+      chordKey: 'C#',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 2 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 6 5 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 5 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 5 2',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 9 11',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#mmaj11',
+      chordKey: 'C#',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 4 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 5 4 2',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 5 4',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 5 1',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#mmaj7',
+      chordKey: 'C#',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 9 9 10',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 9 11',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#mmaj7b5',
+      chordKey: 'C#',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 2 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 8 10',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 9 8 11',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#mmaj9',
+      chordKey: 'C#',
+      suffix: 'mmaj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 2 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 5 2 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 2',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 5 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 4 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 4 2',
+          fingers: '1 4 3 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#sus2',
+      chordKey: 'C#',
+      suffix: 'sus2',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 2 1',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 4 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 9 11',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'C#sus4',
+      chordKey: 'C#',
+      suffix: 'sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 2 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 2 4',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 7 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 7 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 7 4',
+          fingers: '2 4 3 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 9 11',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+  ],
+  'D': [
+    Chord(
+      name: 'D11',
+      chordKey: 'D',
+      suffix: '11',
+      chordPositions: [
         ChordPosition(
           baseFret: 1,
           frets: '2 0 1 4',
@@ -12508,9 +9774,528 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '3 0 1 2',
         ),
         ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 5 5 4',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D13',
+      chordKey: 'D',
+      suffix: '13',
+      chordPositions: [
+        ChordPosition(
           baseFret: 1,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
+          frets: '2 4 1 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 1 2',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 5 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 7 10',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 9',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D13b5b9',
+      chordKey: 'D',
+      suffix: '13b5b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 7 10',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 8 7 6',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D13b9',
+      chordKey: 'D',
+      suffix: '13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 1 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 8 7 10',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 9',
+          fingers: '4 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D6',
+      chordKey: 'D',
+      suffix: '6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 3 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 11 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 4 3 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 7 0',
+          fingers: '0 1 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D69',
+      chordKey: 'D',
+      suffix: '69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 5 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 5 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 3 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 3 2',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 0 2',
+          fingers: '2 3 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D7',
+      chordKey: 'D',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 4',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 5 1 4',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 1 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 4',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D7#9',
+      chordKey: 'D',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 6 4',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 4',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 7 3',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 7 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 3',
+          fingers: '4 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D7b5',
+      chordKey: 'D',
+      suffix: '7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 4',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 11 9 10',
+          fingers: '0 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D7b9',
+      chordKey: 'D',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 4 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 3 4',
+          fingers: '1 4 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 3 1',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 4',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 1 1',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D7b9#5',
+      chordKey: 'D',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 8 7 10',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D7sus4',
+      chordKey: 'D',
+      suffix: '7sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 5',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 5 1 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 3 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D9',
+      chordKey: 'D',
+      suffix: '9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 5 4',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 3 4',
+          fingers: '1 4 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 5 3 2',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 2',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 1,
@@ -12525,1112 +10310,1453 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       ],
     ),
     Chord(
-      name: 'Ealt',
-      chordKey: 'E',
+      name: 'D9#11',
+      chordKey: 'D',
+      suffix: '9#11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 7 10',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 7 6',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D9b5',
+      chordKey: 'D',
+      suffix: '9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 7 10',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 7 6',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dadd9',
+      chordKey: 'D',
+      suffix: 'add9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 3 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 3 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 5 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 9 7 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 7 5 4',
+          fingers: '0 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 5 0',
+          fingers: '1 3 2 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 9 7 7',
+          fingers: '0 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dalt',
+      chordKey: 'D',
       suffix: 'alt',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 1 1 2',
-          fingers: '0 1 1 2',
+          frets: '0 1 1 4',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 1 0',
-          fingers: '2 1 1 0',
+          frets: '0 3 1 4',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
+          frets: '4 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 4 4',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
+          frets: '4 3 1 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 4,
+          frets: '4 5 4 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
+          baseFret: 4,
+          frets: '0 5 6 4',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 4',
+          fingers: '1 3 4 2',
         ),
       ],
     ),
     Chord(
-      name: 'Eaug',
-      chordKey: 'E',
+      name: 'Daug',
+      chordKey: 'D',
       suffix: 'aug',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
+          baseFret: 3,
+          frets: '0 3 3 4',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
+          baseFret: 3,
+          frets: '4 3 3 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 3,
+          frets: '4 3 3 4',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '1 4 4 5',
-          fingers: '1 2 2 3',
+          baseFret: 3,
+          frets: '0 3 7 0',
+          fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '5 4 4 1',
-          fingers: '3 2 2 1',
+          baseFret: 3,
+          frets: '0 3 7 4',
+          fingers: '0 1 3 2',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
+          baseFret: 11,
+          frets: '0 11 11 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 7 7 8',
+          fingers: '0 1 2 3',
         ),
       ],
     ),
     Chord(
-      name: 'Eaug7',
-      chordKey: 'E',
+      name: 'Daug7',
+      chordKey: 'D',
       suffix: 'aug7',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 1 1 2',
-          fingers: '0 1 1 2',
+          frets: '0 3 1 4',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 1 0',
-          fingers: '2 1 1 0',
+          frets: '4 3 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 7 0',
+          fingers: '3 1 2 0',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
+          frets: '4 3 1 4',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
+          baseFret: 10,
+          frets: '0 11 11 10',
+          fingers: '0 2 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 10,
+          frets: '10 11 11 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 5 1 0',
-          fingers: '0 2 1 0',
+          baseFret: 7,
+          frets: '8 7 7 10',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
     Chord(
-      name: 'Eaug9',
-      chordKey: 'E',
+      name: 'Daug9',
+      chordKey: 'D',
       suffix: 'aug9',
       chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 2',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '2 3 1 4',
           fingers: '2 3 1 4',
         ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 2',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 7 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 8',
+          fingers: '4 3 1 2',
+        ),
       ],
     ),
     Chord(
-      name: 'Eb13#9',
-      chordKey: 'E',
+      name: 'Db13#9',
+      chordKey: 'D',
       suffix: 'b13#9',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
+          frets: '3 3 1 4',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
+          frets: '4 3 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 2',
-          fingers: '0 1 1 2',
+          baseFret: 4,
+          frets: '4 5 6 8',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 0',
-          fingers: '2 1 1 0',
+          baseFret: 4,
+          frets: '8 5 6 4',
+          fingers: '4 2 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 2',
-          fingers: '0 3 1 2',
+          baseFret: 7,
+          frets: '8 10 7 10',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 3 1 0',
-          fingers: '2 3 1 0',
+          baseFret: 7,
+          frets: '10 10 7 8',
+          fingers: '3 4 1 2',
         ),
       ],
     ),
     Chord(
-      name: 'Eb13b9',
-      chordKey: 'E',
+      name: 'Db13b9',
+      chordKey: 'D',
       suffix: 'b13b9',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 1 2',
-          fingers: '0 0 1 2',
+          frets: '1 3 1 4',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 0 1 0',
-          fingers: '2 0 1 0',
+          frets: '4 3 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 8 7 10',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Ddim',
+      chordKey: 'D',
+      suffix: 'dim',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 3 3',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 1 1 2',
-          fingers: '0 1 1 2',
+          frets: '3 1 3 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 1 1 0',
-          fingers: '2 1 1 0',
+          frets: '3 1 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 7 6 6',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 10 9 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 7 3 6',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 7 3 3',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Ddim7',
+      chordKey: 'D',
+      suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 3',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 3 1 2',
+          frets: '3 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 10 0 6',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 7 0 6',
+          fingers: '1 3 0 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dm11',
+      chordKey: 'D',
+      suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 0 1 3',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 1 2',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 5 3',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 6 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 6 2',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dm6',
+      chordKey: 'D',
+      suffix: 'm6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 0 3',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 3 3',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 10 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 0',
+          fingers: '0 1 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dm69',
+      chordKey: 'D',
+      suffix: 'm69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 5 3',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 3 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 3 2',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 5 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 4 6 2',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 6 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dm7',
+      chordKey: 'D',
+      suffix: 'm7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 3',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 3',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 5 1 3',
           fingers: '0 3 1 2',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
           baseFret: 1,
-          frets: '2 3 1 0',
+          frets: '3 5 1 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 3',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dm7b5',
+      chordKey: 'D',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 10 9 10',
+          fingers: '0 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dm9',
+      chordKey: 'D',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 5 3',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 5 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 3 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 5 3 2',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 5 6 2',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 3',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 6 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dm9b5',
+      chordKey: 'D',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 5 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 5 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 6 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 6 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 6 6',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dmadd9',
+      chordKey: 'D',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 3 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 3 2',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 5 3',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 6 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 9 6 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 7 5 3',
+          fingers: '0 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dmaj11',
+      chordKey: 'D',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 2 4',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 0 2 2',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 5 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 6 5 4',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dmaj13',
+      chordKey: 'D',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 7 11',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 9 7 9',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dmaj7',
+      chordKey: 'D',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 2 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 2 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 6 7 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 6 3 4',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 6 2 4',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 6 7 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 6 3 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 2 0',
           fingers: '2 3 1 0',
         ),
       ],
     ),
     Chord(
-      name: 'Edim',
-      chordKey: 'E',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 0 5',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 5 0 2',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 5 0 5',
-          fingers: '1 2 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 0 2',
-          fingers: '2 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 1',
-          fingers: '1 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Edim7',
-      chordKey: 'E',
-      suffix: 'dim7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 2',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 5',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 2',
-          fingers: '2 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Em11',
-      chordKey: 'E',
-      suffix: 'm11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 2',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 2',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 2',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 0 0',
-          fingers: '0 1 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Em6',
-      chordKey: 'E',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 2',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 2',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 0 5',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 2',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Em69',
-      chordKey: 'E',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 2',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 2',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 4',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 2',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 4',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 0 2',
-          fingers: '2 1 0 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Em7',
-      chordKey: 'E',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 2',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 2',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 2',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 0 0',
-          fingers: '0 1 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Em7b5',
-      chordKey: 'E',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 2',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 2',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 0 5',
-          fingers: '0 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 0 0',
-          fingers: '1 1 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Em9',
-      chordKey: 'E',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 2',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 2',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 2',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 0 0',
-          fingers: '0 1 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Em9b5',
-      chordKey: 'E',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 2',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 3 0 2',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 0 5',
-          fingers: '0 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 0 0',
-          fingers: '1 1 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Emadd9',
-      chordKey: 'E',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 2',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 4',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 2',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 0 5',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 0 4',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 0 5',
-          fingers: '1 2 0 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Emaj11',
-      chordKey: 'E',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 2',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 4',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Emaj13',
-      chordKey: 'E',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 2',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Emaj7',
-      chordKey: 'E',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 2',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 5 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Emaj7#5',
-      chordKey: 'E',
+      name: 'Dmaj7#5',
+      chordKey: 'D',
       suffix: 'maj7#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 2',
-          fingers: '1 1 1 2',
+          baseFret: 2,
+          frets: '0 3 2 4',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 1',
-          fingers: '2 1 1 1',
+          baseFret: 2,
+          frets: '4 3 2 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
+          baseFret: 6,
+          frets: '0 6 7 8',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
+          baseFret: 6,
+          frets: '8 6 7 0',
+          fingers: '3 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 11,
+          frets: '0 11 11 11',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 5 1 1',
-          fingers: '1 2 1 1',
+          baseFret: 11,
+          frets: '11 11 11 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 7 7 11',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 7 7 8',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
     Chord(
-      name: 'Emaj7b5',
-      chordKey: 'E',
+      name: 'Dmaj7b5',
+      chordKey: 'D',
       suffix: 'maj7b5',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
+          frets: '0 1 2 4',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
+          frets: '4 1 2 0',
+          fingers: '3 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 6,
+          frets: '0 6 7 6',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 5 1 1',
-          fingers: '1 2 1 1',
+          baseFret: 6,
+          frets: '6 6 7 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 5 1 2',
-          fingers: '1 3 1 2',
+          baseFret: 3,
+          frets: '4 6 3 6',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 5 1 1',
-          fingers: '2 3 1 1',
+          baseFret: 3,
+          frets: '6 6 3 4',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 11 9 11',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 9 0',
+          fingers: '2 3 1 0',
         ),
       ],
     ),
     Chord(
-      name: 'Emaj9',
-      chordKey: 'E',
+      name: 'Dmaj9',
+      chordKey: 'D',
       suffix: 'maj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 2',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 4 1 4',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Emajor',
-      chordKey: 'E',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 2',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 4,
+          frets: '0 6 5 4',
+          fingers: '0 3 2 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 4 6',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 2',
-          fingers: '3 0 2 1',
+          frets: '4 6 5 0',
+          fingers: '1 3 2 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 4 3 5',
-          fingers: '1 3 2 4',
+          frets: '2 2 2 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 3 4',
+          fingers: '1 4 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 3 2',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 2 4',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 2 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
     Chord(
-      name: 'Eminor',
-      chordKey: 'E',
+      name: 'Dmajor',
+      chordKey: 'D',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 3 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 3 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 7 7 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 7 7 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 11 10 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 7 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 7 3 7',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Dminor',
+      chordKey: 'D',
       suffix: 'minor',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 2',
-          fingers: '1 0 0 1',
+          baseFret: 2,
+          frets: '0 2 3 3',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 5 0 5',
-          fingers: '1 1 0 1',
+          baseFret: 2,
+          frets: '3 2 3 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 2,
+          frets: '3 2 3 3',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 2',
-          fingers: '2 0 0 1',
+          baseFret: 2,
+          frets: '0 2 6 0',
+          fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          baseFret: 2,
+          frets: '0 2 6 3',
+          fingers: '0 1 3 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 4 5',
-          fingers: '1 0 2 3',
+          baseFret: 2,
+          frets: '3 2 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 10 10 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 7 6 7',
+          fingers: '0 2 1 3',
         ),
       ],
     ),
     Chord(
-      name: 'Emmaj11',
-      chordKey: 'E',
+      name: 'Dmmaj11',
+      chordKey: 'D',
       suffix: 'mmaj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 2',
-          fingers: '1 0 0 2',
+          baseFret: 2,
+          frets: '2 0 2 3',
+          fingers: '1 0 3 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 1',
-          fingers: '2 0 0 1',
+          baseFret: 2,
+          frets: '3 0 2 2',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 2',
-          fingers: '1 2 0 1',
+          baseFret: 3,
+          frets: '3 6 5 5',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 4',
-          fingers: '1 2 0 2',
+          baseFret: 3,
+          frets: '5 6 5 3',
+          fingers: '2 3 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 4 0 2',
-          fingers: '2 2 0 1',
+          baseFret: 2,
+          frets: '2 6 6 5',
+          fingers: '1 3 4 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 0 2',
-          fingers: '1 3 0 2',
+          baseFret: 2,
+          frets: '5 6 6 2',
+          fingers: '2 3 4 1',
         ),
       ],
     ),
     Chord(
-      name: 'Emmaj7',
-      chordKey: 'E',
+      name: 'Dmmaj7',
+      chordKey: 'D',
       suffix: 'mmaj7',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 2',
-          fingers: '1 0 0 2',
+          baseFret: 2,
+          frets: '0 2 2 3',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 1',
-          fingers: '2 0 0 1',
+          baseFret: 2,
+          frets: '3 2 2 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 2',
-          fingers: '1 2 0 1',
+          baseFret: 6,
+          frets: '0 6 6 0',
+          fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 0 2',
-          fingers: '1 3 0 2',
+          baseFret: 3,
+          frets: '0 6 3 3',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 1',
-          fingers: '2 3 0 1',
+          baseFret: 2,
+          frets: '0 6 2 3',
+          fingers: '0 3 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 6,
+          frets: '0 6 6 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 6 6 3',
+          fingers: '0 2 3 1',
         ),
       ],
     ),
     Chord(
-      name: 'Emmaj7b5',
-      chordKey: 'E',
+      name: 'Dmmaj7b5',
+      chordKey: 'D',
       suffix: 'mmaj7b5',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '2 4 0 2',
-          fingers: '1 2 0 1',
+          frets: '0 1 2 3',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 0 2',
-          fingers: '1 3 0 2',
+          frets: '3 1 2 0',
+          fingers: '3 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 1',
-          fingers: '2 3 0 1',
+          baseFret: 6,
+          frets: '0 6 6 6',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 6,
+          frets: '6 6 6 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 4 0 2',
-          fingers: '3 2 0 1',
+          baseFret: 3,
+          frets: '3 6 3 6',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 5 0 1',
-          fingers: '1 2 0 1',
+          baseFret: 3,
+          frets: '6 6 3 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 10 9 11',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 10 9 0',
+          fingers: '3 2 1 0',
         ),
       ],
     ),
     Chord(
-      name: 'Emmaj9',
-      chordKey: 'E',
+      name: 'Dmmaj9',
+      chordKey: 'D',
       suffix: 'mmaj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 2',
-          fingers: '1 0 0 2',
+          baseFret: 3,
+          frets: '0 6 5 3',
+          fingers: '0 3 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 1',
-          fingers: '2 0 0 1',
+          baseFret: 2,
+          frets: '2 2 2 3',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 2',
-          fingers: '1 2 0 1',
+          baseFret: 2,
+          frets: '3 2 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 4 0 4',
-          fingers: '1 2 0 2',
+          baseFret: 2,
+          frets: '0 6 6 2',
+          fingers: '0 2 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 4 0 2',
-          fingers: '2 2 0 1',
+          baseFret: 3,
+          frets: '3 6 5 0',
+          fingers: '1 3 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 0 2',
-          fingers: '1 3 0 2',
+          baseFret: 2,
+          frets: '2 6 3 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 6 3 2',
+          fingers: '2 3 4 1',
         ),
       ],
     ),
     Chord(
-      name: 'Esus2',
-      chordKey: 'E',
+      name: 'Dsus2',
+      chordKey: 'D',
       suffix: 'sus2',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 4 4',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 2',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          baseFret: 2,
+          frets: '0 2 3 2',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
+          frets: '2 2 3 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 4 3 1',
-          fingers: '2 3 2 1',
+          frets: '2 2 3 2',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
+          baseFret: 2,
+          frets: '0 2 5 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 5 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 5 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 9 10 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 7 5 7',
+          fingers: '0 2 1 3',
         ),
       ],
     ),
     Chord(
-      name: 'Esus4',
-      chordKey: 'E',
+      name: 'Dsus4',
+      chordKey: 'D',
       suffix: 'sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 2',
-          fingers: '1 0 1 1',
+          baseFret: 10,
+          frets: '0 0 10 0',
+          fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '1 4 1 1',
-          fingers: '1 2 1 1',
+          frets: '0 2 3 5',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
+          baseFret: 2,
+          frets: '5 2 3 0',
+          fingers: '3 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 9 7',
-          fingers: '1 0 2 1',
+          baseFret: 7,
+          frets: '0 0 8 7',
+          fingers: '0 0 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 0 9 9',
-          fingers: '1 0 2 2',
+          baseFret: 3,
+          frets: '0 0 3 7',
+          fingers: '0 0 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '9 0 9 7',
-          fingers: '2 0 2 1',
+          baseFret: 7,
+          frets: '7 0 8 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 0 3 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 3 5',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -13643,33 +11769,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          frets: '3 1 2 5',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 3',
-          fingers: '1 2 0 3',
+          frets: '5 1 2 3',
+          fingers: '4 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 2,
+          frets: '3 0 2 6',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 2,
+          frets: '6 0 2 3',
+          fingers: '3 0 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 5,
+          frets: '5 6 6 6',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 5',
-          fingers: '1 2 1 3',
+          baseFret: 5,
+          frets: '6 6 6 5',
+          fingers: '2 3 4 1',
         ),
       ],
     ),
@@ -13679,34 +11805,24 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          baseFret: 2,
+          frets: '3 5 2 5',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 3',
-          fingers: '1 2 0 3',
+          baseFret: 2,
+          frets: '5 5 2 3',
+          fingers: '3 4 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 8,
+          frets: '10 10 8 11',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 5',
-          fingers: '1 2 1 3',
+          baseFret: 8,
+          frets: '11 10 8 10',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -13716,34 +11832,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '13b5b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          baseFret: 2,
+          frets: '2 2 2 5',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 2',
-          fingers: '1 2 0 2',
+          baseFret: 2,
+          frets: '5 2 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 1',
-          fingers: '2 2 0 1',
+          baseFret: 5,
+          frets: '5 6 5 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 5,
+          frets: '7 6 5 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 7,
+          frets: '7 9 8 11',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          baseFret: 7,
+          frets: '11 9 8 7',
+          fingers: '4 3 2 1',
         ),
       ],
     ),
@@ -13753,34 +11869,24 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '13b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 2',
-          fingers: '1 2 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 1',
-          fingers: '2 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 5',
+          baseFret: 2,
+          frets: '2 5 2 5',
           fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 5 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 9 8 11',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 8 10',
+          fingers: '4 2 1 3',
         ),
       ],
     ),
@@ -13791,33 +11897,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 0 1',
-          fingers: '1 1 0 1',
+          frets: '1 0 1 1',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 0 1',
-          fingers: '1 2 0 1',
+          frets: '1 0 1 5',
+          fingers: '1 0 3 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 4 0 5',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
+          frets: '1 3 1 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 0 5',
-          fingers: '1 1 0 2',
+          frets: '5 0 1 1',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 4 5',
+          fingers: '1 3 2 4',
         ),
       ],
     ),
@@ -13828,33 +11944,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 0 1',
-          fingers: '1 1 0 1',
+          frets: '1 0 1 3',
+          fingers: '1 0 3 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 0 3',
-          fingers: '1 1 0 2',
+          frets: '3 0 1 1',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 0 1',
-          fingers: '2 1 0 1',
+          frets: '3 0 1 3',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 4 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 4 3',
+          fingers: '3 4 2 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 4 0 3',
-          fingers: '1 2 0 1',
+          frets: '3 0 1 5',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 0 1',
-          fingers: '1 2 0 1',
+          frets: '5 0 1 3',
+          fingers: '3 0 1 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 0 3',
-          fingers: '1 3 0 2',
+          frets: '3 3 1 5',
+          fingers: '2 4 1 3',
         ),
       ],
     ),
@@ -13865,33 +11991,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          frets: '1 0 2 1',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          frets: '1 0 2 5',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          frets: '1 3 2 5',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 3 5',
-          fingers: '1 2 3 4',
+          frets: '5 0 2 1',
+          fingers: '3 0 2 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 2 3 1',
-          fingers: '4 2 3 1',
+          frets: '5 3 2 1',
+          fingers: '4 3 2 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
+          frets: '5 6 4 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 2 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 6 4 8',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -13902,33 +12038,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          frets: '1 0 2 4',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 4',
-          fingers: '1 2 0 3',
+          frets: '4 0 2 1',
+          fingers: '3 0 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 4,
+          frets: '4 6 4 5',
+          fingers: '1 3 4 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 4,
+          frets: '5 6 4 4',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 2,
+          frets: '4 0 2 4',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 5',
-          fingers: '1 2 3 4',
+          baseFret: 2,
+          frets: '4 0 2 5',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 2 4',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 2 5',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -13939,33 +12085,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
           frets: '5 2 2 1',
-          fingers: '3 2 2 1',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
+          frets: '5 6 4 7',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 5',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 2 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 8 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 6 8 5',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 8 7',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -13976,33 +12132,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          frets: '1 0 2 2',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 2',
-          fingers: '1 2 0 2',
+          frets: '2 0 2 1',
+          fingers: '2 0 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 1',
-          fingers: '2 2 0 1',
+          baseFret: 2,
+          frets: '2 0 2 2',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 2,
+          frets: '2 0 2 5',
+          fingers: '1 0 3 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 2,
+          frets: '5 0 2 2',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 5',
-          fingers: '1 2 3 4',
+          baseFret: 2,
+          frets: '2 6 4 5',
+          fingers: '1 4 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 6 4 2',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 5',
+          fingers: '1 2 4 3',
         ),
       ],
     ),
@@ -14012,34 +12178,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '7b9#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          baseFret: 2,
+          frets: '2 4 2 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 2',
-          fingers: '1 2 0 2',
+          baseFret: 2,
+          frets: '5 4 2 2',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 1',
-          fingers: '2 2 0 1',
+          baseFret: 2,
+          frets: '2 6 0 5',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 2,
+          frets: '5 6 0 2',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 5,
+          frets: '5 6 5 9',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 5',
-          fingers: '1 2 3 4',
+          baseFret: 5,
+          frets: '9 6 5 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 9 8 11',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 8 9',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -14050,33 +12226,38 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          frets: '1 1 2 1',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
+          frets: '6 6 4 6',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '3 1 3 5',
-          fingers: '2 1 2 3',
+          frets: '6 6 4 8',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '5 1 3 3',
-          fingers: '3 1 2 2',
+          frets: '8 6 4 6',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '1 2 1 4',
-          fingers: '1 2 1 3',
+          frets: '8 8 9 11',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '4 2 1 1',
-          fingers: '3 2 1 1',
+          frets: '11 8 9 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 8 9 11',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -14087,33 +12268,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          frets: '1 0 2 3',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 3',
-          fingers: '1 2 0 3',
+          frets: '3 0 2 1',
+          fingers: '3 0 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 2,
+          frets: '3 0 2 3',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 3,
+          frets: '3 6 4 5',
+          fingers: '1 4 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 3,
+          frets: '5 6 4 3',
+          fingers: '3 4 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 5',
-          fingers: '1 2 3 4',
+          baseFret: 2,
+          frets: '3 0 2 5',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 2 3',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 5',
+          fingers: '2 4 1 3',
         ),
       ],
     ),
@@ -14123,34 +12314,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          baseFret: 2,
+          frets: '3 2 2 5',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 3',
-          fingers: '1 2 0 3',
+          baseFret: 2,
+          frets: '5 2 2 3',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 5,
+          frets: '5 6 6 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 5,
+          frets: '7 6 6 5',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 7,
+          frets: '7 10 8 11',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          baseFret: 7,
+          frets: '11 10 8 7',
+          fingers: '4 3 2 1',
         ),
       ],
     ),
@@ -14160,34 +12351,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          baseFret: 2,
+          frets: '3 2 2 5',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 3',
-          fingers: '1 2 0 3',
+          baseFret: 2,
+          frets: '5 2 2 3',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 5,
+          frets: '5 6 6 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 5,
+          frets: '7 6 6 5',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
+          baseFret: 7,
+          frets: '7 10 8 11',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          baseFret: 7,
+          frets: '11 10 8 7',
+          fingers: '4 3 2 1',
         ),
       ],
     ),
@@ -14198,33 +12389,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '3 4 0 3',
-          fingers: '1 2 0 1',
+          frets: '1 0 4 3',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 4 3',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 0 1',
-          fingers: '1 2 0 1',
+          frets: '3 0 4 1',
+          fingers: '2 0 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 0 3',
-          fingers: '1 3 0 2',
+          baseFret: 3,
+          frets: '3 0 4 5',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 4 0 1',
-          fingers: '2 3 0 1',
+          baseFret: 3,
+          frets: '5 0 4 3',
+          fingers: '3 0 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 4 0 5',
-          fingers: '2 1 0 2',
+          baseFret: 3,
+          frets: '3 3 4 5',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 4 0 5',
-          fingers: '1 2 0 3',
+          baseFret: 3,
+          frets: '5 3 4 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 6 5',
+          fingers: '1 3 2 4',
         ),
       ],
     ),
@@ -14235,33 +12436,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
+          frets: '1 0 2 2',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 2',
-          fingers: '1 2 0 2',
+          frets: '2 0 2 1',
+          fingers: '2 0 3 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '2 2 0 1',
-          fingers: '2 2 0 1',
+          frets: '1 0 2 4',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 4',
-          fingers: '1 2 0 3',
+          frets: '4 0 2 1',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 2 2',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '4 2 0 1',
-          fingers: '3 2 0 1',
+          frets: '1 2 2 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
+          frets: '1 4 2 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 2 1',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -14273,17 +12484,7 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
         ChordPosition(
           baseFret: 1,
           frets: '1 0 0 1',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 4 0 5',
-          fingers: '2 1 0 2',
+          fingers: '1 0 0 2',
         ),
         ChordPosition(
           baseFret: 1,
@@ -14294,773 +12495,6 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           baseFret: 1,
           frets: '5 0 0 1',
           fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#aug7',
-      chordKey: 'D#',
-      suffix: 'aug7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 5',
-          fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 4 1',
-          fingers: '4 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '2 1 3 2',
-          fingers: '2 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#aug9',
-      chordKey: 'D#',
-      suffix: 'aug9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 3',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 4 5',
-          fingers: '1 2 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#b13#9',
-      chordKey: 'D#',
-      suffix: 'b13#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 4',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 5',
-          fingers: '1 2 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#b13b9',
-      chordKey: 'D#',
-      suffix: 'b13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 2',
-          fingers: '1 2 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 1',
-          fingers: '2 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 5',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 1',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 5',
-          fingers: '1 2 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#dim',
-      chordKey: 'D#',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 1',
-          fingers: '1 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 2 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#dim7',
-      chordKey: 'D#',
-      suffix: 'dim7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 5 4',
-          fingers: '1 1 3 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#m11',
-      chordKey: 'D#',
-      suffix: 'm11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 1 4',
-          fingers: '1 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 4',
-          fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 1 1',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 3 1',
-          fingers: '4 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 3',
-          fingers: '1 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#m6',
-      chordKey: 'D#',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#m69',
-      chordKey: 'D#',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 3 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 1',
-          fingers: '3 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#m7',
-      chordKey: 'D#',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 4',
-          fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 3 1',
-          fingers: '4 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 5',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 1 3 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '2 1 2 5',
-          fingers: '2 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#m7b5',
-      chordKey: 'D#',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 4',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 1 3 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '1 1 2 5',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#m9',
-      chordKey: 'D#',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 4',
-          fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 3 1',
-          fingers: '4 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 4 2',
-          fingers: '1 2 3 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 4 1',
-          fingers: '2 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 3 5',
-          fingers: '1 1 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#m9b5',
-      chordKey: 'D#',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 2',
-          fingers: '3 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 4',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#madd9',
-      chordKey: 'D#',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#maj11',
-      chordKey: 'D#',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 1',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 3',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 3',
-          fingers: '1 2 0 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#maj13',
-      chordKey: 'D#',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 1',
-          fingers: '0 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 0 0',
-          fingers: '1 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 1',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 3',
-          fingers: '0 2 0 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#maj7',
-      chordKey: 'D#',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 1',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 1',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 0 0',
-          fingers: '1 2 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#maj7#5',
-      chordKey: 'D#',
-      suffix: 'maj7#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 1',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 1',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 1',
-          fingers: '1 2 0 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#maj7b5',
-      chordKey: 'D#',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 1',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 1',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 0 0',
-          fingers: '1 2 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#maj9',
-      chordKey: 'D#',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 1',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 0',
-          fingers: '1 2 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 0 3',
-          fingers: '0 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 3 0 3',
-          fingers: '1 2 0 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'D#major',
-      chordKey: 'D#',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 0 1',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 4 0 5',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
         ),
         ChordPosition(
           baseFret: 1,
@@ -15074,137 +12508,429 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 3 5',
-          fingers: '1 3 2 4',
+          frets: '1 4 4 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 4 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 4 1',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
     Chord(
-      name: 'D#minor',
+      name: 'D#aug7',
       chordKey: 'D#',
-      suffix: 'minor',
+      suffix: 'aug7',
       chordPositions: [
         ChordPosition(
+          baseFret: 1,
+          frets: '1 4 2 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 2 1',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '11 0 0 11',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 0 0 11',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 0 0 9',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 0 9',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#aug9',
+      chordKey: 'D#',
+      suffix: 'aug9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 3',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
           baseFret: 3,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '3 6 0 5',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
+          baseFret: 3,
+          frets: '5 6 0 3',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
+          baseFret: 5,
+          frets: '5 6 6 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 6 6 5',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 10 8 11',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 8 9',
+          fingers: '4 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#b13#9',
+      chordKey: 'D#',
+      suffix: 'b13#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 0 5',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 6 0 4',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 2 5',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 7 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 6 7 5',
+          fingers: '4 2 3 1',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
+          frets: '9 0 7 11',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 5 5',
-          fingers: '1 1 2 2',
+          baseFret: 7,
+          frets: '11 0 7 9',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
     Chord(
-      name: 'D#mmaj11',
+      name: 'D#b13b9',
       chordKey: 'D#',
-      suffix: 'mmaj11',
+      suffix: 'b13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 5',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 5 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 6 5 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 9 8 11',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 8 9',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#dim',
+      chordKey: 'D#',
+      suffix: 'dim',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 4 3 4',
-          fingers: '0 2 1 2',
+          frets: '1 2 4 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '4 4 3 0',
-          fingers: '2 2 1 0',
+          frets: '4 2 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 4 7',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 8 4 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 7 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 8 7 4',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#dim7',
+      chordKey: 'D#',
+      suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 4',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 4 1 4',
-          fingers: '0 2 1 2',
+          frets: '4 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 7 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#m11',
+      chordKey: 'D#',
+      suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 2 4',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '4 4 1 0',
-          fingers: '2 2 1 0',
+          frets: '4 1 2 3',
+          fingers: '4 1 2 3',
         ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 6 4',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 7 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 6 7 3',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#m6',
+      chordKey: 'D#',
+      suffix: 'm6',
+      chordPositions: [
         ChordPosition(
           baseFret: 1,
           frets: '1 3 1 4',
-          fingers: '1 2 1 3',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 3 3 4',
-          fingers: '1 2 2 3',
+          frets: '4 3 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 4',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 4 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 4 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 8',
+          fingers: '1 2 4 3',
         ),
       ],
     ),
     Chord(
-      name: 'D#mmaj7',
+      name: 'D#m69',
       chordKey: 'D#',
-      suffix: 'mmaj7',
+      suffix: 'm69',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 4 3 4',
-          fingers: '0 2 1 2',
+          baseFret: 3,
+          frets: '3 5 4 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 4 3',
+          fingers: '2 3 4 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '4 4 3 0',
-          fingers: '2 2 1 0',
+          frets: '3 3 1 4',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 3 3 4',
-          fingers: '1 2 2 3',
+          frets: '4 3 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '4 3 3 1',
-          fingers: '3 2 2 1',
+          frets: '3 5 1 4',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 7 8 0',
-          fingers: '0 1 2 0',
+          frets: '4 5 1 3',
+          fingers: '3 4 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 4 7 4',
-          fingers: '0 1 2 1',
+          baseFret: 4,
+          frets: '4 5 6 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 6 4',
+          fingers: '1 3 4 2',
         ),
       ],
     ),
     Chord(
-      name: 'D#mmaj7b5',
+      name: 'D#m7',
       chordKey: 'D#',
-      suffix: 'mmaj7b5',
+      suffix: 'm7',
       chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 4 2 4',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 2 0',
-          fingers: '2 2 1 0',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '1 3 2 4',
@@ -15216,14 +12942,724 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '4 3 2 1',
         ),
         ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 8 7 11',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 8 7 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 8 7 11',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#m7b5',
+      chordKey: 'D#',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
           baseFret: 1,
-          frets: '0 7 8 0',
-          fingers: '0 1 2 0',
+          frets: '1 2 2 4',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 4 7 4',
-          fingers: '0 1 2 1',
+          frets: '4 2 2 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 2 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 7 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 7 4',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#m9',
+      chordKey: 'D#',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 4 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 6 4 3',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 2 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 6 2 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 2 3',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 6 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 6 4',
+          fingers: '1 3 4 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#m9b5',
+      chordKey: 'D#',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 2 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 6 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 6 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 6 7 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 7 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 10 7 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#madd9',
+      chordKey: 'D#',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 4 3',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 6 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 6 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 8 6 4',
+          fingers: '3 4 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#maj11',
+      chordKey: 'D#',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 0 6 6',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 0 6 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 3 6',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 0 3 3',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 5',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 7 6 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 7 6 5',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#maj13',
+      chordKey: 'D#',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 3',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 1 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 3 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 0 6 10',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 0 6 0',
+          fingers: '2 0 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#maj7',
+      chordKey: 'D#',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 0 4 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 3 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 3 1',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 3 1',
+          fingers: '0 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 4 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 4 1',
+          fingers: '0 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 0 4 5',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 0 4 0',
+          fingers: '2 0 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#maj7#5',
+      chordKey: 'D#',
+      suffix: 'maj7#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 0 1',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 4 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 4 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 3 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 8 0 5',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 3 1',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#maj7b5',
+      chordKey: 'D#',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 4 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 3 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 4 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 0 4 7',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 0 4 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 3 1',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 8 8 7',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#maj9',
+      chordKey: 'D#',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 3 3',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 0 4 3',
+          fingers: '0 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 4 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 3 1',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 0 3 3',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 3 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 0 6 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 3 3',
+          fingers: '1 0 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#major',
+      chordKey: 'D#',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 4 1',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 4 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 0 4 8',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 0 4 5',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 0 4 8',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 8 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 8 4 8',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#minor',
+      chordKey: 'D#',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 4 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 8 4 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 8 7 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 7 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 8 7 4',
+          fingers: '3 4 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#mmaj11',
+      chordKey: 'D#',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 4',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 6 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 7 6 4',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 7 7 6',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 7 7 3',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 10 7 6',
+          fingers: '0 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 7 0',
+          fingers: '1 3 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#mmaj7',
+      chordKey: 'D#',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 4 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 4 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 3 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 3 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 8 7 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 7 4 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 4 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 8 7 8',
+          fingers: '0 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'D#mmaj7b5',
+      chordKey: 'D#',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 4 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 3 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 4 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 3 1',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 8 7 7',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 7 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 4 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 7 4 4',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -15233,34 +13669,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'mmaj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 4 3 4',
-          fingers: '0 2 1 2',
+          baseFret: 3,
+          frets: '3 3 3 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 4 3 0',
-          fingers: '2 2 1 0',
+          baseFret: 3,
+          frets: '4 3 3 3',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 3 3 4',
-          fingers: '1 2 2 3',
+          baseFret: 3,
+          frets: '3 7 4 4',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 3 3 1',
-          fingers: '3 2 2 1',
+          baseFret: 3,
+          frets: '4 7 4 3',
+          fingers: '2 3 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 7 8 0',
-          fingers: '0 1 2 0',
+          baseFret: 4,
+          frets: '0 8 6 4',
+          fingers: '0 3 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 4 7 4',
-          fingers: '0 1 2 1',
+          baseFret: 4,
+          frets: '4 8 6 0',
+          fingers: '1 3 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 6 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 6 0',
+          fingers: '2 1 3 0',
         ),
       ],
     ),
@@ -15270,34 +13716,24 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'sus2',
       chordPositions: [
         ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
           baseFret: 3,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          frets: '3 3 4 3',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 3 1',
-          fingers: '2 3 2 1',
+          frets: '3 3 4 1',
+          fingers: '2 4 3 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
+          frets: '8 8 6 8',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -15307,34 +13743,2073 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 1',
-          fingers: '1 2 1 1',
+          baseFret: 3,
+          frets: '6 3 4 6',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
+          baseFret: 4,
+          frets: '6 8 4 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 8 4 6',
+          fingers: '3 4 1 2',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          frets: '8 8 9 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 9 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 9 6',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+  ],
+  'E': [
+    Chord(
+      name: 'E11',
+      chordKey: 'E',
+      suffix: '11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 3 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 3 4',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 7 7 6',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 11 9 7',
+          fingers: '0 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 11 9 0',
+          fingers: '1 3 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E13',
+      chordKey: 'E',
+      suffix: '13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 2 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 6 7 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 7 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 6 3 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 6 3 4',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 11 9 11',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 9 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E13b5b9',
+      chordKey: 'E',
+      suffix: '13b5b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 3 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 6 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 7 6 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 10 9 8',
+          fingers: '0 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 9 0',
+          fingers: '1 3 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E13b9',
+      chordKey: 'E',
+      suffix: '13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 2 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 6 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 3 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 6 3 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 10 9 11',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 10 9 0',
+          fingers: '3 2 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E6',
+      chordKey: 'E',
+      suffix: '6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 2 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 5 6',
+          fingers: '1 3 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E69',
+      chordKey: 'E',
+      suffix: '69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 2 4',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 2',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '3 1 5 3',
-          fingers: '2 1 3 2',
+          frets: '4 6 5 6',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
+          frets: '6 6 5 4',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 4',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '5 1 5 3',
-          fingers: '3 1 3 2',
+          frets: '4 6 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 0 4',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 2 6',
+          fingers: '2 4 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E7',
+      chordKey: 'E',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 3 2',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 3 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 5 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 5 0',
+          fingers: '2 1 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E7#9',
+      chordKey: 'E',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 6',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 0 5 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 0 0 6',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 3 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 3 6',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 3 2',
+          fingers: '4 1 3 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E7b5',
+      chordKey: 'E',
+      suffix: '7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 3 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 9 9 8',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E7b9',
+      chordKey: 'E',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 2',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 5 3',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 3 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 0',
+          fingers: '2 1 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E7b9#5',
+      chordKey: 'E',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 10 9 10',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 10 9 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E7sus4',
+      chordKey: 'E',
+      suffix: '7sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 3 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 3 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 5 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 5 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 5 2',
+          fingers: '0 1 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E9',
+      chordKey: 'E',
+      suffix: '9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 3 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 3 2',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 5 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 3 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 3 0',
+          fingers: '3 1 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E9#11',
+      chordKey: 'E',
+      suffix: '9#11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 7 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 7 7 6',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 11 9 8',
+          fingers: '0 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 11 9 0',
+          fingers: '1 3 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'E9b5',
+      chordKey: 'E',
+      suffix: '9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 7 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 7 7 6',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 11 9 8',
+          fingers: '0 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 11 9 0',
+          fingers: '1 3 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Eadd9',
+      chordKey: 'E',
+      suffix: 'add9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 4',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 2',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 5 4',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 5 2',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 5 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 5 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 5 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 7 6',
+          fingers: '1 3 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Ealt',
+      chordKey: 'E',
+      suffix: 'alt',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 2',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 6',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 0 5 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 5 3',
+          fingers: '0 1 3 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Eaug',
+      chordKey: 'E',
+      suffix: 'aug',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 5 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 5 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 9 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 9 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 9 6',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Eaug7',
+      chordKey: 'E',
+      suffix: 'aug7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 5 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 3 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 3 2',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 6',
+          fingers: '0 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Eaug9',
+      chordKey: 'E',
+      suffix: 'aug9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 4',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 11 9 10',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 11 9 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Eb13#9',
+      chordKey: 'E',
+      suffix: 'b13#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 0 9 10',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 0 9 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 3 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 8 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 8 0',
+          fingers: '2 1 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Eb13b9',
+      chordKey: 'E',
+      suffix: 'b13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 10 9 10',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 10 9 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Edim',
+      chordKey: 'E',
+      suffix: 'dim',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 5 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 0 5 8',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 0 5 5',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 0 5 8',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 9 5 8',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 9 5 5',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Edim7',
+      chordKey: 'E',
+      suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 5 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 8 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 9 8 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Em11',
+      chordKey: 'E',
+      suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 0 7 7',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 0 7 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 3 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 3 4',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 0 3 7',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 0 3 4',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 7 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 7 7 5',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Em6',
+      chordKey: 'E',
+      suffix: 'm6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 2 2',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 2 5',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 2 2',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 5',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 2 5',
+          fingers: '1 3 4 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Em69',
+      chordKey: 'E',
+      suffix: 'm69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 2 4',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 0 2 2',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 0 2 4',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 5 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 6 5 4',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 0 2 5',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 2 4',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 0 5',
+          fingers: '1 3 0 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Em7',
+      chordKey: 'E',
+      suffix: 'm7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 0 0 2',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 3 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 0 3 2',
+          fingers: '0 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 3 2',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 5',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 0 5 0',
+          fingers: '1 0 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Em7b5',
+      chordKey: 'E',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 8',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 0 5 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 0 11 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 3 5',
+          fingers: '0 1 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Em9',
+      chordKey: 'E',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 3 4',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 0 5 4',
+          fingers: '0 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 0 5 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 0 0 4',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 0 3 2',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 0 7 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 0 3 4',
+          fingers: '0 0 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Em9b5',
+      chordKey: 'E',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 0 7 8',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 0 7 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 5',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 7 7 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 7 7 5',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emadd9',
+      chordKey: 'E',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 4',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 0 0 2',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 5 4',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 0 5 4',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 0 5 5',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 0 5 4',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 0 5 2',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 5 5',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emaj11',
+      chordKey: 'E',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 4 6',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 4 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 7 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 8 7 6',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emaj13',
+      chordKey: 'E',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 2 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 1',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 4 4',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emaj7',
+      chordKey: 'E',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 2',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 4 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 4 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 4 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 5 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 5 1',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 5 2',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emaj7#5',
+      chordKey: 'E',
+      suffix: 'maj7#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 4 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 4 2',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emaj7b5',
+      chordKey: 'E',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 4 2',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 8 5 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 8 5 6',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emaj9',
+      chordKey: 'E',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 4 2',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 5 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 5 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 4 1',
+          fingers: '2 1 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emajor',
+      chordKey: 'E',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 0 2',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 5 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 5 2',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 5 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 0 9',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Eminor',
+      chordKey: 'E',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 2',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 5',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 0 2',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 0 2',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 5 2',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emmaj11',
+      chordKey: 'E',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 4 5',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 4 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 0 4 7',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 0 4 4',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 7 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 8 7 5',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 8 7',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 8 8 4',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emmaj7',
+      chordKey: 'E',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 0 0 1',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 2',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 4 2',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 0 4 1',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 4 2',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 0 5 1',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 5 1',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 4 5',
+          fingers: '1 0 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emmaj7b5',
+      chordKey: 'E',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 4 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 4 2',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 5 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 5 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 8 5 5',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Emmaj9',
+      chordKey: 'E',
+      suffix: 'mmaj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 4 4',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 0 4 2',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 5 4',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 0 5 1',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 4',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 0 0 1',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 0 4 4',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 0 4 4',
+          fingers: '1 0 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Esus2',
+      chordKey: 'E',
+      suffix: 'sus2',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 5 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 5 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 5 2',
+          fingers: '2 4 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 7 9',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Esus4',
+      chordKey: 'E',
+      suffix: 'sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 2',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 0 7',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 5 7',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 0 9',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 0 7',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 9 5 9',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 9 5 7',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 9 10 9',
+          fingers: '1 3 2 4',
         ),
       ],
     ),
@@ -15346,34 +15821,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          baseFret: 3,
+          frets: '5 3 4 7',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 3,
+          frets: '7 3 4 5',
+          fingers: '4 1 2 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 4,
+          frets: '7 0 4 8',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          baseFret: 4,
+          frets: '8 0 4 7',
+          fingers: '3 0 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
+          baseFret: 7,
+          frets: '7 8 8 8',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 4',
-          fingers: '2 3 1 4',
+          baseFret: 7,
+          frets: '8 8 8 7',
+          fingers: '2 3 4 1',
         ),
       ],
     ),
@@ -15383,34 +15858,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          baseFret: 2,
+          frets: '0 2 4 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 4 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 0 4 7',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 0 4 0',
+          fingers: '2 0 1 0',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 3 2 3',
-          fingers: '1 3 2 3',
+          frets: '1 2 3 5',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          frets: '5 2 3 1',
+          fingers: '4 2 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 1',
-          fingers: '3 3 2 1',
+          baseFret: 7,
+          frets: '0 8 8 7',
+          fingers: '0 2 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 4 2 3',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 2 0',
-          fingers: '2 3 1 0',
+          baseFret: 7,
+          frets: '7 8 8 0',
+          fingers: '1 2 3 0',
         ),
       ],
     ),
@@ -15421,33 +15906,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
+          frets: '1 2 0 4',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
+          frets: '4 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 3 2 3',
-          fingers: '1 3 2 3',
+          baseFret: 4,
+          frets: '4 4 4 7',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 1',
-          fingers: '3 3 2 1',
+          baseFret: 4,
+          frets: '7 4 4 4',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 4 2 3',
-          fingers: '0 3 1 2',
+          baseFret: 4,
+          frets: '4 8 0 7',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 4 2 0',
-          fingers: '2 3 1 0',
+          baseFret: 4,
+          frets: '7 8 0 4',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 7 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 8 7 7',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -15457,34 +15952,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '13b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          baseFret: 2,
+          frets: '0 2 4 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 4 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 3 2 3',
-          fingers: '1 3 2 3',
+          frets: '1 2 3 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          frets: '4 2 3 1',
+          fingers: '4 2 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 1',
-          fingers: '3 3 2 1',
+          baseFret: 7,
+          frets: '0 8 7 7',
+          fingers: '0 2 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 4 2 3',
-          fingers: '0 3 1 2',
+          baseFret: 7,
+          frets: '7 8 7 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 4 2 0',
-          fingers: '2 3 1 0',
+          baseFret: 4,
+          frets: '4 7 4 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 7 4 4',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -15495,33 +16000,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 3 2 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 3',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 0',
-          fingers: '3 1 2 0',
+          frets: '3 2 1 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '3 2 3 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
+          frets: '0 2 1 3',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 3 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 6 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 6 3',
+          fingers: '0 1 3 2',
         ),
       ],
     ),
@@ -15531,34 +16046,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '69',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 3',
-          fingers: '0 2 1 2',
+          baseFret: 6,
+          frets: '0 0 6 7',
+          fingers: '0 0 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 3 2 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 2 3',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 0',
-          fingers: '3 1 2 0',
+          baseFret: 6,
+          frets: '7 0 6 0',
+          fingers: '2 0 1 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
+          frets: '3 2 3 5',
+          fingers: '2 1 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
+          baseFret: 2,
+          frets: '5 2 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 3 7',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 6 5',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 0 3 3',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -15569,33 +16094,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          frets: '3 2 1 1',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          frets: '1 2 1 3',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 4 1',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '3 2 4 3',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          frets: '1 2 1 1',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
+          frets: '1 2 4 3',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 2 3 5',
-          fingers: '1 2 3 4',
+          frets: '3 5 4 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 4 3',
+          fingers: '4 3 2 1',
         ),
       ],
     ),
@@ -15605,34 +16140,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '7#9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 2,
+          frets: '3 2 4 6',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '6 2 4 3',
+          fingers: '4 1 3 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          baseFret: 6,
+          frets: '6 8 6 7',
+          fingers: '1 3 4 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 5',
+          baseFret: 6,
+          frets: '7 8 6 6',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 4 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 4 7',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 6',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 8 4 7',
+          fingers: '2 4 1 3',
         ),
       ],
     ),
@@ -15643,33 +16188,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '1 2 0 3',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
+          frets: '1 2 0 1',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
+          frets: '3 4 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 0 7',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 8 6 9',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 6 7',
+          fingers: '4 3 1 2',
         ),
       ],
     ),
@@ -15679,33 +16234,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '7b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 2,
+          frets: '3 2 4 4',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 2',
-          fingers: '3 3 1 2',
+          frets: '4 2 4 3',
+          fingers: '3 1 4 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 2 3',
+          frets: '1 2 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 6 7',
           fingers: '1 4 2 3',
         ),
       ],
@@ -15717,33 +16282,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          frets: '1 2 2 4',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
+          frets: '4 2 2 1',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 4,
+          frets: '4 6 4 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
+          baseFret: 4,
+          frets: '7 6 4 4',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 2',
-          fingers: '3 3 1 2',
+          baseFret: 7,
+          frets: '7 8 7 11',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          baseFret: 7,
+          frets: '11 8 7 7',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -15754,33 +16319,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 3 3',
-          fingers: '1 1 2 2',
+          frets: '3 3 1 1',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 3 1',
-          fingers: '2 1 2 1',
+          frets: '1 3 1 3',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          frets: '3 3 4 3',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
+          frets: '3 3 4 1',
+          fingers: '2 4 3 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 4 3 1',
-          fingers: '2 3 2 1',
+          frets: '1 3 4 3',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
+          frets: '8 8 6 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 6 10',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 8 6 8',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -15790,34 +16365,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 2,
+          frets: '3 2 4 5',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '5 2 4 3',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 4 7',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 0 4 3',
+          fingers: '3 0 2 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          frets: '1 2 1 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
+          frets: '5 2 1 1',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 4',
-          fingers: '2 3 1 4',
+          baseFret: 1,
+          frets: '1 2 4 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 4 1',
+          fingers: '4 2 3 1',
         ),
       ],
     ),
@@ -15828,33 +16413,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
+          frets: '1 2 0 5',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
+          frets: '5 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          baseFret: 4,
+          frets: '5 4 4 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 4,
+          frets: '7 4 4 5',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 5,
+          frets: '5 8 0 7',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          baseFret: 5,
+          frets: '7 8 0 5',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 8 8 7',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -15865,33 +16460,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
+          frets: '1 2 0 5',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
+          frets: '5 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 4,
+          frets: '5 4 4 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          baseFret: 4,
+          frets: '7 4 4 5',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
+          baseFret: 5,
+          frets: '5 8 0 7',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 4',
-          fingers: '2 3 1 4',
+          baseFret: 5,
+          frets: '7 8 0 5',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 8 8 7',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -15902,33 +16507,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
+          frets: '3 2 1 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 2 5',
-          fingers: '3 1 2 4',
+          frets: '5 2 1 3',
+          fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 1 2 3',
-          fingers: '4 1 2 3',
+          baseFret: 2,
+          frets: '3 2 6 5',
+          fingers: '2 1 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 6 0 7',
-          fingers: '2 1 0 2',
+          baseFret: 3,
+          frets: '3 0 6 7',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 6 0 7',
-          fingers: '1 2 0 3',
+          baseFret: 5,
+          frets: '5 0 6 7',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 6 0 5',
-          fingers: '3 2 0 1',
+          baseFret: 5,
+          frets: '7 0 6 5',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 0 6 7',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 6 3',
+          fingers: '3 1 4 2',
         ),
       ],
     ),
@@ -15939,33 +16554,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 2 1',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          frets: '1 2 0 3',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
           frets: '3 2 2 1',
-          fingers: '3 2 2 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 3',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          frets: '3 2 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 0 1',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
+          frets: '4 2 4 3',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 1',
+          fingers: '1 2 4 3',
         ),
       ],
     ),
@@ -15976,33 +16601,38 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
+          frets: '3 2 2 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 6 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
+          frets: '7 6 6 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 4 4 5',
-          fingers: '1 2 2 3',
+          frets: '7 6 6 3',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '5 4 4 1',
-          fingers: '3 2 2 1',
+          baseFret: 10,
+          frets: '11 10 10 11',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '1 4 4 1',
-          fingers: '1 2 2 1',
+          frets: '7 10 10 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 10 10 7',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -16013,33 +16643,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          frets: '1 2 2 3',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
+          frets: '1 2 2 1',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 2 4 5',
+          frets: '3 6 4 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 6 4 3',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 7',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 10 11',
           fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 8 10 7',
+          fingers: '4 2 3 1',
         ),
       ],
     ),
@@ -16050,33 +16690,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          frets: '1 2 2 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
+          frets: '5 2 2 1',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 4',
+          baseFret: 4,
+          frets: '5 6 4 7',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 5',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 8 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 8 8 7',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -16086,34 +16726,24 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'b13#9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          baseFret: 4,
+          frets: '6 6 4 7',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          baseFret: 4,
+          frets: '7 6 4 6',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 7,
+          frets: '7 8 9 11',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
+          baseFret: 7,
+          frets: '11 8 9 7',
+          fingers: '4 2 3 1',
         ),
       ],
     ),
@@ -16124,33 +16754,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
+          frets: '1 2 2 4',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
+          frets: '4 2 2 1',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
+          baseFret: 4,
+          frets: '4 6 4 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
+          baseFret: 4,
+          frets: '7 6 4 4',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
+          baseFret: 7,
+          frets: '7 8 7 11',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
+          baseFret: 7,
+          frets: '11 8 7 7',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -16161,33 +16791,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 1 3',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 3',
-          fingers: '1 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 6',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 0 4 3',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
+          frets: '3 1 0 3',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 4 2 1',
-          fingers: '1 3 2 1',
+          frets: '3 4 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 0 3',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 6 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 0 9',
+          fingers: '1 3 0 2',
         ),
       ],
     ),
@@ -16195,6 +16835,3565 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       name: 'Fdim7',
       chordKey: 'F',
       suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 7 0 6',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 7 0 3',
+          fingers: '2 3 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fm11',
+      chordKey: 'F',
+      suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 4 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 4 5',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 0 4 8',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 0 4 6',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 8 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 8 6',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 9 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 8 9 5',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fm6',
+      chordKey: 'F',
+      suffix: 'm6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 3 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 3 6',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fm69',
+      chordKey: 'F',
+      suffix: 'm69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 0 6 6',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 0 6 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 3 6',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 3 5',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 0 3 3',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 0 9 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 5',
+          fingers: '0 1 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fm7',
+      chordKey: 'F',
+      suffix: 'm7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 4 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 4 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 4 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 4 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 4 3',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 6 6',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fm7b5',
+      chordKey: 'F',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 1',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 4 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 6 9',
+          fingers: '1 2 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fm9',
+      chordKey: 'F',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 4 6',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 4 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 0 4 3',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 4 3',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 4 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 4 1',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fm9b5',
+      chordKey: 'F',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 4 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 4 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 0 6',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 8 0 5',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 8 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 8 6',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmadd9',
+      chordKey: 'F',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 1 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 0 6 6',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 6 6',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 0 6 6',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 0 6 5',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 0 6 3',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 6 6',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmaj11',
+      chordKey: 'F',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 0 5 8',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 0 5 7',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 5 7',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 5 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 8 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 8 7',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmaj13',
+      chordKey: 'F',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 7',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 0 5 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 3 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 3 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 7 5 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 7 5 5',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmaj7',
+      chordKey: 'F',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 3',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 5 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 5 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 5 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 6 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 6 2',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 6 3',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmaj7#5',
+      chordKey: 'F',
+      suffix: 'maj7#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 2 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 5 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 6 5 3',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmaj7b5',
+      chordKey: 'F',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 5 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 4 5 3',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 9 6 9',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 9 6 7',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmaj9',
+      chordKey: 'F',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 5 3',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 5 7',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 6 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 6 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 0 5 3',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 5',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 2 1 2',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmajor',
+      chordKey: 'F',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 6 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 6 3',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 6 7',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 10 10 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 10 6 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 10 6 7',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 10 10',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fminor',
+      chordKey: 'F',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 6 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 6 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 10 6 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 10 9 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 9 10',
+          fingers: '1 3 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmmaj11',
+      chordKey: 'F',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 5 6',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 5 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 0 5 8',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 0 5 6',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 8 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 9 8 6',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 9 9 8',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 9 9 5',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmmaj7',
+      chordKey: 'F',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 5 2',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 5 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 5 3',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 5 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 5 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 6 6',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmmaj7b5',
+      chordKey: 'F',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 2',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 5 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 5 3',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 6 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 6 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 9 6 6',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fmmaj9',
+      chordKey: 'F',
+      suffix: 'mmaj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 5 6',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 0 5 3',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 5 3',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 6 6',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 0 6 2',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 1 2',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fsus2',
+      chordKey: 'F',
+      suffix: 'sus2',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 1 3',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 0 1 5',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 3',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 5 1 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 1 3',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 6 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 6 5',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 6 3',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'Fsus4',
+      chordKey: 'F',
+      suffix: 'sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 6 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 10 6 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 10 6 8',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 10 11 10',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 11 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 10 11 8',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+  ],
+  'F#': [
+    Chord(
+      name: 'F#11',
+      chordKey: 'F#',
+      suffix: '11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 0 2',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 0 8',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 9 0 6',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 5 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 5 6',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 9 9 8',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#13',
+      chordKey: 'F#',
+      suffix: '13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 4 2',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 8 5 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 8 5 6',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#13b5b9',
+      chordKey: 'F#',
+      suffix: '13b5b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 1 2',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 5 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 8 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 9 8 8',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#13b9',
+      chordKey: 'F#',
+      suffix: '13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 4 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 4 2',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 5 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 5 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 8 5 5',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#6',
+      chordKey: 'F#',
+      suffix: '6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 2 1',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 2 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 4 8',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#69',
+      chordKey: 'F#',
+      suffix: '69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 4 6',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 4 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 7 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 7 6',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 4 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 4 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 4 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 8 4 8',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#7',
+      chordKey: 'F#',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 5 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 5 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 2',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 5 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 5 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 5 4',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#7#9',
+      chordKey: 'F#',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 5 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 5 4',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 7 8',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 7 7',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 5 7',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 6 5 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 5 7',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 9 5 8',
+          fingers: '2 4 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#7b5',
+      chordKey: 'F#',
+      suffix: '7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 2',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 7 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 8',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 5 8',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#7b9',
+      chordKey: 'F#',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 5 4',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 0 5 8',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 0 5 4',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 5 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 5 2',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#7b9#5',
+      chordKey: 'F#',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 8',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 0 5 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 9 8 8',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 8 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#7sus4',
+      chordKey: 'F#',
+      suffix: '7sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 2 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 2 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 5 4',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 6 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 5 2',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#9',
+      chordKey: 'F#',
+      suffix: '9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 5 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 5 4',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 2 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 5 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 5 2',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 5 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 7 8',
+          fingers: '1 4 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#9#11',
+      chordKey: 'F#',
+      suffix: '9#11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 5 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 9 9 8',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#9b5',
+      chordKey: 'F#',
+      suffix: '9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 5 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 9 9 8',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#add9',
+      chordKey: 'F#',
+      suffix: 'add9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 2 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 4',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 7 6',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 7 4',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 7 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 7 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 7 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 11 9 8',
+          fingers: '1 3 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#alt',
+      chordKey: 'F#',
+      suffix: 'alt',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 2',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 1 2',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#aug',
+      chordKey: 'F#',
+      suffix: 'aug',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 3 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 11 11 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 7 7 8',
+          fingers: '0 1 2 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#aug7',
+      chordKey: 'F#',
+      suffix: 'aug7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 3 3 2',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 2',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 0',
+          fingers: '0 1 2 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#aug9',
+      chordKey: 'F#',
+      suffix: 'aug9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 9 9 8',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 9 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 7 5 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 7 5 6',
+          fingers: '4 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#b13#9',
+      chordKey: 'F#',
+      suffix: 'b13#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 9 10 8',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 10 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 7 5 8',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 7 5 7',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 9 11 7',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 11 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#b13b9',
+      chordKey: 'F#',
+      suffix: 'b13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 8',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 0 5 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 9 8 8',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 9 8 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#dim',
+      chordKey: 'F#',
+      suffix: 'dim',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 7 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 7 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 11 7 10',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 11 7 7',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 11 10 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 11 10 10',
+          fingers: '1 3 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#dim7',
+      chordKey: 'F#',
+      suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 8 7 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 8 7 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#m11',
+      chordKey: 'F#',
+      suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 5 7',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 5 6',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 0 7',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 9 0 6',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 9 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 9 7',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#m6',
+      chordKey: 'F#',
+      suffix: 'm6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 2 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 2 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 4 7',
+          fingers: '1 3 4 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#m69',
+      chordKey: 'F#',
+      suffix: 'm69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 4 6',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 4 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 7 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 8 7 6',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 4 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 4 7',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 4 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 8 4 7',
+          fingers: '2 4 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#m7',
+      chordKey: 'F#',
+      suffix: 'm7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 2 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 5 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 5 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 5 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 5 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 5 4',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 7 7',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#m7b5',
+      chordKey: 'F#',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 5 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 7 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#m9',
+      chordKey: 'F#',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 5 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 5 4',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 2 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 5 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 5 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 7 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 9 7 6',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#m9b5',
+      chordKey: 'F#',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 5 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 9 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 9 7',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 10 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 10 6',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#madd9',
+      chordKey: 'F#',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 2 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 2 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 7 6',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 11 9 7',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 11 9 11',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 11 9 7',
+          fingers: '3 4 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#maj11',
+      chordKey: 'F#',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 6 8',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 6 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 0 8',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 10 0 6',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 9 9',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 10 9 8',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#maj13',
+      chordKey: 'F#',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 4 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 6 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 6 6',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#maj7',
+      chordKey: 'F#',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 2 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 6 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 6 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 6 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 7 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 7 3',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 7 4',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#maj7#5',
+      chordKey: 'F#',
+      suffix: 'maj7#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 3 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 6 4',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 7 3',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 7 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 6 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 10 7 8',
+          fingers: '0 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#maj7b5',
+      chordKey: 'F#',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 6 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 6 4',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 10 7 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 10 7 8',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#maj9',
+      chordKey: 'F#',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 6 4',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 7 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 7 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 3 2 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 3 2 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 6 3',
+          fingers: '2 1 4 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#major',
+      chordKey: 'F#',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 3 2 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 7 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 7 4',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 7 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '11 11 11 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 11 7 11',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 11 7 8',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 11 11 11',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#minor',
+      chordKey: 'F#',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 2 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 7 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 7 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 11 7 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 11 7 7',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 11 10 11',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 11 10 11',
+          fingers: '1 3 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#mmaj11',
+      chordKey: 'F#',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 6',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 0 3',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 6 7',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 6 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 0 7',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 10 0 6',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 9 9',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 10 9 7',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#mmaj7',
+      chordKey: 'F#',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 2 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 6 3',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 6 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 6 4',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 6 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 6 6 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 7 7',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#mmaj7b5',
+      chordKey: 'F#',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 3',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 6 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 6 4',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 7 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 7 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 10 7 7',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#mmaj9',
+      chordKey: 'F#',
+      suffix: 'mmaj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 2 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 6 4',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 2 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 2 6 3',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 6 6 6',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#sus2',
+      chordKey: 'F#',
+      suffix: 'sus2',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 2 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 2 4',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 7 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 7 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 7 4',
+          fingers: '2 4 3 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 9 11',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'F#sus4',
+      chordKey: 'F#',
+      suffix: 'sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 2 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '11 11 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 11 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 0 9',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 7 9',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 11 7 11',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 11 7 9',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+  ],
+  'G': [
+    Chord(
+      name: 'G11',
+      chordKey: 'G',
+      suffix: '11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 0 7',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 0 3',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 0 10',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 10 0 7',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 6 9',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 5 6 7',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 10 10 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 10 10 9',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G13',
+      chordKey: 'G',
+      suffix: '13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 2 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 5 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 4 5 3',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '7 9 6 9',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 9 6 7',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G13b5b9',
+      chordKey: 'G',
+      suffix: '13b5b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 6 0 3',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 2 3',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 6 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 10 9 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 10 9 9',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G13b9',
+      chordKey: 'G',
+      suffix: '13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 2',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 5 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 5 3',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 4 6 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 4 6 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 6 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 9 6 6',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G6',
+      chordKey: 'G',
+      suffix: '6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 0 0 2',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 2',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 0 0 2',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 5 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 0 0 5',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 0 2',
+          fingers: '3 2 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G69',
+      chordKey: 'G',
+      suffix: '69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '0 2 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 2',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 2 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 5 7',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 4 5 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 9 0 7',
+          fingers: '1 3 0 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G7',
+      chordKey: 'G',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 0 0 3',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 3',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 0 0 3',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 5',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 4 0 3',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 4 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 6 0',
+          fingers: '2 1 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G7#9',
+      chordKey: 'G',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 6 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 0 6 9',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 0 6 8',
+          fingers: '3 0 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G7b5',
+      chordKey: 'G',
+      suffix: '7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 4 2 3',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 6 0 3',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 5',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 0 5',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 4 2 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 6 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 6 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 6 6 5',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G7b9',
+      chordKey: 'G',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 0 3',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 3',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 6',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 0 0 3',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 5',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 6 6',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G7b9#5',
+      chordKey: 'G',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 6 9',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 6 6',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G7sus4',
+      chordKey: 'G',
+      suffix: '7sus4',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
@@ -16208,1283 +20407,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 4 3',
-          fingers: '0 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 0',
-          fingers: '2 2 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fm11',
-      chordKey: 'F',
-      suffix: 'm11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 0 6',
-          fingers: '1 2 0 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fm6',
-      chordKey: 'F',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 3',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fm69',
-      chordKey: 'F',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 1 3',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 3',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 0',
-          fingers: '2 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fm7',
-      chordKey: 'F',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 3 4',
-          fingers: '1 2 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fm7b5',
-      chordKey: 'F',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 3',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 2 4',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fm9',
-      chordKey: 'F',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 0 6',
-          fingers: '1 2 0 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fm9b5',
-      chordKey: 'F',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 1 3',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 1',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '3 0 1 3',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmadd9',
-      chordKey: 'F',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 0 6',
-          fingers: '1 1 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 6 0 6',
-          fingers: '1 2 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '6 6 0 5',
-          fingers: '2 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmaj11',
-      chordKey: 'F',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 4',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmaj13',
-      chordKey: 'F',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 2 3',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 2 0',
-          fingers: '2 3 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmaj7',
-      chordKey: 'F',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 5 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmaj7#5',
-      chordKey: 'F',
-      suffix: 'maj7#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 2',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 5 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmaj7b5',
-      chordKey: 'F',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 3',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 2',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 5 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmaj9',
-      chordKey: 'F',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 4 1 4',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmajor',
-      chordKey: 'F',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 3 5',
-          fingers: '1 3 2 4',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '5 4 3 1',
-          fingers: '4 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fminor',
-      chordKey: 'F',
-      suffix: 'minor',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmmaj11',
-      chordKey: 'F',
-      suffix: 'mmaj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 0 6',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmmaj7',
-      chordKey: 'F',
-      suffix: 'mmaj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 3 3 4',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmmaj7b5',
-      chordKey: 'F',
-      suffix: 'mmaj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 1 3',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '5 5 6 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
           baseFret: 1,
-          frets: '3 0 1 2',
+          frets: '5 0 1 3',
           fingers: '3 0 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '1 3 2 4',
-          fingers: '1 3 2 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fmmaj9',
-      chordKey: 'F',
-      suffix: 'mmaj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 0 6',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fsus2',
-      chordKey: 'F',
-      suffix: 'sus2',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 0 3',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 6 0 5',
-          fingers: '1 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 0 5',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 1 0 3',
-          fingers: '3 1 0 2',
+          frets: '5 5 3 3',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          frets: '0 5 6 5',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'Fsus4',
-      chordKey: 'F',
-      suffix: 'sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 5 3',
-          fingers: '2 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
-        ),
-      ],
-    ),
-  ],
-  'G': [
-    Chord(
-      name: 'G11',
-      chordKey: 'G',
-      suffix: '11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G13',
-      chordKey: 'G',
-      suffix: '13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 3',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 2',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G13b5b9',
-      chordKey: 'G',
-      suffix: '13b5b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 3',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 2',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G13b9',
-      chordKey: 'G',
-      suffix: '13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 3',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 2',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G6',
-      chordKey: 'G',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 0',
-          fingers: '0 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 2',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 2',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 5',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G69',
-      chordKey: 'G',
-      suffix: '69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 0',
-          fingers: '0 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 2',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 2',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 5',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G7',
-      chordKey: 'G',
-      suffix: '7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G7#9',
-      chordKey: 'G',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 3 5',
-          fingers: '1 0 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G7b5',
-      chordKey: 'G',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 4 3',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G7b9',
-      chordKey: 'G',
-      suffix: '7b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G7b9#5',
-      chordKey: 'G',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 3',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 1',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'G7sus4',
-      chordKey: 'G',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 1 0 3',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 0 3',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 5 5',
-          fingers: '0 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 3 3',
-          fingers: '1 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '3 1 3 1',
-          fingers: '2 1 2 1',
+          frets: '3 0 1 5',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -17494,34 +20443,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
+          baseFret: 2,
+          frets: '5 2 0 3',
+          fingers: '3 1 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
+          baseFret: 2,
+          frets: '0 2 0 3',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
+          baseFret: 2,
+          frets: '3 2 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
+          baseFret: 2,
+          frets: '3 2 0 5',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 7',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
+          baseFret: 3,
+          frets: '7 0 0 3',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
+          baseFret: 2,
+          frets: '3 2 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 6 7',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -17531,34 +20490,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
+          baseFret: 3,
+          frets: '3 6 0 7',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
+          baseFret: 3,
+          frets: '7 6 0 3',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
+          baseFret: 6,
+          frets: '7 6 6 9',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 6,
+          frets: '9 6 6 7',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
+          baseFret: 7,
+          frets: '7 10 0 11',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
+          baseFret: 7,
+          frets: '11 10 0 7',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 10 10 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 10 10 9',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -17568,34 +20537,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
+          baseFret: 3,
+          frets: '3 6 0 7',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 3,
+          frets: '7 6 0 3',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
+          baseFret: 6,
+          frets: '7 6 6 9',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
+          baseFret: 6,
+          frets: '9 6 6 7',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 4 3',
-          fingers: '3 0 2 1',
+          baseFret: 7,
+          frets: '7 10 0 11',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 5',
-          fingers: '2 0 1 3',
+          baseFret: 7,
+          frets: '11 10 0 7',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 10 10 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 10 10 9',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -17605,34 +20584,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'add9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 0',
-          fingers: '0 0 0 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 5',
+          baseFret: 7,
+          frets: '0 0 0 7',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 0',
+          baseFret: 7,
+          frets: '7 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 5',
-          fingers: '1 0 0 1',
+          baseFret: 2,
+          frets: '5 2 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 5',
-          fingers: '0 0 1 2',
+          baseFret: 2,
+          frets: '0 2 0 5',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 4 0',
-          fingers: '2 0 1 0',
+          baseFret: 5,
+          frets: '5 0 0 7',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 0 0 7',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 0 5',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 0 0 5',
+          fingers: '2 0 0 1',
         ),
       ],
     ),
@@ -17643,11 +20632,6 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '1 0 0 3',
           fingers: '1 0 0 2',
         ),
@@ -17657,19 +20641,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '2 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 3,
+          frets: '5 3 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 5',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 0 0 3',
+          frets: '5 1 0 3',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 0 0 6',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 0 0 3',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 3 5',
-          fingers: '1 0 1 2',
+          frets: '3 1 0 5',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -17681,21 +20680,6 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
         ChordPosition(
           baseFret: 1,
           frets: '1 0 0 1',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 5',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 0 4 5',
-          fingers: '2 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 5',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
@@ -17704,9 +20688,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '2 0 0 1',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '1 0 0 5',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
+          frets: '5 4 4 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 4 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 4 5',
+          fingers: '1 2 4 3',
         ),
       ],
     ),
@@ -17717,11 +20726,6 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '1 0 0 3',
           fingers: '1 0 0 2',
         ),
@@ -17731,19 +20735,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '2 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 3,
+          frets: '5 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
+          frets: '1 4 0 3',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
+          frets: '3 4 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 3',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 4 3',
+          fingers: '1 3 4 2',
         ),
       ],
     ),
@@ -17754,33 +20773,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
+          frets: '1 2 0 3',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 0 0 3',
-          fingers: '1 0 0 2',
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 1',
-          fingers: '2 0 0 1',
+          baseFret: 3,
+          frets: '3 4 4 7',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 3,
+          frets: '7 4 4 3',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 3',
-          fingers: '2 0 0 1',
+          baseFret: 6,
+          frets: '7 8 6 9',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 4 5',
-          fingers: '1 0 2 3',
+          baseFret: 6,
+          frets: '9 8 6 7',
+          fingers: '4 3 1 2',
         ),
       ],
     ),
@@ -17791,33 +20810,23 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
+          frets: '1 3 0 3',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
+          frets: '3 3 0 1',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
+          baseFret: 6,
+          frets: '8 8 6 9',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 3',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 1',
-          fingers: '2 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 6,
+          frets: '9 8 6 8',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -17828,33 +20837,33 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '0 0 0 3',
-          fingers: '0 0 0 1',
+          frets: '1 1 0 3',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '3 0 0 0',
-          fingers: '1 0 0 0',
+          frets: '3 1 0 1',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 3',
-          fingers: '1 0 0 1',
+          baseFret: 3,
+          frets: '3 4 4 6',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 0 0 3',
-          fingers: '1 0 0 2',
+          baseFret: 3,
+          frets: '6 4 4 3',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 1',
-          fingers: '2 0 0 1',
+          baseFret: 6,
+          frets: '6 8 6 9',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 6,
+          frets: '9 8 6 6',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -17864,34 +20873,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'dim',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 5',
-          fingers: '2 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
+          frets: '5 3 2 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 8 0 8',
-          fingers: '1 1 0 1',
+          baseFret: 5,
+          frets: '5 6 8 8',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 5 4',
-          fingers: '2 1 3 2',
+          baseFret: 5,
+          frets: '8 6 8 5',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 8 0 5',
-          fingers: '1 2 0 1',
+          baseFret: 6,
+          frets: '8 6 8 8',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 8 0 8',
-          fingers: '1 2 0 2',
+          baseFret: 8,
+          frets: '8 0 8 11',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 0 8 8',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '11 0 11 11',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 0 11 11',
+          fingers: '1 0 2 3',
         ),
       ],
     ),
@@ -17901,34 +20920,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'dim7',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 2',
-          fingers: '1 1 0 1',
+          baseFret: 2,
+          frets: '5 3 2 2',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 5 0 5',
-          fingers: '1 1 0 1',
+          baseFret: 2,
+          frets: '2 3 2 5',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 2 0 5',
-          fingers: '1 1 0 2',
+          baseFret: 5,
+          frets: '5 6 5 8',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 5 0 2',
-          fingers: '1 2 0 1',
+          baseFret: 5,
+          frets: '8 6 5 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 5 0 5',
-          fingers: '1 2 0 2',
+          baseFret: 8,
+          frets: '8 9 8 11',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 2 0 2',
-          fingers: '2 1 0 1',
+          baseFret: 8,
+          frets: '11 9 8 8',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -17938,34 +20957,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'm11',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
+          baseFret: 5,
+          frets: '7 5 6 8',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
+          baseFret: 5,
+          frets: '8 5 6 7',
+          fingers: '4 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 5',
-          fingers: '0 3 1 2',
+          baseFret: 8,
+          frets: '8 10 10 10',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 5',
-          fingers: '2 1 2 3',
+          baseFret: 8,
+          frets: '10 10 10 8',
+          fingers: '2 3 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 3',
-          fingers: '3 1 2 2',
+          baseFret: 7,
+          frets: '7 10 11 10',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 6 3 0',
-          fingers: '2 3 1 0',
+          baseFret: 7,
+          frets: '10 10 11 7',
+          fingers: '2 4 3 1',
         ),
       ],
     ),
@@ -17975,34 +20994,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'm6',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 5',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 5',
-          fingers: '0 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 3 0',
-          fingers: '2 2 1 0',
+          baseFret: 3,
+          frets: '5 3 5 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          frets: '0 3 5 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 3 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 3 3 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 0 5 8',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 0 5 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 3 5 2',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
+          frets: '5 3 5 5',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -18012,34 +21041,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'm69',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 5',
-          fingers: '0 1 1 2',
+          baseFret: 3,
+          frets: '5 3 5 7',
+          fingers: '2 1 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 5',
-          fingers: '0 2 1 2',
+          baseFret: 5,
+          frets: '7 0 5 8',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 5 3 0',
-          fingers: '2 2 1 0',
+          baseFret: 5,
+          frets: '8 0 5 7',
+          fingers: '3 0 1 2',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          frets: '7 3 5 5',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
+          frets: '0 3 5 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 5 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 8 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 8 7',
+          fingers: '2 3 4 1',
         ),
       ],
     ),
@@ -18050,33 +21089,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
+          frets: '5 3 3 3',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 5',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 6 3 0',
-          fingers: '2 3 1 0',
+          frets: '3 3 3 5',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
+          frets: '5 3 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 0 6 8',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 0 6 0',
+          fingers: '2 0 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
+          frets: '0 3 6 5',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 3 6 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 6 5',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -18087,33 +21136,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
+          frets: '5 3 2 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
+          frets: '3 3 2 5',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
+          baseFret: 2,
+          frets: '3 3 2 3',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
+          baseFret: 5,
+          frets: '5 6 6 8',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
+          baseFret: 5,
+          frets: '8 6 6 5',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 6 0 8',
-          fingers: '2 1 0 2',
+          baseFret: 6,
+          frets: '8 6 6 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 8 11',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 10 8 8',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -18123,34 +21182,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'm9',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
+          baseFret: 6,
+          frets: '7 0 6 8',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 0 6 7',
+          fingers: '3 0 1 2',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 5',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 6 3 0',
-          fingers: '2 3 1 0',
+          frets: '5 3 6 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
+          frets: '7 3 6 5',
+          fingers: '4 1 3 2',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
+          frets: '0 3 6 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 3 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 3 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 6 0',
+          fingers: '3 1 2 0',
         ),
       ],
     ),
@@ -18160,34 +21229,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'm9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
+          baseFret: 6,
+          frets: '7 6 6 8',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
+          baseFret: 6,
+          frets: '8 6 6 7',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
+          baseFret: 8,
+          frets: '8 10 10 11',
+          fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
+          baseFret: 8,
+          frets: '11 10 10 8',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
+          baseFret: 7,
+          frets: '7 10 11 11',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
+          baseFret: 7,
+          frets: '11 10 11 7',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -18197,34 +21266,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'madd9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 5',
-          fingers: '0 1 1 2',
+          baseFret: 8,
+          frets: '0 0 10 8',
+          fingers: '0 0 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 3 3 0',
-          fingers: '2 1 1 0',
+          baseFret: 8,
+          frets: '8 0 10 0',
+          fingers: '1 0 2 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          frets: '5 3 3 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 8 0 8',
-          fingers: '0 1 0 1',
+          baseFret: 3,
+          frets: '7 3 3 5',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 8 0 0',
-          fingers: '1 1 0 0',
+          baseFret: 7,
+          frets: '7 0 8 8',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 8 0 8',
-          fingers: '1 1 0 1',
+          baseFret: 7,
+          frets: '8 0 8 7',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 0 11 7',
+          fingers: '0 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 0 11 0',
+          fingers: '1 0 2 0',
         ),
       ],
     ),
@@ -18234,34 +21313,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 4',
-          fingers: '0 0 0 1',
+          baseFret: 4,
+          frets: '4 5 0 7',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 0',
-          fingers: '1 0 0 0',
+          baseFret: 4,
+          frets: '7 5 0 4',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 4',
-          fingers: '1 0 0 1',
+          baseFret: 5,
+          frets: '7 5 7 9',
+          fingers: '2 1 4 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 5,
+          frets: '9 5 7 7',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 4',
-          fingers: '2 0 0 1',
+          baseFret: 7,
+          frets: '7 11 0 10',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 5',
-          fingers: '1 0 1 2',
+          baseFret: 7,
+          frets: '10 11 0 7',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 11 10 10',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 11 10 9',
+          fingers: '2 3 4 1',
         ),
       ],
     ),
@@ -18271,34 +21360,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj13',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 4',
-          fingers: '0 0 0 1',
+          baseFret: 2,
+          frets: '2 2 0 4',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 0',
-          fingers: '1 0 0 0',
+          baseFret: 2,
+          frets: '4 2 0 2',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 4',
-          fingers: '1 0 0 1',
+          baseFret: 4,
+          frets: '4 4 5 7',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 0 4',
-          fingers: '1 0 0 2',
+          baseFret: 4,
+          frets: '7 4 5 4',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 2',
-          fingers: '2 0 0 1',
+          baseFret: 7,
+          frets: '7 9 7 9',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 7,
+          frets: '9 9 7 7',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -18308,34 +21397,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj7',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
+          baseFret: 4,
           frets: '0 0 0 4',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
+          baseFret: 4,
           frets: '4 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
+          baseFret: 4,
           frets: '4 0 0 4',
-          fingers: '1 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 5',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
+          baseFret: 4,
           frets: '5 0 0 4',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 5',
-          fingers: '1 0 1 2',
+          baseFret: 4,
+          frets: '4 0 0 5',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 0 4',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 4 3 4',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -18344,11 +21443,6 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordKey: 'G',
       suffix: 'maj7#5',
       chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 4',
-          fingers: '1 0 0 1',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '1 0 0 4',
@@ -18360,19 +21454,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '2 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 4,
+          frets: '5 4 4 4',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 4',
-          fingers: '2 0 0 1',
+          baseFret: 4,
+          frets: '4 4 4 5',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 5',
-          fingers: '1 0 1 2',
+          baseFret: 4,
+          frets: '5 8 0 4',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 8 0 5',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 8 7 9',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '9 8 7 5',
+          fingers: '4 3 2 1',
         ),
       ],
     ),
@@ -18382,34 +21491,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 4',
-          fingers: '1 0 0 1',
+          baseFret: 4,
+          frets: '5 6 0 4',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 5',
-          fingers: '1 0 0 2',
+          baseFret: 2,
+          frets: '5 4 2 4',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 4',
-          fingers: '2 0 0 1',
+          baseFret: 4,
+          frets: '4 6 0 5',
+          fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 5',
-          fingers: '1 0 1 2',
+          baseFret: 2,
+          frets: '4 4 2 5',
+          fingers: '2 4 1 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 4 4',
-          fingers: '2 0 1 1',
+          baseFret: 5,
+          frets: '5 6 7 9',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 6 5',
-          fingers: '1 0 3 2',
+          baseFret: 5,
+          frets: '9 6 7 5',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 0 7 11',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 0 7 9',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
@@ -18419,34 +21538,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'maj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 4',
-          fingers: '0 0 0 1',
+          baseFret: 2,
+          frets: '5 2 0 4',
+          fingers: '3 1 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 0',
-          fingers: '1 0 0 0',
+          baseFret: 2,
+          frets: '4 2 0 5',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 4',
-          fingers: '1 0 0 1',
+          baseFret: 2,
+          frets: '0 2 0 4',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 5',
+          baseFret: 4,
+          frets: '4 0 0 7',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 4',
+          baseFret: 2,
+          frets: '4 2 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 0 0 4',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 5',
-          fingers: '1 0 1 2',
+          baseFret: 2,
+          frets: '4 2 0 4',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 7 7',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -18461,29 +21590,39 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 5',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
+          baseFret: 5,
           frets: '5 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 0 5',
-          fingers: '1 0 0 1',
+          baseFret: 5,
+          frets: '0 0 0 5',
+          fingers: '0 0 0 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 4 5',
-          fingers: '0 0 1 2',
+          baseFret: 4,
+          frets: '5 4 0 0',
+          fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 0 4 0',
-          fingers: '2 0 1 0',
+          baseFret: 9,
+          frets: '0 0 0 9',
+          fingers: '0 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 0 5',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 4 3 0',
+          fingers: '3 2 1 0',
         ),
       ],
     ),
@@ -18493,34 +21632,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'minor',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 5',
-          fingers: '0 1 1 2',
+          baseFret: 3,
+          frets: '5 3 3 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 3 3 0',
-          fingers: '2 1 1 0',
+          baseFret: 11,
+          frets: '0 0 11 0',
+          fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
+          frets: '0 3 3 5',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 8 0 8',
-          fingers: '0 1 0 1',
+          baseFret: 8,
+          frets: '0 0 8 8',
+          fingers: '0 0 1 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 8 0 0',
-          fingers: '1 1 0 0',
+          baseFret: 8,
+          frets: '8 0 8 0',
+          fingers: '1 0 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 8 0 8',
-          fingers: '1 1 0 1',
+          baseFret: 3,
+          frets: '5 3 3 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 7 8 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 7 8 0',
+          fingers: '2 1 3 0',
         ),
       ],
     ),
@@ -18530,34 +21679,34 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'mmaj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
+          baseFret: 5,
+          frets: '7 5 7 8',
+          fingers: '2 1 4 3',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 5',
+          baseFret: 5,
+          frets: '8 5 7 7',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 1 3 4',
-          fingers: '4 1 2 3',
+          baseFret: 8,
+          frets: '8 11 10 10',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 7 0 8',
-          fingers: '0 1 0 2',
+          baseFret: 8,
+          frets: '10 11 10 8',
+          fingers: '2 3 4 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 7 0 0',
-          fingers: '2 1 0 0',
+          baseFret: 7,
+          frets: '7 11 11 10',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 11 11 7',
+          fingers: '2 3 4 1',
         ),
       ],
     ),
@@ -18568,33 +21717,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
+          frets: '5 3 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 0 7 8',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 0 7 0',
+          fingers: '2 0 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
+          frets: '4 3 3 5',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 7 0 8',
-          fingers: '0 1 0 2',
+          baseFret: 3,
+          frets: '5 3 7 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 7 0 0',
-          fingers: '2 1 0 0',
+          baseFret: 3,
+          frets: '0 3 7 5',
+          fingers: '0 1 3 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 7 0 8',
-          fingers: '2 1 0 2',
+          baseFret: 5,
+          frets: '5 0 7 8',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 7 3 5',
-          fingers: '0 3 1 2',
+          baseFret: 3,
+          frets: '5 3 7 4',
+          fingers: '3 1 4 2',
         ),
       ],
     ),
@@ -18605,33 +21764,43 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 1 2 4',
-          fingers: '3 1 2 4',
+          frets: '5 3 2 4',
+          fingers: '4 2 1 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 1 2 3',
-          fingers: '4 1 2 3',
+          frets: '4 3 2 5',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 7 0 8',
-          fingers: '2 1 0 2',
+          baseFret: 5,
+          frets: '5 6 7 8',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
+          baseFret: 5,
+          frets: '8 6 7 5',
+          fingers: '4 2 3 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '5 7 0 8',
-          fingers: '1 2 0 3',
+          baseFret: 4,
+          frets: '4 6 8 8',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
+          baseFret: 4,
+          frets: '8 6 8 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 0 7 11',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '11 0 7 8',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
@@ -18641,34 +21810,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'mmaj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
+          baseFret: 7,
+          frets: '7 0 7 8',
+          fingers: '1 0 3 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 0 7 7',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
+          frets: '5 3 7 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 7 0 8',
-          fingers: '0 1 0 2',
+          baseFret: 3,
+          frets: '7 3 7 5',
+          fingers: '3 1 4 2',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 7 0 0',
-          fingers: '2 1 0 0',
+          baseFret: 3,
+          frets: '0 3 7 7',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 7 0 8',
-          fingers: '1 1 0 2',
+          baseFret: 3,
+          frets: '4 3 3 7',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '8 7 0 7',
-          fingers: '2 1 0 1',
+          baseFret: 3,
+          frets: '7 3 3 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 3 7 0',
+          fingers: '2 1 3 0',
         ),
       ],
     ),
@@ -18678,34 +21857,44 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       suffix: 'sus2',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 2 5',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '5 3 2 0',
-          fingers: '3 2 1 0',
+          baseFret: 10,
+          frets: '0 0 10 0',
+          fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
+          frets: '5 2 3 0',
+          fingers: '3 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 8 0 7',
-          fingers: '0 2 0 1',
+          baseFret: 2,
+          frets: '0 2 3 5',
+          fingers: '0 1 2 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '7 8 0 0',
-          fingers: '1 2 0 0',
+          baseFret: 7,
+          frets: '0 0 8 7',
+          fingers: '0 0 2 1',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 0 7',
-          fingers: '0 1 0 2',
+          baseFret: 7,
+          frets: '7 0 8 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 0 3 7',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '5 2 3 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 0 3 0',
+          fingers: '2 0 1 0',
         ),
       ],
     ),
@@ -18716,18 +21905,1921 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 1,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 0 1 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 5',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 3 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 5 1 0',
+          fingers: '2 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 5 1 5',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 3 5',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+  ],
+  'G#': [
+    Chord(
+      name: 'G#11',
+      chordKey: 'G#',
+      suffix: '11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 7 10',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 7 8',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 11 11 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 11 11 10',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#13',
+      chordKey: 'G#',
+      suffix: '13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 6 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 6 4',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 10 7 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 10 7 8',
+          fingers: '3 4 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#13b5b9',
+      chordKey: 'G#',
+      suffix: '13b5b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 2 1 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 7',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 7',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 3 4',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 11 10 10',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 11 10 0',
+          fingers: '1 2 3 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#13b9',
+      chordKey: 'G#',
+      suffix: '13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 2 1 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 3',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 6 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 6 4',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 7 7',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '7 5 7 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 10 7 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 10 7 7',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#6',
+      chordKey: 'G#',
+      suffix: '6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 1 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 4 3',
+          fingers: '4 3 2 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 4 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 6 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 6 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 5 6 6',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#69',
+      chordKey: 'G#',
+      suffix: '69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 3',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 6 8',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 6 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 9 10',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 10 9 8',
+          fingers: '3 4 2 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 6 8',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#7',
+      chordKey: 'G#',
+      suffix: '7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 7 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 7 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 1 4',
+          fingers: '1 3 4 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#7#9',
+      chordKey: 'G#',
+      suffix: '7#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 0 4',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 4 1 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 1 1',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 5 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 1 4',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#7b5',
+      chordKey: 'G#',
+      suffix: '7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 4',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 6',
+          fingers: '0 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 6',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 5 3 4',
+          fingers: '0 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 5 3 0',
+          fingers: '2 3 1 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#7b9',
+      chordKey: 'G#',
+      suffix: '7b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 2 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 7 7',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '7 5 7 6',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 7 7',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#7b9#5',
+      chordKey: 'G#',
+      suffix: '7b9#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 7 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#7sus4',
+      chordKey: 'G#',
+      suffix: '7sus4',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 2 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 1',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 2 4',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 6 4 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 6 2 4',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 6 7 6',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 6 2 6',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#9',
+      chordKey: 'G#',
+      suffix: '9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 7 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 7 6',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 4 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 4 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 7 8',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#9#11',
+      chordKey: 'G#',
+      suffix: '9#11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 1 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 7 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 11 11 10',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 11 11 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 7 7 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 7 7 8',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#9b5',
+      chordKey: 'G#',
+      suffix: '9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 3 1 4',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 7 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 7 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 11 11 10',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 11 11 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 7 7 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 7 7 8',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#add9',
+      chordKey: 'G#',
+      suffix: 'add9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 4 8',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 4 6',
+          fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 9 8',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 9 6',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 9 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 9 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 9 8',
+          fingers: '2 1 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#alt',
+      chordKey: 'G#',
+      suffix: 'alt',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 4',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 0 4',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 5 0 4',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 0 0',
+          fingers: '1 2 0 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#aug',
+      chordKey: 'G#',
+      suffix: 'aug',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '6 5 5 2',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 5 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 9 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 9 9 10',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 9 6',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#aug7',
+      chordKey: 'G#',
+      suffix: 'aug7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 1 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 5 1 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 5 1 2',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 4',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 5 4',
+          fingers: '1 3 4 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#aug9',
+      chordKey: 'G#',
+      suffix: 'aug9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 3 1 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 1 2',
+          fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 8',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '8 9 7 10',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 8',
+          fingers: '4 3 1 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#b13#9',
+      chordKey: 'G#',
+      suffix: 'b13#9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 4 1 4',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 4 1 2',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '2 5 0 4',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 5 0 2',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '9 9 7 10',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 9',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#b13b9',
+      chordKey: 'G#',
+      suffix: 'b13b9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 4',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 2',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 5 5 7',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '7 5 5 4',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '7 9 7 10',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '10 9 7 7',
+          fingers: '3 2 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#dim',
+      chordKey: 'G#',
+      suffix: 'dim',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
           frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
+          baseFret: 4,
+          frets: '6 4 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 0 6',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 7 0 6',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 3 0',
+          fingers: '3 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 3 6',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 7 0 6',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#dim7',
+      chordKey: 'G#',
+      suffix: 'dim7',
+      chordPositions: [
+        ChordPosition(
           baseFret: 1,
-          frets: '0 3 5 5',
-          fingers: '0 1 2 2',
+          frets: '0 1 0 3',
+          fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '5 3 5 0',
-          fingers: '2 1 2 0',
+          frets: '3 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 6 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 6 6',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 3 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 3 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 7 0 3',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 0 0',
+          fingers: '1 2 0 0',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#m11',
+      chordKey: 'G#',
+      suffix: 'm11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 6 0 8',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 6 0 4',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 7 9',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 7 8',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 11 0 11',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 11 0 8',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 11 11 11',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 11 11 9',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#m6',
+      chordKey: 'G#',
+      suffix: 'm6',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 1 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 0 3',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 4 3',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 4 4 6',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 6 3',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#m69',
+      chordKey: 'G#',
+      suffix: 'm69',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 0 3',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '3 3 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 6 8',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 10 0 8',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 6 6',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#m7',
+      chordKey: 'G#',
+      suffix: 'm7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 4',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 0 4',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 4 4',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 4 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 8 0 4',
+          fingers: '2 3 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#m7b5',
+      chordKey: 'G#',
+      suffix: 'm7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 4 3 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 7 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 7 0 4',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 4 3 4',
+          fingers: '0 2 1 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#m9',
+      chordKey: 'G#',
+      suffix: 'm9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 0 4',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 0 6',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 0 4',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '4 3 0 1',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 0 4',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 7 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 7 6',
+          fingers: '4 1 3 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 0 8',
+          fingers: '1 2 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#m9b5',
+      chordKey: 'G#',
+      suffix: 'm9b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 3 0 4',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 3 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 11 0 8',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 11 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 4 7 8',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 7 0 8',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 7 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 7 0 4',
+          fingers: '3 2 0 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#madd9',
+      chordKey: 'G#',
+      suffix: 'madd9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 0 6',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 0 8',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 0 8',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 0 6',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 0 6',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 4 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 4 4 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 9 9',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#maj11',
+      chordKey: 'G#',
+      suffix: 'maj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 0 11 11',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 0 11 10',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 8 10',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 6 8 8',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '10 12 11 11',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '11 12 11 10',
+          fingers: '2 3 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#maj13',
+      chordKey: 'G#',
+      suffix: 'maj13',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '3 3 1 5',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 6 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 6 5',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 0 6 10',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 0 6 8',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 10 8 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 10 8 8',
+          fingers: '2 3 1 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#maj7',
+      chordKey: 'G#',
+      suffix: 'maj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 5',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 1 1',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 1 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 4 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 5 4 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 8 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 8 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 8 6',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#maj7#5',
+      chordKey: 'G#',
+      suffix: 'maj7#5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '2 1 1 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 1 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 5 5',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 5 6',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 9 8 10',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 9 8 6',
+          fingers: '4 3 2 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#maj7b5',
+      chordKey: 'G#',
+      suffix: 'maj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 5',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 1 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 0 9 10',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 5 3 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '10 0 9 0',
+          fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 8 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '5 5 3 6',
+          fingers: '2 4 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 5 8 6',
+          fingers: '0 1 3 2',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#maj9',
+      chordKey: 'G#',
+      suffix: 'maj9',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 3 1 5',
+          fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 1 1',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 3 1 5',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 5 8 8',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 0 9 10',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 0 9 8',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 5 8 6',
+          fingers: '3 1 4 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 5 9 8',
+          fingers: '1 2 3 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#major',
+      chordKey: 'G#',
+      suffix: 'major',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 1 1',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 5 4 6',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 9 10',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '10 8 9 6',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '10 8 9 10',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#minor',
+      chordKey: 'G#',
+      suffix: 'minor',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 1',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 4 6',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 0 6',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 0 9',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 0 6',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 9 9',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '9 8 9 9',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 8 9 6',
+          fingers: '3 2 4 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#mmaj11',
+      chordKey: 'G#',
+      suffix: 'mmaj11',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 6 0 8',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '8 6 0 5',
+          fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 0 0 11',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '11 0 0 8',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '9 0 11 11',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '11 0 11 9',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 6 8 9',
+          fingers: '2 1 4 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '9 6 8 8',
+          fingers: '3 1 2 4',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#mmaj7',
+      chordKey: 'G#',
+      suffix: 'mmaj7',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 0 0 6',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '6 0 0 5',
+          fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '1 1 0 5',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 0 1',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '5 0 0 6',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 4 0 5',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 1,
+          frets: '5 1 0 5',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '5 4 0 6',
+          fingers: '2 1 0 3',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#mmaj7b5',
+      chordKey: 'G#',
+      suffix: 'mmaj7b5',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 0 0 0',
+          fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 0 0 6',
+          fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 1,
@@ -18740,1718 +23832,132 @@ final Map<String, List<Chord>> cavaquinhoDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
+          baseFret: 9,
+          frets: '0 0 9 9',
+          fingers: '0 0 1 2',
         ),
-      ],
-    ),
-  ],
-  'F#': [
-    Chord(
-      name: 'F#11',
-      chordKey: 'F#',
-      suffix: '11',
-      chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '2 0 3 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 2',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#13',
-      chordKey: 'F#',
-      suffix: '13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 3 4',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 2',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 3 2 3',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 2 1',
-          fingers: '3 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#13b5b9',
-      chordKey: 'F#',
-      suffix: '13b5b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 3 2 3',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 2 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#13b9',
-      chordKey: 'F#',
-      suffix: '13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 3 2 3',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 2 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#6',
-      chordKey: 'F#',
-      suffix: '6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 4',
-          fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 3 1',
-          fingers: '4 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#69',
-      chordKey: 'F#',
-      suffix: '69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 3 4',
-          fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 3 1',
-          fingers: '4 2 3 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#7',
-      chordKey: 'F#',
-      suffix: '7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 3 5',
-          fingers: '1 2 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#7#9',
-      chordKey: 'F#',
-      suffix: '7#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 5',
-          fingers: '2 3 1 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#7b5',
-      chordKey: 'F#',
-      suffix: '7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 2 5',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#7b9',
-      chordKey: 'F#',
-      suffix: '7b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '3 3 1 2',
-          fingers: '3 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#7b9#5',
-      chordKey: 'F#',
-      suffix: '7b9#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 4',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 3 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 3',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#7sus4',
-      chordKey: 'F#',
-      suffix: '7sus4',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 4 4',
-          fingers: '1 0 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 4 2',
-          fingers: '2 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 3 3',
-          fingers: '1 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 3 1',
-          fingers: '2 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#9',
-      chordKey: 'F#',
-      suffix: '9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 4',
-          fingers: '2 3 1 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#9#11',
-      chordKey: 'F#',
-      suffix: '9#11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#9b5',
-      chordKey: 'F#',
-      suffix: '9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 2 1',
-          fingers: '3 4 2 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 4',
-          fingers: '2 3 1 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#add9',
-      chordKey: 'F#',
-      suffix: 'add9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 5',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 2 3',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 5 1 4',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#alt',
-      chordKey: 'F#',
-      suffix: 'alt',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 4',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 3 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 2',
-          fingers: '4 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 3 0',
-          fingers: '2 3 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#aug',
-      chordKey: 'F#',
-      suffix: 'aug',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 3 4',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 3 3 0',
-          fingers: '2 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 1 2',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 3 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 7 7 8',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '8 7 7 0',
-          fingers: '2 1 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#aug7',
-      chordKey: 'F#',
-      suffix: 'aug7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 4',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 3 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#aug9',
-      chordKey: 'F#',
-      suffix: 'aug9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 4',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 3 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 3 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 2 3',
-          fingers: '1 4 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#b13#9',
-      chordKey: 'F#',
-      suffix: 'b13#9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 4',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 3 0',
-          fingers: '2 3 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#b13b9',
-      chordKey: 'F#',
-      suffix: 'b13b9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 2 3',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 2 2 3',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 5 3 4',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 5 3 0',
-          fingers: '2 3 1 0',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#dim',
-      chordKey: 'F#',
-      suffix: 'dim',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 5 4',
-          fingers: '2 1 3 2',
+          baseFret: 9,
+          frets: '9 0 9 0',
+          fingers: '1 0 2 0',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
+          frets: '6 7 0 5',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '1 4 2 1',
-          fingers: '1 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 4 2 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 4 2 1',
-          fingers: '3 3 2 1',
+          baseFret: 3,
+          frets: '6 4 3 5',
+          fingers: '4 2 1 3',
         ),
       ],
     ),
     Chord(
-      name: 'F#dim7',
-      chordKey: 'F#',
-      suffix: 'dim7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 1 2 4',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 1',
-          fingers: '3 1 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 2 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 1 2 1',
-          fingers: '1 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#m11',
-      chordKey: 'F#',
-      suffix: 'm11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 2',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#m6',
-      chordKey: 'F#',
-      suffix: 'm6',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 4',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 2 1',
-          fingers: '3 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#m69',
-      chordKey: 'F#',
-      suffix: 'm69',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 1 3',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 2 2 4',
-          fingers: '1 2 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '1 4 2 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 1',
-          fingers: '3 2 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 4 2 1',
-          fingers: '3 3 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#m7',
-      chordKey: 'F#',
-      suffix: 'm7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 3 4',
-          fingers: '1 2 3 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#m7b5',
-      chordKey: 'F#',
-      suffix: 'm7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 2 2 4',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#m9',
-      chordKey: 'F#',
-      suffix: 'm9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 1 1 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 5',
-          fingers: '2 3 1 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#m9b5',
-      chordKey: 'F#',
-      suffix: 'm9b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 1 2 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 4',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '1 4 1 3',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 4 1 3',
-          fingers: '2 3 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#madd9',
-      chordKey: 'F#',
-      suffix: 'madd9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 5',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '5 1 1 3',
-          fingers: '3 1 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#maj11',
-      chordKey: 'F#',
-      suffix: 'maj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 3 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 3',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#maj13',
-      chordKey: 'F#',
-      suffix: 'maj13',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 3 4',
-          fingers: '1 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 3 3',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 2 1 2',
-          fingers: '1 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 2 1 1',
-          fingers: '2 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#maj7',
-      chordKey: 'F#',
-      suffix: 'maj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 5 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#maj7#5',
-      chordKey: 'F#',
-      suffix: 'maj7#5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 1 1 2',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 1 1 1',
-          fingers: '2 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 6 3 4',
-          fingers: '0 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 6 3 0',
-          fingers: '2 3 1 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#maj7b5',
-      chordKey: 'F#',
-      suffix: 'maj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 3 4',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 3 3',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 5 1 1',
-          fingers: '1 2 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#maj9',
-      chordKey: 'F#',
-      suffix: 'maj9',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 2 3',
-          fingers: '2 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 2',
-          fingers: '3 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '1 4 1 2',
-          fingers: '1 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 1',
-          fingers: '2 3 1 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 4 1 4',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#major',
-      chordKey: 'F#',
-      suffix: 'major',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 2 3',
-          fingers: '3 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '2 5 1 2',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '3 2 1 3',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 4 3 5',
-          fingers: '1 3 2 4',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 4 3 1',
-          fingers: '4 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '1 1 1 1',
-          fingers: '1 1 1 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#minor',
-      chordKey: 'F#',
-      suffix: 'minor',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 3',
-          fingers: '2 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '2 2 1 2',
-          fingers: '2 2 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 4 3 4',
-          fingers: '1 3 2 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 4 3 1',
-          fingers: '3 3 2 1',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '2 1 2 2',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '1 1 5 1',
-          fingers: '1 1 2 1',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#mmaj11',
-      chordKey: 'F#',
-      suffix: 'mmaj11',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 2 4',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 2 3',
-          fingers: '3 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#mmaj7',
-      chordKey: 'F#',
-      suffix: 'mmaj7',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 3 3 4',
-          fingers: '1 2 2 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#mmaj7b5',
-      chordKey: 'F#',
-      suffix: 'mmaj7b5',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 4',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 1 2 3',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '1 3 2 4',
-          fingers: '1 3 2 4',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#mmaj9',
-      chordKey: 'F#',
+      name: 'G#mmaj9',
+      chordKey: 'G#',
       suffix: 'mmaj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '2 1 1 3',
-          fingers: '2 1 1 3',
+          baseFret: 6,
+          frets: '6 0 0 8',
+          fingers: '1 0 0 2',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 1 1 2',
-          fingers: '3 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 5 1 3',
-          fingers: '2 4 1 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 5 1 2',
-          fingers: '3 4 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 5 1 3',
-          fingers: '2 3 1 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 5 1 5',
-          fingers: '2 3 1 3',
-        ),
-      ],
-    ),
-    Chord(
-      name: 'F#sus2',
-      chordKey: 'F#',
-      suffix: 'sus2',
-      chordPositions: [
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
+          baseFret: 3,
+          frets: '6 3 0 5',
+          fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '1 2 1 1',
-          fingers: '1 2 1 1',
+          frets: '8 0 0 6',
+          fingers: '2 0 0 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 1 5 5',
-          fingers: '2 1 3 3',
+          baseFret: 3,
+          frets: '5 3 0 6',
+          fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '5 1 5 3',
-          fingers: '3 1 3 2',
+          baseFret: 1,
+          frets: '1 3 0 5',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '1 4 3 3',
-          fingers: '1 3 2 2',
+          baseFret: 1,
+          frets: '5 3 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '3 4 3 1',
-          fingers: '2 3 2 1',
+          baseFret: 3,
+          frets: '5 3 0 5',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 0 0 8',
+          fingers: '1 0 0 2',
         ),
       ],
     ),
     Chord(
-      name: 'F#sus4',
-      chordKey: 'F#',
+      name: 'G#sus2',
+      chordKey: 'G#',
+      suffix: 'sus2',
+      chordPositions: [
+        ChordPosition(
+          baseFret: 3,
+          frets: '6 3 4 6',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '6 8 4 8',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '8 8 4 6',
+          fingers: '3 4 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '6 8 9 8',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '8 8 9 8',
+          fingers: '1 3 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '8 8 9 6',
+          fingers: '2 4 3 1',
+        ),
+      ],
+    ),
+    Chord(
+      name: 'G#sus4',
+      chordKey: 'G#',
       suffix: 'sus4',
       chordPositions: [
         ChordPosition(
           baseFret: 1,
-          frets: '4 0 4 4',
-          fingers: '1 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 1 3 3',
-          fingers: '2 1 2 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 6 4',
-          fingers: '1 0 2 1',
+          frets: '1 1 2 1',
+          fingers: '1 3 2 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '1 4 1 1',
-          fingers: '1 2 1 1',
+          frets: '6 6 4 6',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '4 2 1 4',
-          fingers: '3 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '11 0 11 11',
-          fingers: '1 0 1 1',
+          baseFret: 8,
+          frets: '11 8 9 11',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
   ],
 };
-
-/// Alias para compatibilidade com código antigo.
-final Map<String, List<Chord>> ukuleleDataSet = cavaquinhoDataSet;
