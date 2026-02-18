@@ -11,7 +11,7 @@ class BrazilianUkulele extends Instrument {
   /// The [getKeys] function return all the major keys of Ukulele
   @override
   List<String> getKeys([bool useFlat = false]) {
-    return ukuleleDataSet.keys.map((e) {
+    return brazilianUkuleleDataSet.keys.map((e) {
       if (!useFlat) return e;
 
       return sharpToFlat[e]!;
@@ -27,7 +27,7 @@ class BrazilianUkulele extends Instrument {
     try {
       if (!sharpToFlat.containsKey(key)) key = flatToSharp[key]!;
 
-      return ukuleleDataSet[key]!.map(
+      return brazilianUkuleleDataSet[key]!.map(
         (e) {
           if (!useFlat) return e;
 
@@ -55,7 +55,7 @@ class BrazilianUkulele extends Instrument {
     try {
       if (!sharpToFlat.containsKey(key)) key = sharpToFlat[key]!;
 
-      var k = ukuleleDataSet[key];
+      var k = brazilianUkuleleDataSet[key];
       if (k == null) return null;
 
       if (suffix.trim().isEmpty) {
