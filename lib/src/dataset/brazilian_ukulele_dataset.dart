@@ -10,23 +10,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 2 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '0 14 14 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 7',
+          frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -36,24 +36,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 0 7',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 6 0 7',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 0 5',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -64,23 +64,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 10 11',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 10 8',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -91,23 +91,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 10 11',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 10 8',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -118,23 +118,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '14 14 14 14',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 11 10 11',
-          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -144,24 +144,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '69',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 0 7',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 6 0 7',
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '9 6 0 7',
-          fingers: '4 1 0 2',
+          baseFret: 4,
+          frets: '4 3 0 1',
+          fingers: '4 3 0 1',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '7 6 0 4',
-          fingers: '4 3 0 1',
+          baseFret: 6,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '4 1 0 2',
+          fingers: '4 1 0 2',
         ),
       ],
     ),
@@ -172,23 +172,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '14 14 14 14',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 5 5',
+          frets: '3 2 1 1',
           fingers: '3 2 1 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -199,22 +199,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 0 10 10',
+          frets: '2 0 1 1',
           fingers: '2 0 1 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 0 10 11',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '14 14 14 14',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
       ],
@@ -226,22 +226,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 8 7',
+          frets: '2 1 3 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 0 10 11',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 0 10 13',
+          frets: '2 0 1 4',
           fingers: '2 0 1 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '13 0 10 11',
+          frets: '4 0 1 2',
           fingers: '4 0 1 2',
         ),
       ],
@@ -253,23 +253,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 10 11',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 10 8',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -280,23 +280,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 10 11',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 10 8',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -307,23 +307,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 3 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '0 0 10 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '0 0 8 7',
+          frets: '0 0 2 1',
           fingers: '0 0 2 1',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 0 8 0',
+          frets: '1 0 2 0',
           fingers: '1 0 2 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
         ),
       ],
     ),
@@ -333,24 +333,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 0 7',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 6 0 7',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 0 5',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -360,24 +360,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 0 7',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 6 0 7',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 0 5',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -387,24 +387,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 0 7',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 6 0 7',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 0 5',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -415,23 +415,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 0 7',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '9 6 0 7',
+          frets: '4 1 0 2',
           fingers: '4 1 0 2',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 14 0 14',
-          fingers: '1 4 0 2',
+          baseFret: 6,
+          frets: '2 1 0 4',
+          fingers: '2 1 0 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 0 9',
-          fingers: '2 1 0 4',
+          baseFret: 11,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
       ],
     ),
@@ -442,23 +442,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 6 5',
+          frets: '3 2 2 1',
           fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 10',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 10 11',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 10 8',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 1',
+          fingers: '2 0 1 1',
         ),
       ],
     ),
@@ -469,22 +469,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 10 10 11',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '15 14 14 15',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 7',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -496,22 +496,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 10 10 11',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 7',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -522,24 +522,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug9',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 0 7',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 6 0 7',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 0 5',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -550,22 +550,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 0 10 10',
+          frets: '2 0 1 1',
           fingers: '2 0 1 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 0 10 11',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '14 14 14 14',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
       ],
@@ -577,23 +577,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 11',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 10 11',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 10 8',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -604,23 +604,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '7 5 4 7',
+          frets: '4 2 1 4',
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '10 8 10 10',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '10 8 10 7',
+          frets: '4 2 4 1',
           fingers: '4 2 3 1',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 8 10 10',
+          frets: '1 2 4 4',
           fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -630,23 +630,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'dim7',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '4 2 4 4',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '10 8 10 10',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '4 2 1 1',
           fingers: '4 2 1 1',
         ),
         ChordPosition(
+          baseFret: 2,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
           baseFret: 5,
-          frets: '7 5 7 7',
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
         ),
       ],
@@ -662,19 +662,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 2 1 0',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '0 1 0 3',
+          fingers: '0 1 0 3',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 0 10 10',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 14 13 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '0 5 0 7',
-          fingers: '0 1 0 3',
         ),
       ],
     ),
@@ -689,19 +689,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 3 1 4',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '3 1 1 3',
+          fingers: '3 1 1 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '10 9 10 10',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 14 13 14',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '7 5 5 7',
-          fingers: '3 1 1 2',
         ),
       ],
     ),
@@ -711,24 +711,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm69',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '7 5 0 7',
-          fingers: '3 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 5 0 7',
+          frets: '1 2 0 4',
           fingers: '1 2 0 4',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '10 9 0 7',
-          fingers: '4 3 0 1',
+          baseFret: 4,
+          frets: '4 2 0 1',
+          fingers: '4 2 0 1',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '7 5 0 4',
-          fingers: '4 2 0 1',
+          baseFret: 5,
+          frets: '3 1 0 3',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '4 3 0 1',
+          fingers: '4 3 0 1',
         ),
       ],
     ),
@@ -739,22 +739,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 7,
-          frets: '7 0 8 10',
+          frets: '1 0 2 4',
           fingers: '1 0 2 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '10 0 8 7',
+          frets: '4 0 2 1',
           fingers: '4 0 2 1',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 0 10 10',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '10 0 10 7',
+          frets: '4 0 4 1',
           fingers: '4 0 2 1',
         ),
       ],
@@ -766,22 +766,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 7,
-          frets: '7 0 8 10',
+          frets: '1 0 2 4',
           fingers: '1 0 2 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '10 0 8 7',
+          frets: '4 0 2 1',
           fingers: '4 0 2 1',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 0 10 10',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '10 0 10 7',
+          frets: '4 0 4 1',
           fingers: '4 0 2 1',
         ),
       ],
@@ -793,22 +793,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 7,
-          frets: '7 0 0 10',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '10 0 0 7',
+          frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 0 10 10',
+          frets: '1 0 2 2',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 0 10 9',
+          frets: '2 0 2 1',
           fingers: '2 0 3 1',
         ),
       ],
@@ -820,22 +820,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 7,
-          frets: '7 0 0 10',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '10 0 0 7',
+          frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 0 10 10',
+          frets: '1 0 2 2',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 0 10 9',
+          frets: '2 0 2 1',
           fingers: '2 0 3 1',
         ),
       ],
@@ -846,23 +846,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'madd9',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '7 5 0 7',
-          fingers: '3 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '10 9 0 7',
-          fingers: '4 3 0 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '3 1 0 3',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '7 9 0 10',
+          frets: '4 3 0 1',
+          fingers: '4 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
       ],
@@ -874,23 +874,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 2 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '0 14 14 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 7',
+          frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -900,24 +900,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj13',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 0 7',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '6 6 0 7',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 6 0 7',
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '7 6 0 4',
+          frets: '4 3 0 1',
           fingers: '4 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
         ),
       ],
     ),
@@ -928,23 +928,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '14 14 14 14',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 7',
+          frets: '2 2 1 3',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 5 6',
+          frets: '3 2 1 2',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -955,23 +955,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 6 7',
+          frets: '1 1 1 2',
           fingers: '1 1 1 2',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 10 11',
-          fingers: '2 1 1 3',
+          baseFret: 6,
+          frets: '2 1 1 1',
+          fingers: '2 1 1 1',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '7 6 6 6',
-          fingers: '2 1 1 1',
+          baseFret: 10,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -982,23 +982,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '7 6 4 6',
+          frets: '4 3 1 3',
           fingers: '4 3 1 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '6 6 4 7',
+          frets: '3 3 1 4',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '6 6 9 7',
-          fingers: '1 1 4 2',
+          baseFret: 4,
+          frets: '4 3 1 4',
+          fingers: '4 3 1 2',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '7 6 4 7',
-          fingers: '4 3 1 2',
+          baseFret: 6,
+          frets: '1 1 4 2',
+          fingers: '1 1 4 2',
         ),
       ],
     ),
@@ -1009,22 +1009,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 0 7',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 0 7',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '9 6 0 7',
+          frets: '4 1 0 2',
           fingers: '4 1 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 0 9',
+          frets: '2 1 0 4',
           fingers: '2 1 0 4',
         ),
       ],
@@ -1036,23 +1036,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 2',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '14 14 14 14',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '11 9 10 11',
-          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 6 5 7',
+          frets: '3 2 1 3',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -1067,19 +1067,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 3 1 4',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '3 1 1 3',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '10 9 10 10',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 14 13 14',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '7 5 5 7',
-          fingers: '3 1 1 2',
         ),
       ],
     ),
@@ -1094,19 +1094,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 2 1 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 14 13 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '0 5 0 7',
+          frets: '0 1 0 3',
           fingers: '0 1 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 5 0 0',
+          frets: '3 1 0 0',
           fingers: '3 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
         ),
       ],
     ),
@@ -1121,19 +1121,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 3 1 4',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '2 1 1 3',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '10 9 10 10',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 14 13 14',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '6 5 5 7',
-          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -1144,23 +1144,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '7 5 4 6',
+          frets: '4 2 1 3',
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '10 8 10 10',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '6 5 4 7',
+          frets: '3 2 1 4',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '7 5 4 7',
+          frets: '4 2 1 4',
           fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -1171,23 +1171,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '7 5 0 6',
+          frets: '3 1 0 2',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 0 7',
+          frets: '2 1 0 3',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '10 9 0 7',
-          fingers: '4 3 0 1',
+          baseFret: 5,
+          frets: '3 1 0 3',
+          fingers: '3 1 0 2',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '7 5 0 7',
-          fingers: '3 1 0 2',
+          baseFret: 7,
+          frets: '4 3 0 1',
+          fingers: '4 3 0 1',
         ),
       ],
     ),
@@ -1197,24 +1197,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'sus2',
       chordPositions: [
         ChordPosition(
+          baseFret: 4,
+          frets: '4 1 0 4',
+          fingers: '4 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '7 9 0 9',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '9 9 0 7',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '14 14 12 14',
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '7 4 0 7',
-          fingers: '4 1 0 2',
         ),
       ],
     ),
@@ -1225,23 +1225,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 3 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '0 9 10 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '0 14 15 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 5 0',
+          frets: '0 1 4 0',
           fingers: '0 1 4 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -1254,23 +1254,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 4 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 11 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1281,22 +1281,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
           baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
       ],
@@ -1308,22 +1308,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '0 0 0 8',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
       ],
@@ -1335,22 +1335,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '0 0 0 8',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
       ],
@@ -1362,22 +1362,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
           baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
       ],
@@ -1389,22 +1389,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
           baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
       ],
@@ -1416,23 +1416,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 11 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 13 11 0',
+          frets: '0 3 1 0',
           fingers: '0 3 1 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1442,24 +1442,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7#9',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '0 3 2 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 10 11 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1470,23 +1470,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 5 0',
+          frets: '0 1 3 0',
           fingers: '0 1 3 0',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '0 9 11 0',
+          frets: '0 1 3 0',
           fingers: '0 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1497,23 +1497,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -1524,23 +1524,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -1550,23 +1550,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '8 8 6 6',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '13 13 11 13',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 3 4 3',
           fingers: '1 3 4 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 8 6 8',
+          frets: '3 3 1 1',
+          fingers: '3 2 1 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
         ),
       ],
@@ -1577,24 +1577,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
+          baseFret: 1,
+          frets: '0 3 1 0',
+          fingers: '0 3 1 0',
         ),
         ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          baseFret: 3,
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 11 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 0',
-          fingers: '0 3 1 0',
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1604,24 +1604,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
+          baseFret: 1,
+          frets: '0 3 1 0',
+          fingers: '0 3 1 0',
         ),
         ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          baseFret: 3,
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 11 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 0',
-          fingers: '0 3 1 0',
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1631,24 +1631,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 3 1 0',
           fingers: '0 3 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 5 0',
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '0 1 3 0',
           fingers: '0 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1658,24 +1658,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'add9',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
+          baseFret: 1,
+          frets: '0 3 1 0',
+          fingers: '0 3 1 0',
         ),
         ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          baseFret: 3,
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 11 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 0',
-          fingers: '0 3 1 0',
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1686,22 +1686,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 6',
+          frets: '0 1 0 4',
           fingers: '0 1 0 4',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '0 9 9 8',
-          fingers: '0 2 3 1',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '6 3 0 0',
+          frets: '4 1 0 0',
           fingers: '4 1 0 0',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 9 9 0',
+          frets: '0 2 2 1',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '1 2 2 0',
           fingers: '1 2 3 0',
         ),
       ],
@@ -1713,23 +1713,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 11 11 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 4',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -1740,23 +1740,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 3 1 0',
+          fingers: '0 3 1 0',
         ),
         ChordPosition(
           baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 13 11 0',
-          fingers: '0 3 1 0',
         ),
       ],
     ),
@@ -1766,24 +1766,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug9',
       chordPositions: [
         ChordPosition(
+          baseFret: 1,
+          frets: '0 3 1 0',
+          fingers: '0 3 1 0',
+        ),
+        ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 0',
-          fingers: '0 3 1 0',
         ),
       ],
     ),
@@ -1793,24 +1793,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'b13#9',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '0 3 2 0',
-          fingers: '0 2 1 0',
         ),
       ],
     ),
@@ -1821,23 +1821,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -1848,23 +1848,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '8 6 5 8',
+          frets: '4 2 1 4',
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '11 9 11 11',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '11 9 11 8',
+          frets: '4 2 4 1',
           fingers: '4 2 3 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 9 11 11',
+          frets: '1 2 4 4',
           fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -1875,22 +1875,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '8 0 5 5',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 8 8',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 0 5 8',
+          frets: '4 0 1 4',
           fingers: '4 0 1 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 0 8 5',
+          frets: '4 0 4 1',
           fingers: '4 0 2 1',
         ),
       ],
@@ -1902,22 +1902,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 3',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 11 11',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 11 11',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 15 14 15',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -1928,24 +1928,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm6',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '8 0 11 11',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 8 8',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 11 8',
+          frets: '4 0 4 1',
           fingers: '4 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 2 3',
-          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -1956,23 +1956,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 8,
-          frets: '8 0 11 11',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
+          baseFret: 8,
+          frets: '4 0 1 1',
+          fingers: '4 0 1 1',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '10 0 11 11',
+          frets: '1 0 2 2',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 0 11 10',
+          frets: '2 0 2 1',
           fingers: '2 0 3 1',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '11 0 8 8',
-          fingers: '4 0 1 1',
         ),
       ],
     ),
@@ -1983,23 +1983,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 3',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 10 11 11',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '15 15 14 15',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 6 8',
+          frets: '1 1 1 3',
           fingers: '1 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -2010,23 +2010,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '8 6 5 6',
+          frets: '4 2 1 2',
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '11 9 11 11',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 8',
+          frets: '2 2 1 4',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 6 5 8',
+          frets: '4 2 1 4',
           fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -2037,22 +2037,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 3',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 11 11',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 11 11',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 15 14 15',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -2064,22 +2064,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '8 6 5 6',
+          frets: '4 2 1 2',
           fingers: '4 2 1 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 11 11',
+          frets: '2 1 3 3',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 9 11 10',
+          frets: '3 1 3 2',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 9 11 11',
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
         ),
       ],
@@ -2091,22 +2091,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 3',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 11 11',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 11 11',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 15 14 15',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -2118,23 +2118,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 4 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 11 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -2145,22 +2145,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
           baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
       ],
@@ -2172,23 +2172,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '0 10 11 0',
-          fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 6 0',
+          frets: '0 1 4 0',
           fingers: '0 1 4 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -2199,23 +2199,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 4 1 0',
+          fingers: '0 4 1 0',
         ),
         ChordPosition(
           baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 14 11 0',
-          fingers: '0 4 1 0',
         ),
       ],
     ),
@@ -2226,23 +2226,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 5 0',
+          frets: '0 1 3 0',
           fingers: '0 1 3 0',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '0 9 11 0',
+          frets: '0 1 3 0',
           fingers: '0 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -2252,24 +2252,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '0 3 3 0',
-          fingers: '0 1 1 0',
+          baseFret: 1,
+          frets: '0 3 1 0',
+          fingers: '0 3 1 0',
         ),
         ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
+          baseFret: 3,
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 11 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '0 3 1 0',
-          fingers: '0 3 1 0',
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -2280,23 +2280,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 15,
-          frets: '0 15 15 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '0 10 11 0',
-          fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 6 0',
+          frets: '0 1 4 0',
           fingers: '0 1 4 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 15,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -2307,23 +2307,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 3',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 10 11 11',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '15 15 14 15',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 6 6 8',
+          frets: '3 1 1 3',
           fingers: '3 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -2334,22 +2334,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 3',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 11 11',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 11 11',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 15 14 15',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -2361,23 +2361,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 3',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 10 11 11',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '15 15 14 15',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 8',
+          frets: '2 1 1 3',
           fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -2388,23 +2388,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '8 6 5 7',
+          frets: '4 2 1 3',
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '11 9 11 11',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '7 6 5 8',
+          frets: '3 2 1 4',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 6 5 8',
+          frets: '4 2 1 4',
           fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -2415,22 +2415,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 3',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 11 11',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 11 11',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 15 14 15',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -2446,19 +2446,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 15 13 15',
-          fingers: '3 2 1 4',
+          baseFret: 5,
+          frets: '4 1 2 4',
+          fingers: '4 1 2 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 10 11 8',
+          frets: '3 3 4 1',
           fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '8 5 6 8',
-          fingers: '4 1 2 3',
+          baseFret: 13,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -2468,16 +2468,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '8 8 6 8',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '13 10 11 13',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 3 4 3',
           fingers: '1 3 4 2',
@@ -2486,6 +2476,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '3 3 4 1',
           fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '4 1 2 4',
+          fingers: '4 1 2 3',
         ),
       ],
     ),
@@ -2502,19 +2502,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 12 13',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 2 0 1',
           fingers: '2 3 0 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 2 3',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -2524,24 +2524,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 13 12 13',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '6 8 0 7',
+          frets: '1 3 0 2',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 8 0 6',
+          frets: '2 3 0 1',
           fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -2550,16 +2550,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordKey: 'B',
       suffix: '13b5b9',
       chordPositions: [
-        ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 13 12 13',
-          fingers: '2 3 1 4',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '1 1 0 3',
@@ -2570,6 +2560,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
       ],
     ),
     Chord(
@@ -2578,24 +2578,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 13 12 13',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '6 8 0 7',
+          frets: '1 3 0 2',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 8 0 6',
+          frets: '2 3 0 1',
           fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -2605,24 +2605,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '6',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 13 12 13',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 1 0 4',
           fingers: '1 1 0 4',
         ),
         ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '13 11 0 13',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -2632,24 +2632,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '69',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 13 12 13',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 1 0 4',
           fingers: '1 1 0 4',
         ),
         ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '11 11 0 13',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -2659,24 +2659,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '13 11 12 13',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '7 8 0 9',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '9 8 0 7',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -2686,24 +2686,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7#9',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '0 8 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '0 8 7 9',
-          fingers: '0 2 1 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '0 4 4 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 2 0 1',
           fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 2 1 3',
+          fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -2712,16 +2712,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordKey: 'B',
       suffix: '7b5',
       chordPositions: [
-        ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 14 12 13',
-          fingers: '2 3 1 4',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '1 2 0 3',
@@ -2732,6 +2722,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 3 1 2',
+          fingers: '2 3 1 4',
+        ),
       ],
     ),
     Chord(
@@ -2740,24 +2740,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '10 8 10 9',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '7 8 0 9',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '9 8 0 7',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '3 1 3 2',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -2767,24 +2767,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b9#5',
       chordPositions: [
         ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '10 0 0 13',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '13 0 12 13',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 10,
-          frets: '13 0 0 10',
+          frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
+          baseFret: 12,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -2795,23 +2795,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 0 4',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '14 14 12 14',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '2 4 0 4',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 0 4',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -2821,24 +2821,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '11 11 12 13',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '7 8 0 9',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '9 8 0 7',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 2 3',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -2848,16 +2848,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '11 11 12 13',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 2 0 3',
           fingers: '1 2 0 3',
@@ -2866,6 +2856,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '3 2 0 1',
           fingers: '3 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 2 3',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -2875,16 +2875,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 14 12 13',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 2 0 3',
           fingers: '1 2 0 3',
@@ -2894,6 +2884,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 3 1 2',
+          fingers: '2 3 1 4',
+        ),
       ],
     ),
     Chord(
@@ -2902,23 +2902,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'add9',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '11 11 12 13',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 4 0 4',
           fingers: '1 4 0 2',
         ),
         ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '11 11 0 13',
+          frets: '1 1 2 3',
+          fingers: '1 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
       ],
@@ -2934,19 +2934,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 2 0 1',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '0 8 10 9',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 2 0 0',
           fingers: '1 2 0 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 8 0 7',
+          frets: '0 2 0 1',
           fingers: '0 2 0 1',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 1 3 2',
+          fingers: '0 1 3 2',
         ),
       ],
     ),
@@ -2956,23 +2956,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug',
       chordPositions: [
         ChordPosition(
+          baseFret: 4,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '13 0 12 13',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '5 4 4 5',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
           baseFret: 12,
-          frets: '13 12 0 13',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -2983,23 +2983,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug7',
       chordPositions: [
         ChordPosition(
+          baseFret: 7,
+          frets: '1 2 0 3',
+          fingers: '1 2 0 3',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '13 0 12 13',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '7 8 0 9',
-          fingers: '1 2 0 3',
-        ),
-        ChordPosition(
           baseFret: 12,
-          frets: '13 12 0 13',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -3010,24 +3010,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug9',
       chordPositions: [
         ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '11 0 0 13',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '13 0 12 13',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 11,
-          frets: '13 0 0 11',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
+          baseFret: 12,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -3042,19 +3042,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 1',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 0 12 13',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '0 8 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -3069,19 +3069,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 0 4',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '13 0 12 13',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 0 0 13',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -3092,22 +3092,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '0 10 12 0',
-          fingers: '0 1 3 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 0 0',
+          frets: '0 1 3 0',
+          fingers: '0 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
       ],
@@ -3123,19 +3123,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 13 12 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
         ),
       ],
     ),
@@ -3146,23 +3146,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3177,19 +3177,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3204,19 +3204,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3227,23 +3227,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3254,23 +3254,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 12 0',
-          fingers: '0 1 3 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 1 3 0',
+          fingers: '0 1 3 0',
         ),
       ],
     ),
@@ -3281,23 +3281,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3308,23 +3308,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 12 0',
-          fingers: '0 1 3 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 1 3 0',
+          fingers: '0 1 3 0',
         ),
       ],
     ),
@@ -3335,23 +3335,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3361,23 +3361,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '8 8 0 9',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '8 8 7 9',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 3 0 2',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
+          baseFret: 7,
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -3388,23 +3388,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj13',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '8 8 0 9',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '8 8 9 9',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '6 8 0 8',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '1 1 2 2',
+          fingers: '1 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -3415,23 +3415,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '8 8 0 9',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '8 8 7 9',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
+          baseFret: 7,
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -3442,24 +3442,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '8 8 0 9',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 0 12 13',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 8 0 8',
+          frets: '1 4 0 4',
           fingers: '1 4 0 2',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -3469,23 +3469,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '8 8 0 9',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '8 8 6 9',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '3 3 1 4',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -3496,23 +3496,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '8 8 0 9',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '8 8 7 9',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
+          baseFret: 7,
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 9',
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -3523,24 +3523,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'major',
       chordPositions: [
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 0 9',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '13 11 12 13',
-          fingers: '3 1 2 4',
+          baseFret: 1,
+          frets: '1 4 0 4',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 1,
-          frets: '1 4 0 4',
-          fingers: '1 4 0 2',
+          frets: '4 4 0 1',
+          fingers: '2 3 0 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 11 0 13',
-          fingers: '3 1 0 2',
+          baseFret: 1,
+          frets: '1 4 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -3550,24 +3550,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'minor',
       chordPositions: [
         ChordPosition(
-          baseFret: 4,
-          frets: '0 4 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
+          baseFret: 3,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
-          fingers: '0 1 0 0',
+          frets: '3 1 1 3',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '1 3 4 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 0 0',
-          fingers: '0 1 0 0',
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -3578,23 +3578,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3605,23 +3605,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3632,23 +3632,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 12 0',
-          fingers: '0 1 3 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 1 3 0',
+          fingers: '0 1 3 0',
         ),
       ],
     ),
@@ -3659,23 +3659,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 12 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 4 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 6 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -3685,23 +3685,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'sus2',
       chordPositions: [
         ChordPosition(
-          baseFret: 9,
-          frets: '9 11 0 11',
-          fingers: '1 3 0 2',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '11 11 12 9',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '4 4 2 4',
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 11 0 9',
+          frets: '1 3 0 3',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 3 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
       ],
@@ -3713,22 +3713,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 4 0 4',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '14 11 12 14',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '4 4 0 2',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '14 11 0 14',
+          frets: '4 1 2 4',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '4 1 0 4',
           fingers: '4 1 0 2',
         ),
       ],
@@ -3741,16 +3741,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '11',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 14',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -3759,6 +3749,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -3768,16 +3768,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 14',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -3786,6 +3776,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -3800,19 +3800,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 14 13 14',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 3 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 10 10',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -3827,19 +3827,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 14',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 11,
-          frets: '11 0 13 14',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '14 0 13 11',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -3854,19 +3854,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 14',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '5 5 5 5',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 2 1 2',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -3876,16 +3876,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '69',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 14',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -3894,6 +3884,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -3908,19 +3908,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 14',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '5 5 5 5',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 3 1 2',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -3935,18 +3935,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 13',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 0 13 14',
+          frets: '2 0 1 1',
+          fingers: '2 0 1 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
       ],
@@ -3962,19 +3962,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 15 13 14',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 3 1 4',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 11 10',
+          frets: '2 1 3 2',
           fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 3 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -3989,19 +3989,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 14',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 11,
-          frets: '11 0 13 14',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '14 0 13 11',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -4016,18 +4016,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 13 14',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 10',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -4043,18 +4043,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 0 1 2',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 0 13 15',
-          fingers: '3 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '10 0 8 8',
+          frets: '3 0 1 1',
           fingers: '3 0 1 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 0 8 10',
+          frets: '3 0 1 3',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '3 0 1 3',
           fingers: '3 0 1 2',
         ),
       ],
@@ -4065,16 +4065,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 14',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -4083,6 +4073,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -4092,16 +4092,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 14',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -4110,6 +4100,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -4119,24 +4119,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '0 9 11 10',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 5 5 4',
+          frets: '0 2 2 1',
           fingers: '0 2 3 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 5 5 0',
+          frets: '1 2 2 0',
           fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 1 3 2',
+          fingers: '0 1 3 2',
         ),
       ],
     ),
@@ -4146,16 +4146,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'add9',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 14',
-          fingers: '0 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -4164,6 +4154,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -4179,18 +4179,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 9 9 10',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '11 9 11 10',
-          fingers: '3 1 2 4',
+          baseFret: 8,
+          frets: '3 2 2 1',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '10 9 9 8',
-          fingers: '3 2 4 1',
+          baseFret: 9,
+          frets: '3 1 3 2',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -4205,18 +4205,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 13 14',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 10',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -4232,18 +4232,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 13 14',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 10',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -4254,16 +4254,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug9',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '0 9 9 10',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 1 1 2',
           fingers: '0 1 1 2',
@@ -4272,6 +4262,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 1 1 0',
           fingers: '2 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 1 1 2',
+          fingers: '0 1 1 2',
         ),
       ],
     ),
@@ -4286,18 +4286,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 13',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 0 13 14',
+          frets: '2 0 1 1',
+          fingers: '2 0 1 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
       ],
@@ -4313,19 +4313,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 14',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 11,
-          frets: '11 0 13 14',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '14 0 13 11',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -4336,23 +4336,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 7,
-          frets: '10 8 7 10',
+          frets: '4 2 1 4',
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 11 13 13',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 10,
-          frets: '13 11 13 10',
+          frets: '4 2 4 1',
           fingers: '4 2 3 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 13 13',
+          frets: '1 2 4 4',
           fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -4362,23 +4362,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'dim7',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '7 5 7 7',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '13 11 13 13',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '4 2 1 1',
           fingers: '4 2 1 1',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '10 8 10 10',
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
         ),
       ],
@@ -4394,19 +4394,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 13',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 5',
+          frets: '0 2 1 2',
           fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
         ),
       ],
     ),
@@ -4416,24 +4416,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm6',
       chordPositions: [
         ChordPosition(
+          baseFret: 4,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '10 0 13 13',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '13 0 10 10',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '13 0 13 10',
+          frets: '4 0 4 1',
           fingers: '4 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 5 4 5',
-          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -4448,19 +4448,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 13',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '0 5 4 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 2 1 1',
           fingers: '0 2 1 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
         ),
       ],
     ),
@@ -4471,22 +4471,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 10,
-          frets: '10 0 11 13',
+          frets: '1 0 2 4',
           fingers: '1 0 2 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '13 0 11 10',
+          frets: '4 0 2 1',
           fingers: '4 0 2 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 0 13 13',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '13 0 13 10',
+          frets: '4 0 4 1',
           fingers: '4 0 2 1',
         ),
       ],
@@ -4502,19 +4502,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '4 3 1 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 11 13 13',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '8 8 7 10',
+          frets: '2 2 1 4',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '10 8 7 8',
+          frets: '4 2 1 2',
           fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -4529,19 +4529,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 13',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 5',
+          frets: '0 2 1 2',
           fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
         ),
       ],
     ),
@@ -4551,24 +4551,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 4,
-          frets: '0 5 4 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 11 13 13',
-          fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '0 5 4 4',
-          fingers: '0 2 1 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 3 1 1',
           fingers: '0 3 1 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '0 2 1 1',
+          fingers: '0 2 1 1',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 3 3',
+          fingers: '0 1 3 2',
         ),
       ],
     ),
@@ -4583,19 +4583,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 13',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 5',
+          frets: '0 2 1 2',
           fingers: '0 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
         ),
       ],
     ),
@@ -4605,16 +4605,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '0 9 0 10',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -4623,6 +4613,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
         ),
       ],
     ),
@@ -4632,16 +4632,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj13',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '0 9 0 10',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -4650,6 +4640,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
         ),
       ],
     ),
@@ -4665,17 +4665,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 9 0 10',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 0 10',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 0 13 14',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
       ],
@@ -4686,24 +4686,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 9,
-          frets: '10 9 0 10',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '9 9 0 10',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
         ),
       ],
     ),
@@ -4713,24 +4713,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 9,
-          frets: '10 9 0 10',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '9 9 0 10',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '2 5 0 4',
+          frets: '1 4 0 3',
           fingers: '1 4 0 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 5 0 2',
+          frets: '3 4 0 1',
           fingers: '3 4 0 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
         ),
       ],
     ),
@@ -4740,16 +4740,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '0 5 5 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '0 9 0 10',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 1 2',
           fingers: '0 0 1 2',
@@ -4758,6 +4748,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
         ),
       ],
     ),
@@ -4772,19 +4772,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 14',
-          fingers: '2 0 1 3',
+          baseFret: 2,
+          frets: '1 4 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '4 4 4 1',
+          fingers: '2 3 4 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 5 5 5',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '10 9 8 10',
-          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -4794,23 +4794,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'minor',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '10 0 13 13',
-          fingers: '1 0 4 2',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '13 0 13 10',
-          fingers: '4 0 2 1',
+          baseFret: 1,
+          frets: '1 0 1 1',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '5 5 4 5',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
+          baseFret: 8,
+          frets: '3 1 1 3',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 12,
-          frets: '13 12 13 13',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
       ],
@@ -4826,19 +4826,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 13',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '0 8 0 10',
+          frets: '0 1 0 3',
           fingers: '0 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
         ),
       ],
     ),
@@ -4848,24 +4848,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj7',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '10 0 0 13',
-          fingers: '1 0 0 4',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '13 0 0 10',
-          fingers: '4 0 0 1',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 10',
+          frets: '2 1 0 3',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 8 0 9',
+          frets: '3 1 0 2',
           fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 0 0 4',
+          fingers: '1 0 0 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '4 0 0 1',
+          fingers: '4 0 0 1',
         ),
       ],
     ),
@@ -4876,22 +4876,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 8,
-          frets: '10 8 0 9',
+          frets: '3 1 0 2',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '9 8 0 10',
+          frets: '2 1 0 3',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 8 0 10',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 0 13',
+          frets: '1 2 0 4',
           fingers: '1 2 0 4',
         ),
       ],
@@ -4907,19 +4907,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 13',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '0 8 0 10',
+          frets: '0 1 0 3',
           fingers: '0 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
         ),
       ],
     ),
@@ -4934,19 +4934,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 13 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 12,
-          frets: '0 0 13 12',
+          frets: '0 0 2 1',
           fingers: '0 0 2 1',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '0 12 13 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
         ),
       ],
     ),
@@ -4961,19 +4961,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 0 1 2',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 0 13 15',
+          baseFret: 8,
+          frets: '3 0 1 3',
           fingers: '3 0 1 2',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 0 8 10',
-          fingers: '3 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '10 10 8 10',
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '3 0 1 3',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
@@ -4985,24 +4985,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '11',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
+          baseFret: 3,
+          frets: '1 4 0 2',
+          fingers: '1 4 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 10 0 9',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 6 0 4',
-          fingers: '1 4 0 2',
+          baseFret: 10,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -5012,24 +5012,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
+          baseFret: 3,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 10 0 9',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 6 0 6',
-          fingers: '1 4 0 2',
+          baseFret: 10,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -5039,24 +5039,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13b5b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '0 6 6 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '0 10 0 11',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '0 0 2 3',
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 0 2 0',
+          frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
         ),
       ],
     ),
@@ -5066,24 +5066,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13b9',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '0 4 0 1',
+          fingers: '0 4 0 1',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '0 6 6 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 0 11',
+          frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '0 6 0 3',
-          fingers: '0 4 0 1',
         ),
       ],
     ),
@@ -5093,24 +5093,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '6',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '6 6 6 6',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '15 15 14 15',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 2 3',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 10,
-          frets: '11 10 11 11',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -5120,24 +5120,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '69',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '6 6 6 6',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '15 15 14 15',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 3 2 3',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 10,
-          frets: '11 10 11 11',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -5147,24 +5147,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
+          baseFret: 3,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 10 0 9',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 6 0 6',
-          fingers: '1 4 0 2',
+          baseFret: 10,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -5174,24 +5174,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7#9',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
+          baseFret: 3,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 10 0 9',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 6 0 6',
-          fingers: '1 4 0 2',
+          baseFret: 10,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -5202,23 +5202,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 0 2 3',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '15 0 14 15',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -5228,24 +5228,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b9',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '0 4 0 1',
+          fingers: '0 4 0 1',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '0 6 6 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 0 11',
+          frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '0 6 0 3',
-          fingers: '0 4 0 1',
         ),
       ],
     ),
@@ -5255,24 +5255,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b9#5',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '0 4 0 1',
+          fingers: '0 4 0 1',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '0 6 6 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 0 11',
+          frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '0 6 0 3',
-          fingers: '0 4 0 1',
         ),
       ],
     ),
@@ -5283,22 +5283,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '4 6 0 6',
-          fingers: '1 3 0 2',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '9 11 0 11',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '6 6 0 4',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 11 0 9',
+          frets: '1 3 0 3',
+          fingers: '1 3 0 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
       ],
@@ -5309,24 +5309,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
+          baseFret: 3,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 10 0 9',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 6 0 6',
-          fingers: '1 4 0 2',
+          baseFret: 10,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -5336,24 +5336,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '3 0 2 3',
-          fingers: '2 0 1 3',
+          baseFret: 1,
+          frets: '1 0 2 3',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '15 0 14 15',
+          baseFret: 2,
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 0 11',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
+          baseFret: 14,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -5363,24 +5363,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '3 0 2 3',
-          fingers: '2 0 1 3',
+          baseFret: 1,
+          frets: '1 0 2 3',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '15 0 14 15',
+          baseFret: 2,
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 0 11',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 0 2 3',
-          fingers: '1 0 2 3',
+          baseFret: 14,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -5389,16 +5389,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordKey: 'C#',
       suffix: 'add9',
       chordPositions: [
-        ChordPosition(
-          baseFret: 6,
-          frets: '6 6 6 6',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '13 13 14 15',
-          fingers: '1 1 2 3',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '1 1 2 3',
@@ -5409,6 +5399,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '1 1 2 3',
+          fingers: '1 1 2 3',
+        ),
       ],
     ),
     Chord(
@@ -5417,24 +5417,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'alt',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 0',
-          fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '0 10 0 11',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 6 0 3',
+          frets: '0 4 0 1',
           fingers: '0 4 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 6 0 0',
+          frets: '1 4 0 0',
           fingers: '1 4 0 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 0 0',
+          fingers: '2 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
         ),
       ],
     ),
@@ -5445,22 +5445,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '15 14 14 15',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 7',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 10 11',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -5471,24 +5471,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug7',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
+          baseFret: 2,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 10 0 9',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 2 2 3',
-          fingers: '2 1 1 3',
+          baseFret: 10,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -5498,23 +5498,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug9',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 10 0 9',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 0 13',
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 0 4',
           fingers: '2 1 0 4',
         ),
       ],
@@ -5525,24 +5525,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'b13#9',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '11 10 0 11',
-          fingers: '2 1 0 3',
+          baseFret: 3,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 11',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 10 0 9',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 6 0 6',
-          fingers: '1 4 0 2',
+          baseFret: 10,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -5552,24 +5552,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'b13b9',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '0 4 0 1',
+          fingers: '0 4 0 1',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '0 6 6 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 0 11',
+          frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '0 6 0 3',
-          fingers: '0 4 0 1',
         ),
       ],
     ),
@@ -5580,23 +5580,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 2',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '14 0 14 11',
-          fingers: '4 0 2 1',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 5',
+          frets: '4 0 1 4',
           fingers: '4 0 1 2',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 8 11',
+          frets: '4 0 1 4',
           fingers: '4 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '4 0 4 1',
+          fingers: '4 0 2 1',
         ),
       ],
     ),
@@ -5607,22 +5607,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 2',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '8 0 11 11',
-          fingers: '1 0 4 2',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 5',
+          frets: '4 0 1 4',
           fingers: '4 0 1 2',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 0 8 8',
+          frets: '1 0 4 4',
+          fingers: '1 0 4 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
       ],
@@ -5634,22 +5634,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 9,
-          frets: '11 9 0 11',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 9 0 11',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 11 0 14',
+          frets: '1 1 0 4',
           fingers: '1 1 0 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 13 0 14',
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
       ],
@@ -5665,19 +5665,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 14 14',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 6',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 9 9 11',
+          frets: '3 1 1 3',
           fingers: '3 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -5692,19 +5692,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 14 14',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 6',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '1 1 2 2',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -5715,22 +5715,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 9,
-          frets: '11 9 0 11',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 9 0 11',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 13 0 14',
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '14 13 0 11',
+          frets: '4 3 0 1',
           fingers: '4 3 0 1',
         ),
       ],
@@ -5741,24 +5741,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '11 0 0 14',
-          fingers: '1 0 0 4',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '14 0 0 11',
-          fingers: '4 0 0 1',
-        ),
-        ChordPosition(
           baseFret: 9,
-          frets: '9 9 0 11',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 9 0 11',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 0 0 4',
+          fingers: '1 0 0 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '4 0 0 1',
+          fingers: '4 0 0 1',
         ),
       ],
     ),
@@ -5769,22 +5769,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 9,
-          frets: '11 9 0 11',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 9 0 11',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 13 0 14',
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '14 13 0 11',
+          frets: '4 3 0 1',
           fingers: '4 3 0 1',
         ),
       ],
@@ -5795,16 +5795,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '11 0 0 14',
-          fingers: '1 0 0 4',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '14 0 0 11',
-          fingers: '4 0 0 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 0 2 2',
           fingers: '1 0 2 3',
@@ -5813,6 +5803,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 0 2 1',
           fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 0 0 4',
+          fingers: '1 0 0 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '4 0 0 1',
+          fingers: '4 0 0 1',
         ),
       ],
     ),
@@ -5827,19 +5827,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 14 14',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 6',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '1 1 2 2',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -5848,16 +5848,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordKey: 'C#',
       suffix: 'maj11',
       chordPositions: [
-        ChordPosition(
-          baseFret: 6,
-          frets: '6 6 6 6',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '10 10 9 11',
-          fingers: '2 3 1 4',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '1 1 2 3',
@@ -5868,6 +5858,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
+        ),
       ],
     ),
     Chord(
@@ -5876,23 +5876,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj13',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '6 6 6 6',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 11 11',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 3 2 3',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 10,
-          frets: '11 10 11 11',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
       ],
@@ -5903,23 +5903,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '6 6 6 6',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '10 10 9 11',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '11 10 9 10',
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 2 1 2',
           fingers: '3 2 1 4',
         ),
       ],
@@ -5931,22 +5931,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '10 10 10 11',
-          fingers: '1 1 1 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 7',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 10 10',
+          frets: '1 1 1 2',
+          fingers: '1 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 1 1',
           fingers: '2 1 1 1',
         ),
       ],
@@ -5958,23 +5958,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 0 2 3',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '15 0 14 15',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 0 2 5',
+          frets: '2 0 1 4',
           fingers: '2 0 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 3',
+          frets: '4 0 1 2',
           fingers: '4 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -5983,16 +5983,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordKey: 'C#',
       suffix: 'maj9',
       chordPositions: [
-        ChordPosition(
-          baseFret: 6,
-          frets: '6 6 6 6',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '10 10 9 11',
-          fingers: '2 3 1 4',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '1 1 2 3',
@@ -6003,6 +5993,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
+        ),
       ],
     ),
     Chord(
@@ -6011,24 +6011,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'major',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '6 6 6 6',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '15 13 14 15',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '11 10 9 11',
+          frets: '3 2 1 3',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -6043,19 +6043,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 14 14',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 6',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 9 9 11',
+          frets: '3 1 1 3',
           fingers: '3 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -6070,19 +6070,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 14 14',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 6',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '1 1 2 2',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -6097,19 +6097,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 14 14',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 6',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 11',
+          frets: '2 1 1 3',
           fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -6120,22 +6120,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 2',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '14 0 13 11',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 13 14',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 14 14',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
       ],
@@ -6151,19 +6151,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 14 14',
-          fingers: '1 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 6 5 6',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '1 1 2 2',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -6174,22 +6174,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '6 6 4 6',
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 13 14 11',
-          fingers: '3 2 4 1',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '11 8 9 11',
+          frets: '4 1 2 4',
           fingers: '4 1 2 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 13 14 13',
+          frets: '3 3 4 1',
+          fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 3 4 3',
           fingers: '1 3 4 2',
         ),
       ],
@@ -6200,24 +6200,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 9,
-          frets: '11 11 9 11',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '4 1 2 4',
           fingers: '4 1 2 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 6 7 6',
+          frets: '1 3 4 3',
           fingers: '1 3 4 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '6 6 7 4',
+          frets: '3 3 4 1',
           fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -6229,24 +6229,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '11',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 0 7 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '4 0 3 0',
+          frets: '2 0 1 0',
           fingers: '2 0 1 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 11 13 12',
-          fingers: '1 2 4 3',
+          baseFret: 4,
+          frets: '1 0 2 0',
+          fingers: '1 0 2 0',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '4 0 5 0',
-          fingers: '1 0 2 0',
+          baseFret: 7,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 2 4 3',
+          fingers: '1 2 4 3',
         ),
       ],
     ),
@@ -6256,24 +6256,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
         ),
         ChordPosition(
+          baseFret: 4,
+          frets: '1 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '10 11 0 12',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '4 5 0 0',
-          fingers: '1 2 0 0',
+          baseFret: 11,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -6283,24 +6283,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13b5b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
         ),
         ChordPosition(
+          baseFret: 4,
+          frets: '1 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '10 11 0 12',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '4 5 0 0',
-          fingers: '1 2 0 0',
+          baseFret: 11,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -6310,24 +6310,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13b9',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
         ),
         ChordPosition(
+          baseFret: 4,
+          frets: '1 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '10 11 0 12',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '4 5 0 0',
-          fingers: '1 2 0 0',
+          baseFret: 11,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -6337,23 +6337,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '6',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 11 0 12',
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '12 11 0 0',
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
         ),
       ],
@@ -6364,23 +6364,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '69',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 11 0 12',
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '12 11 0 0',
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
         ),
       ],
@@ -6391,24 +6391,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '3 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 13 12',
+          frets: '1 2 4 3',
           fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 2 3 0',
-          fingers: '3 1 2 0',
         ),
       ],
     ),
@@ -6418,24 +6418,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7#9',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '3 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 13 12',
+          frets: '1 2 4 3',
           fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 2 3 0',
-          fingers: '3 1 2 0',
         ),
       ],
     ),
@@ -6445,24 +6445,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
+          baseFret: 3,
+          frets: '2 3 1 0',
+          fingers: '2 3 1 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 7 7 0',
+          frets: '1 2 2 0',
           fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 11 9 12',
-          fingers: '2 3 1 4',
+          baseFret: 7,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '4 5 3 0',
-          fingers: '2 3 1 0',
+          baseFret: 9,
+          frets: '2 3 1 4',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -6472,24 +6472,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b9',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '3 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '13 11 13 12',
+          frets: '3 1 3 2',
           fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 2 3 0',
-          fingers: '3 1 2 0',
         ),
       ],
     ),
@@ -6499,24 +6499,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b9#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 11 11 12',
-          fingers: '1 2 3 4',
+          baseFret: 3,
+          frets: '2 1 2 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '4 3 4 0',
-          fingers: '2 1 3 0',
+          baseFret: 7,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 2 2 3',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -6532,17 +6532,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 0 8 0',
+          frets: '1 0 2 0',
           fingers: '1 0 2 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 0 13 12',
+          frets: '1 0 4 3',
           fingers: '1 0 4 3',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '12 0 13 0',
+          frets: '1 0 2 0',
           fingers: '1 0 2 0',
         ),
       ],
@@ -6553,24 +6553,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9',
       chordPositions: [
         ChordPosition(
+          baseFret: 4,
+          frets: '1 2 2 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 13 12',
+          frets: '1 2 4 3',
           fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 5 5 0',
-          fingers: '1 2 3 0',
         ),
       ],
     ),
@@ -6580,24 +6580,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9#11',
       chordPositions: [
         ChordPosition(
+          baseFret: 4,
+          frets: '1 2 2 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 11 9 12',
+          frets: '2 3 1 4',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 5 5 0',
-          fingers: '1 2 3 0',
         ),
       ],
     ),
@@ -6607,24 +6607,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 5 5 0',
+          frets: '1 2 2 0',
           fingers: '1 2 3 0',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '10 11 9 12',
-          fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 7 7 0',
+          frets: '1 2 2 0',
           fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 3 1 4',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -6634,23 +6634,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'add9',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '3 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 2 3 0',
-          fingers: '3 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 10,
-          frets: '0 11 10 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
       ],
@@ -6662,23 +6662,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '0 5 4 4',
+          frets: '0 2 1 1',
           fingers: '0 2 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 11 11 0',
-          fingers: '1 2 3 0',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '10 11 11 12',
-          fingers: '1 2 3 4',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 5 6 0',
+          frets: '1 2 3 0',
           fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 2 2 0',
+          fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 2 2 3',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -6688,23 +6688,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '8 7 7 0',
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
       ],
@@ -6715,24 +6715,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug7',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '2 1 1 0',
+          fingers: '2 1 1 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '4 3 3 0',
+          baseFret: 7,
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 11 12',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '8 7 7 0',
-          fingers: '2 1 1 0',
         ),
       ],
     ),
@@ -6742,24 +6742,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug9',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 11 11 12',
-          fingers: '1 2 3 4',
+          baseFret: 4,
+          frets: '1 2 2 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '4 5 5 0',
-          fingers: '1 2 3 0',
+          baseFret: 7,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 2 2 3',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -6769,24 +6769,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'b13#9',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '2 1 1 0',
+          fingers: '2 1 1 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 11 12',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 3 3 0',
-          fingers: '2 1 1 0',
         ),
       ],
     ),
@@ -6796,24 +6796,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'b13b9',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '2 1 1 0',
+          fingers: '2 1 1 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 11 12',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 3 3 0',
-          fingers: '2 1 1 0',
         ),
       ],
     ),
@@ -6823,24 +6823,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'dim',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '0 7 6 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 1 3 0',
           fingers: '3 1 2 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 13 15 15',
-          fingers: '3 1 2 4',
+          baseFret: 6,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 7 9 0',
+          frets: '1 2 4 0',
           fingers: '1 2 4 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -6856,18 +6856,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 4 0 0',
+          frets: '1 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '1 2 0 0',
           fingers: '1 2 0 0',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 12',
+          frets: '1 2 0 4',
           fingers: '1 2 0 4',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '6 7 0 0',
-          fingers: '1 2 0 0',
         ),
       ],
     ),
@@ -6877,24 +6877,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm11',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '0 0 6 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 0',
+          frets: '1 0 2 0',
           fingers: '1 0 2 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '14 0 15 15',
-          fingers: '1 0 2 3',
+          baseFret: 6,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 0 6 0',
+          frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 0 2 2',
+          fingers: '1 0 2 3',
         ),
       ],
     ),
@@ -6904,24 +6904,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm6',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 2 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '1 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 12',
+          frets: '1 2 0 4',
           fingers: '1 2 0 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 4 0 0',
-          fingers: '1 2 0 0',
+          baseFret: 10,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -6931,24 +6931,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm69',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 2 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '1 2 0 0',
+          fingers: '1 2 0 0',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '9 10 0 12',
+          frets: '1 2 0 4',
           fingers: '1 2 0 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 4 0 0',
-          fingers: '1 2 0 0',
+          baseFret: 10,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -6958,24 +6958,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm7',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '2 1 2 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 10 10 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 10 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 14 15 15',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 3 0',
-          fingers: '2 1 3 0',
         ),
       ],
     ),
@@ -6986,23 +6986,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '0 5 6 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 6 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 13 15 15',
-          fingers: '3 1 2 4',
+          baseFret: 9,
+          frets: '2 2 1 0',
+          fingers: '2 3 1 0',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 10 9 0',
-          fingers: '2 3 1 0',
+          baseFret: 13,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -7012,24 +7012,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm9',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '2 1 2 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 10 10 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 10 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '14 14 15 15',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 3 0',
-          fingers: '2 1 3 0',
         ),
       ],
     ),
@@ -7040,23 +7040,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '0 5 6 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 6 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 15 15',
-          fingers: '2 1 3 4',
+          baseFret: 9,
+          frets: '2 2 1 0',
+          fingers: '2 3 1 0',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 10 9 0',
-          fingers: '2 3 1 0',
+          baseFret: 13,
+          frets: '2 1 3 3',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -7066,24 +7066,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'madd9',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 10 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 2 3 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '14 14 15 15',
-          fingers: '1 1 2 3',
+          baseFret: 6,
+          frets: '2 2 1 0',
+          fingers: '2 3 1 0',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '7 7 6 0',
-          fingers: '2 3 1 0',
+          baseFret: 10,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 1 2 2',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -7093,24 +7093,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 0 7 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '4 0 3 0',
+          frets: '2 0 1 0',
           fingers: '2 0 1 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 11 10 12',
-          fingers: '2 3 1 4',
+          baseFret: 4,
+          frets: '1 0 2 0',
+          fingers: '1 0 2 0',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '4 0 5 0',
-          fingers: '1 0 2 0',
+          baseFret: 7,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -7120,23 +7120,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj13',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 11 0 12',
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 11 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
         ),
       ],
@@ -7147,24 +7147,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7',
       chordPositions: [
         ChordPosition(
+          baseFret: 6,
+          frets: '2 1 2 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 12',
+          frets: '2 2 1 3',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '7 6 7 0',
-          fingers: '2 1 3 0',
         ),
       ],
     ),
@@ -7174,24 +7174,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7#5',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '2 1 1 0',
+          fingers: '2 1 1 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 11 11 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 11 11 12',
+          frets: '1 1 1 2',
           fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 3 3 0',
-          fingers: '2 1 1 0',
         ),
       ],
     ),
@@ -7201,24 +7201,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '6 6 7 0',
+          frets: '1 1 2 0',
           fingers: '1 1 2 0',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '11 11 9 12',
-          fingers: '3 2 1 4',
+          baseFret: 6,
+          frets: '1 2 2 0',
+          fingers: '1 2 3 0',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '6 7 7 0',
-          fingers: '1 2 3 0',
+          baseFret: 7,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 3 1 4',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -7228,24 +7228,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj9',
       chordPositions: [
         ChordPosition(
+          baseFret: 6,
+          frets: '2 1 2 0',
+          fingers: '2 1 3 0',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '7 7 7 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 12',
+          frets: '2 2 1 3',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '7 6 7 0',
-          fingers: '2 1 3 0',
         ),
       ],
     ),
@@ -7255,24 +7255,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'major',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 7 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '7 7 7 0',
-          fingers: '1 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '4 2 3 0',
-          fingers: '3 1 2 0',
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '0 11 10 0',
-          fingers: '0 2 1 0',
+          baseFret: 4,
+          frets: '1 4 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '4 4 4 1',
+          fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -7282,24 +7282,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'minor',
       chordPositions: [
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 10 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 2 3 0',
-          fingers: '2 1 3 0',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '15 14 15 15',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 7 6 0',
-          fingers: '2 3 1 0',
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '3 1 1 3',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -7309,24 +7309,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj11',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '0 0 6 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 0 2 0',
+          frets: '2 0 1 0',
           fingers: '2 0 1 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '14 0 15 15',
-          fingers: '1 0 2 3',
+          baseFret: 5,
+          frets: '1 0 2 0',
+          fingers: '1 0 2 0',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '5 0 6 0',
-          fingers: '1 0 2 0',
+          baseFret: 6,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 0 2 2',
+          fingers: '1 0 2 3',
         ),
       ],
     ),
@@ -7336,24 +7336,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj7',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '0 6 6 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '15 14 15 15',
-          fingers: '2 1 3 4',
+          baseFret: 2,
+          frets: '2 1 2 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 2 3 0',
-          fingers: '2 1 3 0',
+          baseFret: 6,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -7363,24 +7363,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj7b5',
       chordPositions: [
         ChordPosition(
+          baseFret: 1,
+          frets: '3 1 2 0',
+          fingers: '3 1 2 0',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '0 6 6 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 6 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 13 15 15',
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 1 2 0',
-          fingers: '3 1 2 0',
         ),
       ],
     ),
@@ -7390,24 +7390,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj9',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '0 6 6 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '14 14 15 15',
-          fingers: '1 1 2 3',
+          baseFret: 2,
+          frets: '2 1 2 0',
+          fingers: '2 1 3 0',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '3 2 3 0',
-          fingers: '2 1 3 0',
+          baseFret: 6,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 1 2 2',
+          fingers: '1 1 2 3',
         ),
       ],
     ),
@@ -7418,23 +7418,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '0 2 3 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 3 0',
+          frets: '1 1 2 0',
           fingers: '1 1 2 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '14 14 15 12',
-          fingers: '3 2 4 1',
+          baseFret: 5,
+          frets: '3 3 1 0',
+          fingers: '3 2 1 0',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '7 7 5 0',
-          fingers: '3 2 1 0',
+          baseFret: 12,
+          frets: '3 3 4 1',
+          fingers: '3 2 4 1',
         ),
       ],
     ),
@@ -7445,22 +7445,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 0 3 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '7 0 8 0',
-          fingers: '1 0 2 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '5 0 3 0',
+          frets: '3 0 1 0',
           fingers: '3 0 1 0',
         ),
         ChordPosition(
+          baseFret: 7,
+          frets: '1 0 2 0',
+          fingers: '1 0 2 0',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
       ],
@@ -7478,17 +7478,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 2 3',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '3 0 2 1',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 0 14 13',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '3 0 2 1',
           fingers: '3 0 2 1',
         ),
@@ -7505,19 +7505,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 2 3',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '3 0 1 1',
+          fingers: '3 0 1 1',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 13 13',
+          frets: '1 0 3 3',
           fingers: '1 0 3 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '3 0 1 1',
-          fingers: '3 0 1 1',
         ),
       ],
     ),
@@ -7537,14 +7537,14 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 13',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 0 2 1',
           fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 1',
+          fingers: '2 0 1 1',
         ),
       ],
     ),
@@ -7564,14 +7564,14 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 13 13',
-          fingers: '2 0 1 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 0 2 1',
           fingers: '2 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 0 1 1',
+          fingers: '2 0 1 1',
         ),
       ],
     ),
@@ -7582,23 +7582,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 0 11 13',
+          frets: '1 0 2 4',
           fingers: '1 0 2 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 0 11 13',
-          fingers: '3 0 1 2',
+          baseFret: 10,
+          frets: '4 0 2 1',
+          fingers: '4 0 2 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '13 0 11 10',
-          fingers: '4 0 2 1',
+          baseFret: 11,
+          frets: '3 0 1 3',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
@@ -7613,17 +7613,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 4 3',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '3 0 1 1',
+          fingers: '3 0 1 1',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 0 13 13',
-          fingers: '3 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '3 0 1 1',
           fingers: '3 0 1 1',
         ),
@@ -7636,22 +7636,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 14 13',
+          frets: '1 0 4 3',
           fingers: '1 0 4 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '13 0 11 11',
+          frets: '3 0 1 1',
           fingers: '3 0 1 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '13 0 11 13',
+          frets: '3 0 1 3',
           fingers: '3 0 1 2',
         ),
       ],
@@ -7668,18 +7668,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 4',
+          frets: '2 0 1 1',
           fingers: '2 0 1 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 0 14 13',
-          fingers: '1 0 4 3',
+          baseFret: 4,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '5 0 4 5',
-          fingers: '2 0 1 3',
+          baseFret: 11,
+          frets: '1 0 4 3',
+          fingers: '1 0 4 3',
         ),
       ],
     ),
@@ -7690,23 +7690,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 0 10 13',
+          baseFret: 4,
+          frets: '2 0 1 4',
           fingers: '2 0 1 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 7',
-          fingers: '2 0 1 4',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '7 0 4 5',
+          frets: '4 0 1 2',
           fingers: '4 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 0 1 4',
+          fingers: '2 0 1 4',
         ),
       ],
     ),
@@ -7726,14 +7726,14 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 0 3 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 0 14 13',
-          fingers: '2 0 3 1',
+          baseFret: 4,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '5 0 4 5',
-          fingers: '2 0 1 3',
+          baseFret: 13,
+          frets: '2 0 2 1',
+          fingers: '2 0 3 1',
         ),
       ],
     ),
@@ -7754,12 +7754,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 0 0 13',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 0 0 14',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
       ],
@@ -7770,23 +7770,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7sus4',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '4 1 2 4',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '6 6 4 6',
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 13 14 13',
+          frets: '1 3 4 3',
           fingers: '1 3 4 2',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '6 3 4 6',
-          fingers: '4 1 2 3',
-        ),
-        ChordPosition(
           baseFret: 11,
-          frets: '13 13 11 11',
+          frets: '3 3 1 1',
           fingers: '3 2 1 1',
         ),
       ],
@@ -7802,17 +7802,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 2 3',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '3 0 2 1',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 0 14 13',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '3 0 2 1',
           fingers: '3 0 2 1',
         ),
@@ -7829,17 +7829,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 2 3',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '3 0 2 1',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 0 14 13',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '3 0 2 1',
           fingers: '3 0 2 1',
         ),
@@ -7856,17 +7856,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 2 3',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '3 0 2 1',
+          fingers: '3 0 2 1',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 0 14 13',
-          fingers: '3 0 2 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '3 0 2 1',
           fingers: '3 0 2 1',
         ),
@@ -7883,19 +7883,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 4 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '5 0 4 5',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '3 0 4 5',
+          frets: '1 0 2 3',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '5 0 4 3',
+          frets: '3 0 2 1',
           fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -7910,19 +7910,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 2 3',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '2 0 2 1',
+          fingers: '2 0 3 1',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '13 0 0 11',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 0 13',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '2 0 2 1',
-          fingers: '2 0 3 1',
         ),
       ],
     ),
@@ -7933,23 +7933,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 0 12 13',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 12 0 13',
-          fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '5 4 4 5',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -7959,23 +7959,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'aug7',
       chordPositions: [
         ChordPosition(
+          baseFret: 4,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '13 0 0 11',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 0 13',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '5 0 4 5',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 12,
-          frets: '13 0 12 13',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
       ],
@@ -7997,12 +7997,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 0 13',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '13 0 0 11',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
       ],
@@ -8018,19 +8018,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 0 4',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '4 0 0 1',
+          fingers: '4 0 0 1',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '13 0 0 11',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 0 13',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 0 0 1',
-          fingers: '4 0 0 1',
         ),
       ],
     ),
@@ -8051,12 +8051,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 0 0 13',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 0 0 14',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
       ],
@@ -8072,18 +8072,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 2 4 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 2 4 4',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '4 2 4 1',
           fingers: '4 2 3 1',
         ),
         ChordPosition(
+          baseFret: 2,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '13 11 10 13',
+          frets: '4 2 1 4',
           fingers: '4 2 1 3',
         ),
       ],
@@ -8100,18 +8100,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 4 4',
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 11 13 13',
+          frets: '1 2 4 4',
           fingers: '1 2 4 3',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '10 8 10 10',
-          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -8127,18 +8127,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 4 4',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 13',
-          fingers: '1 1 1 3',
+          baseFret: 3,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '4 3 4 4',
-          fingers: '2 1 3 4',
+          baseFret: 11,
+          frets: '1 1 1 3',
+          fingers: '1 1 1 3',
         ),
       ],
     ),
@@ -8154,18 +8154,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 11 11 13',
-          fingers: '1 2 3 4',
+          baseFret: 7,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '8 8 7 8',
-          fingers: '2 3 1 4',
+          baseFret: 10,
+          frets: '1 2 2 4',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -8181,18 +8181,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 4 4',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 11 11 13',
-          fingers: '1 2 3 4',
+          baseFret: 3,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '4 3 4 4',
-          fingers: '2 1 3 4',
+          baseFret: 10,
+          frets: '1 2 2 4',
+          fingers: '1 2 3 4',
         ),
       ],
     ),
@@ -8208,18 +8208,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 13',
-          fingers: '1 1 1 3',
+          baseFret: 7,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '8 8 7 8',
-          fingers: '2 3 1 4',
+          baseFret: 11,
+          frets: '1 1 1 3',
+          fingers: '1 1 1 3',
         ),
       ],
     ),
@@ -8234,19 +8234,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 2 3 4',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '4 2 2 1',
+          fingers: '4 2 3 1',
+        ),
+        ChordPosition(
           baseFret: 2,
-          frets: '4 2 4 4',
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 13',
+          frets: '2 2 1 4',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 2 1',
-          fingers: '4 2 3 1',
         ),
       ],
     ),
@@ -8262,18 +8262,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 4 4',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 13',
-          fingers: '1 1 1 3',
+          baseFret: 3,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '4 3 4 4',
-          fingers: '2 1 3 4',
+          baseFret: 11,
+          frets: '1 1 1 3',
+          fingers: '1 1 1 3',
         ),
       ],
     ),
@@ -8289,18 +8289,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 4 4',
+          frets: '2 1 3 3',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '11 11 10 13',
-          fingers: '2 3 1 4',
+          baseFret: 2,
+          frets: '3 1 3 2',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 2 4 3',
-          fingers: '3 1 2 4',
+          baseFret: 10,
+          frets: '2 2 1 4',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -8316,17 +8316,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 4 4',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '8 8 7 8',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -8343,18 +8343,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '0 0 4 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 13',
-          fingers: '0 0 1 3',
+          baseFret: 8,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '0 8 8 0',
-          fingers: '0 1 1 0',
+          baseFret: 11,
+          frets: '0 0 1 3',
+          fingers: '0 0 1 3',
         ),
       ],
     ),
@@ -8369,17 +8369,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 3 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '0 0 4 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 0 13 13',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
@@ -8397,18 +8397,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '0 0 4 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 13',
-          fingers: '0 0 1 3',
+          baseFret: 8,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '0 8 8 0',
-          fingers: '0 1 1 0',
+          baseFret: 11,
+          frets: '0 0 1 3',
+          fingers: '0 0 1 3',
         ),
       ],
     ),
@@ -8428,14 +8428,14 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 0 13',
-          fingers: '0 0 0 1',
+          baseFret: 4,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '0 0 4 0',
-          fingers: '0 0 1 0',
+          baseFret: 13,
+          frets: '0 0 0 1',
+          fingers: '0 0 0 1',
         ),
       ],
     ),
@@ -8451,18 +8451,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '0 0 4 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 0 15 13',
-          fingers: '0 0 3 1',
+          baseFret: 8,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '0 8 8 0',
-          fingers: '0 1 1 0',
+          baseFret: 13,
+          frets: '0 0 3 1',
+          fingers: '0 0 3 1',
         ),
       ],
     ),
@@ -8478,18 +8478,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '0 0 4 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 13',
-          fingers: '0 0 1 3',
+          baseFret: 8,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '0 8 8 0',
-          fingers: '0 1 1 0',
+          baseFret: 11,
+          frets: '0 0 1 3',
+          fingers: '0 0 1 3',
         ),
       ],
     ),
@@ -8499,24 +8499,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'major',
       chordPositions: [
         ChordPosition(
+          baseFret: 3,
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
           baseFret: 4,
-          frets: '5 0 4 5',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 0 11 13',
-          fingers: '3 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 8 8 8',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '5 3 4 5',
-          fingers: '3 1 2 4',
+          baseFret: 11,
+          frets: '3 0 1 3',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
@@ -8532,17 +8532,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '8 8 7 8',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '13 11 11 13',
+          frets: '3 1 1 3',
           fingers: '3 1 1 2',
         ),
       ],
@@ -8558,19 +8558,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 3 4',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '0 1 2 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 8 7 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 13',
+          frets: '0 1 1 3',
           fingers: '0 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '0 3 4 4',
-          fingers: '0 1 2 3',
         ),
       ],
     ),
@@ -8585,19 +8585,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 3 2 4',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '0 1 2 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 8 7 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 13',
+          frets: '0 1 1 3',
           fingers: '0 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '0 3 4 4',
-          fingers: '0 1 2 3',
         ),
       ],
     ),
@@ -8613,18 +8613,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 8 7 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '0 11 10 13',
-          fingers: '0 2 1 4',
+          baseFret: 7,
+          frets: '0 2 1 1',
+          fingers: '0 2 1 1',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '0 8 7 7',
-          fingers: '0 2 1 1',
+          baseFret: 10,
+          frets: '0 2 1 4',
+          fingers: '0 2 1 4',
         ),
       ],
     ),
@@ -8639,19 +8639,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 3 2 4',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '0 1 2 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '0 8 7 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 13',
+          frets: '0 1 1 3',
           fingers: '0 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '0 3 4 4',
-          fingers: '0 1 2 3',
         ),
       ],
     ),
@@ -8666,18 +8666,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 3 4 2',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '8 8 6 8',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 3 4 1',
           fingers: '3 2 4 1',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '13 10 11 13',
+          frets: '4 1 2 4',
           fingers: '4 1 2 3',
         ),
       ],
@@ -8688,24 +8688,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '13 13 11 13',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '6 3 4 6',
+          frets: '4 1 2 4',
           fingers: '4 1 2 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 8 9 8',
+          frets: '1 3 4 3',
           fingers: '1 3 4 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 8 9 6',
+          frets: '3 3 4 1',
           fingers: '3 2 4 1',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -8722,17 +8722,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -8749,17 +8749,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -8776,17 +8776,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 3 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 2 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 14 14',
-          fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 2 2',
           fingers: '0 1 2 3',
         ),
@@ -8803,17 +8803,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -8830,19 +8830,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 0 14',
-          fingers: '2 1 0 3',
+          baseFret: 6,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 13 0 14',
+          frets: '1 3 0 4',
           fingers: '1 3 0 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '6 9 0 9',
-          fingers: '1 4 0 2',
+          baseFret: 13,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -8857,19 +8857,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 0 14',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '11 13 0 14',
-          fingers: '1 3 0 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '4 1 0 2',
           fingers: '4 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 3 0 4',
+          fingers: '1 3 0 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -8884,17 +8884,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -8911,17 +8911,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -8938,19 +8938,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 3 0',
         ),
         ChordPosition(
+          baseFret: 8,
+          frets: '0 2 2 1',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 15 14',
+          frets: '0 1 3 2',
           fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '0 9 9 8',
-          fingers: '0 2 3 1',
         ),
       ],
     ),
@@ -8965,17 +8965,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -8992,17 +8992,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 2',
+          fingers: '0 1 1 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 13 14',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 1 2',
           fingers: '0 1 1 2',
         ),
@@ -9015,23 +9015,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 0 0',
+          frets: '1 1 0 0',
           fingers: '1 1 0 0',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '0 9 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 14 12 14',
-          fingers: '0 3 1 2',
+          baseFret: 9,
+          frets: '1 1 0 0',
+          fingers: '1 1 0 0',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '9 9 0 0',
-          fingers: '1 1 0 0',
+          baseFret: 12,
+          frets: '0 3 1 3',
+          fingers: '0 3 1 2',
         ),
       ],
     ),
@@ -9046,17 +9046,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -9073,17 +9073,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -9100,19 +9100,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 3 0',
         ),
         ChordPosition(
+          baseFret: 8,
+          frets: '0 2 2 1',
+          fingers: '0 2 3 1',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 15 14',
+          frets: '0 1 3 2',
           fingers: '0 1 3 2',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '0 9 9 8',
-          fingers: '0 2 3 1',
         ),
       ],
     ),
@@ -9127,11 +9127,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 0 14',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '4 1 0 2',
           fingers: '4 1 0 2',
@@ -9140,6 +9135,11 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 1 0 4',
           fingers: '2 1 0 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -9155,18 +9155,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '0 0 5 6',
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 13 14',
-          fingers: '0 1 1 2',
+          baseFret: 5,
+          frets: '2 0 1 0',
+          fingers: '2 0 1 0',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 0 5 0',
-          fingers: '2 0 1 0',
+          baseFret: 13,
+          frets: '0 1 1 2',
+          fingers: '0 1 1 2',
         ),
       ],
     ),
@@ -9182,17 +9182,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 10',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 13 14',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -9208,17 +9208,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 2',
+          fingers: '0 1 1 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 13 14',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 1 2',
           fingers: '0 1 1 2',
         ),
@@ -9235,17 +9235,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 1 2',
+          fingers: '0 1 1 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 13 14',
-          fingers: '0 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 1 2',
           fingers: '0 1 1 2',
         ),
@@ -9262,17 +9262,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -9289,17 +9289,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 9 9 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 14',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
@@ -9312,22 +9312,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 5 5',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 5 2',
+          frets: '4 0 4 1',
           fingers: '4 0 2 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 0 5 5',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 0 5 8',
+          frets: '4 0 1 4',
           fingers: '4 0 1 2',
         ),
       ],
@@ -9339,23 +9339,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 5 5',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 2',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 0 14 14',
-          fingers: '1 0 4 2',
+          baseFret: 2,
+          frets: '4 0 4 1',
+          fingers: '4 0 2 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '5 0 5 2',
-          fingers: '4 0 2 1',
+          baseFret: 11,
+          frets: '1 0 4 4',
+          fingers: '1 0 4 2',
         ),
       ],
     ),
@@ -9366,23 +9366,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '0 0 0 2',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '0 0 0 14',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '0 0 5 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '0 0 0 1',
+          fingers: '0 0 0 1',
         ),
       ],
     ),
@@ -9393,22 +9393,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 5',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 0 2',
+          frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 0 0 14',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '14 0 0 11',
+          frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
       ],
@@ -9420,23 +9420,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 4',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 0 0 2',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 0 0 14',
-          fingers: '1 0 0 4',
+          baseFret: 2,
+          frets: '4 0 0 1',
+          fingers: '4 0 0 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '5 0 0 2',
-          fingers: '4 0 0 1',
+          baseFret: 11,
+          frets: '1 0 0 4',
+          fingers: '1 0 0 4',
         ),
       ],
     ),
@@ -9447,23 +9447,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '0 0 0 2',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '0 0 0 14',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '0 0 5 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '0 0 0 1',
+          fingers: '0 0 0 1',
         ),
       ],
     ),
@@ -9474,23 +9474,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 3 0',
+          frets: '1 0 2 0',
           fingers: '1 0 2 0',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '0 0 5 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '0 0 15 14',
-          fingers: '0 0 2 1',
+          baseFret: 5,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '0 0 5 5',
-          fingers: '0 0 1 1',
+          baseFret: 14,
+          frets: '0 0 2 1',
+          fingers: '0 0 2 1',
         ),
       ],
     ),
@@ -9501,23 +9501,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '0 0 0 2',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '0 0 0 14',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '0 0 5 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '0 0 0 1',
+          fingers: '0 0 0 1',
         ),
       ],
     ),
@@ -9528,23 +9528,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 3 0',
+          frets: '1 0 2 0',
           fingers: '1 0 2 0',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '0 0 5 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '0 0 15 14',
-          fingers: '0 0 2 1',
+          baseFret: 5,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '0 0 5 5',
-          fingers: '0 0 1 1',
+          baseFret: 14,
+          frets: '0 0 2 1',
+          fingers: '0 0 2 1',
         ),
       ],
     ),
@@ -9555,22 +9555,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 4',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 0 0 2',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 0 2',
+          frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 5',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
       ],
@@ -9592,12 +9592,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 13 0 14',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 0 14',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -9619,12 +9619,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 13 0 14',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 0 14',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -9646,12 +9646,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 13 0 14',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 0 14',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -9672,14 +9672,14 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 2',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 14',
-          fingers: '1 1 1 2',
+          baseFret: 5,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 5 5 6',
-          fingers: '2 1 1 3',
+          baseFret: 13,
+          frets: '1 1 1 2',
+          fingers: '1 1 1 2',
         ),
       ],
     ),
@@ -9699,14 +9699,14 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 4 2',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 13 11 14',
-          fingers: '3 2 1 4',
+          baseFret: 3,
+          frets: '4 1 3 4',
+          fingers: '4 1 3 2',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '6 3 5 6',
-          fingers: '4 1 3 2',
+          baseFret: 11,
+          frets: '3 3 1 4',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -9727,12 +9727,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 13 0 14',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 0 14',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -9748,19 +9748,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 0 14',
-          fingers: '2 1 0 3',
+          baseFret: 4,
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 9 0 9',
-          fingers: '1 4 0 2',
+          frets: '1 4 4 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '9 9 0 6',
-          fingers: '4 2 0 1',
+          baseFret: 9,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -9771,23 +9771,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 5',
-          fingers: '1 0 0 4',
+          frets: '1 3 4 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 0 2',
-          fingers: '4 0 0 1',
+          frets: '4 3 4 1',
+          fingers: '3 2 4 1',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '14 0 12 14',
-          fingers: '3 0 1 2',
+          baseFret: 4,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '14 12 0 14',
-          fingers: '3 1 0 2',
+          baseFret: 8,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -9808,12 +9808,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 0 0 14',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 0 0 13',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
       ],
@@ -9835,12 +9835,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 0 0 14',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 0 0 13',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
       ],
@@ -9861,14 +9861,14 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 4 2',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 0 11 14',
-          fingers: '3 0 1 4',
+          baseFret: 2,
+          frets: '4 0 3 1',
+          fingers: '4 0 3 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '5 0 4 2',
-          fingers: '4 0 3 1',
+          baseFret: 11,
+          frets: '3 0 1 4',
+          fingers: '3 0 1 4',
         ),
       ],
     ),
@@ -9889,12 +9889,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 0 0 14',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 0 0 13',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
       ],
@@ -9906,23 +9906,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 4 0 4',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 4 0 2',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '14 11 0 14',
-          fingers: '4 1 0 2',
+          baseFret: 7,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '9 9 7 9',
-          fingers: '3 2 1 4',
+          baseFret: 11,
+          frets: '4 1 0 4',
+          fingers: '4 1 0 2',
         ),
       ],
     ),
@@ -9932,24 +9932,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'sus4',
       chordPositions: [
         ChordPosition(
+          baseFret: 4,
+          frets: '4 1 2 4',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
           baseFret: 7,
-          frets: '7 9 0 9',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '9 9 0 7',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '14 14 12 14',
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '7 4 5 7',
-          fingers: '4 1 2 3',
         ),
       ],
     ),
@@ -9966,19 +9966,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '7 0 6 7',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 7',
+          frets: '1 0 2 3',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 0 6 5',
+          frets: '3 0 2 1',
           fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -9989,23 +9989,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 3 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 10 10 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '0 14 15 15',
+          frets: '0 1 2 2',
           fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '0 0 6 7',
-          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -10016,22 +10016,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 0 0',
+          frets: '2 1 0 0',
           fingers: '2 1 0 0',
         ),
         ChordPosition(
+          baseFret: 2,
+          frets: '0 1 0 2',
+          fingers: '0 1 0 2',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 10 10 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '0 14 0 15',
-          fingers: '0 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '0 2 0 3',
+          frets: '0 1 0 2',
           fingers: '0 1 0 2',
         ),
       ],
@@ -10043,23 +10043,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 3 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 10 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '0 14 15 15',
-          fingers: '0 1 2 3',
+          baseFret: 10,
+          frets: '0 1 1 1',
+          fingers: '0 1 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 10 10',
-          fingers: '0 1 1 1',
+          baseFret: 14,
+          frets: '0 1 2 2',
+          fingers: '0 1 2 3',
         ),
       ],
     ),
@@ -10070,23 +10070,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 3 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 10 10 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '0 14 15 15',
-          fingers: '0 1 2 3',
+          baseFret: 10,
+          frets: '0 1 1 1',
+          fingers: '0 1 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '0 10 10 10',
-          fingers: '0 1 1 1',
+          baseFret: 14,
+          frets: '0 1 2 2',
+          fingers: '0 1 2 3',
         ),
       ],
     ),
@@ -10097,23 +10097,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 3 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 10 10 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '0 14 15 15',
+          frets: '0 1 2 2',
           fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '0 0 6 7',
-          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -10128,19 +10128,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 10 10 10',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '7 5 6 7',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 2 1 3',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -10155,19 +10155,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 10 10 10',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '6 5 6 7',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 2 1 3',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '2 1 2 3',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -10177,24 +10177,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 2,
-          frets: '3 2 0 3',
-          fingers: '2 1 0 3',
+          baseFret: 1,
+          frets: '1 2 0 3',
+          fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 14,
-          frets: '15 14 0 15',
+          baseFret: 2,
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 0 15',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 1,
-          frets: '1 2 0 3',
-          fingers: '1 2 0 3',
+          baseFret: 14,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -10209,19 +10209,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 10 10 10',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 2 4 3',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 2 1 3',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 2,
+          frets: '3 1 3 2',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -10232,23 +10232,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 7',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 14 15',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 10 10 11',
-          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -10263,17 +10263,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '8 8 6 8',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 3 4 3',
           fingers: '1 3 4 2',
         ),
         ChordPosition(
           baseFret: 1,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
           frets: '3 3 1 3',
           fingers: '3 2 1 4',
         ),
@@ -10290,19 +10290,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '7 0 6 7',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 7',
+          frets: '1 0 2 3',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 0 6 5',
+          frets: '3 0 2 1',
           fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -10313,22 +10313,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 0 3',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 0 6 7',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 0 15',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 14 0 15',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -10340,22 +10340,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 0 3',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 0 6 7',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 0 15',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 14 0 15',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -10371,19 +10371,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '7 0 6 7',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 7',
+          frets: '1 0 2 3',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 0 6 5',
+          frets: '3 0 2 1',
           fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -10404,12 +10404,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 0 15',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 14 0 13',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
       ],
@@ -10421,22 +10421,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 7',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 10 10 11',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 14 14 15',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -10448,23 +10448,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 7',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 14 15',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 10,
-          frets: '11 10 10 11',
-          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -10475,23 +10475,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '1 0 2 3',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '7 0 6 7',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 14 15',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '5 0 6 7',
-          fingers: '1 0 2 3',
         ),
       ],
     ),
@@ -10502,23 +10502,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '1 1 1 2',
+          fingers: '1 1 1 2',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '10 10 10 10',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 14 15',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '6 6 6 7',
-          fingers: '1 1 1 2',
         ),
       ],
     ),
@@ -10529,23 +10529,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 3',
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '10 10 10 10',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 14 14 15',
+          frets: '1 2 2 3',
           fingers: '1 2 3 4',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '7 6 6 7',
-          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -10560,19 +10560,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 1 0 2',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 13 0 15',
-          fingers: '3 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '6 4 0 3',
+          frets: '4 2 0 1',
           fingers: '4 2 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 4 0 6',
+          frets: '1 2 0 4',
           fingers: '1 2 0 4',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '3 1 0 3',
+          fingers: '3 1 0 2',
         ),
       ],
     ),
@@ -10583,23 +10583,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 4 0 0',
+          frets: '1 2 0 0',
           fingers: '1 2 0 0',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '0 2 0 1',
+          fingers: '0 2 0 1',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 10 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 15',
+          frets: '0 1 0 3',
           fingers: '0 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '0 4 0 3',
-          fingers: '0 2 0 1',
         ),
       ],
     ),
@@ -10610,23 +10610,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 4 6',
+          frets: '1 0 2 4',
           fingers: '1 0 2 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 6',
+          frets: '1 0 2 2',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 15',
-          fingers: '1 1 1 3',
+          baseFret: 5,
+          frets: '2 0 2 1',
+          fingers: '2 0 3 1',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 0 6 5',
-          fingers: '2 0 3 1',
+          baseFret: 13,
+          frets: '1 1 1 3',
+          fingers: '1 1 1 3',
         ),
       ],
     ),
@@ -10641,19 +10641,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 1 1 0',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '0 1 2 2',
+          fingers: '0 1 2 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '0 10 9 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 13 15',
+          frets: '0 1 1 3',
           fingers: '0 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '0 5 6 6',
-          fingers: '0 1 2 3',
         ),
       ],
     ),
@@ -10669,18 +10669,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 0 6 6',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 13 15',
-          fingers: '0 1 1 3',
+          baseFret: 9,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '0 10 9 0',
-          fingers: '0 2 1 0',
+          baseFret: 13,
+          frets: '0 1 1 3',
+          fingers: '0 1 1 3',
         ),
       ],
     ),
@@ -10696,18 +10696,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 6 6',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 15',
-          fingers: '1 1 1 3',
+          baseFret: 9,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 10 9 10',
-          fingers: '2 3 1 4',
+          baseFret: 13,
+          frets: '1 1 1 3',
+          fingers: '1 1 1 3',
         ),
       ],
     ),
@@ -10728,12 +10728,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 13 0 15',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 13 0 15',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
       ],
@@ -10745,23 +10745,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 4 6',
+          frets: '1 0 2 4',
           fingers: '1 0 2 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 6',
+          frets: '1 0 2 2',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 15',
-          fingers: '1 1 1 3',
+          baseFret: 5,
+          frets: '2 0 2 1',
+          fingers: '2 0 3 1',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 0 6 5',
-          fingers: '2 0 3 1',
+          baseFret: 13,
+          frets: '1 1 1 3',
+          fingers: '1 1 1 3',
         ),
       ],
     ),
@@ -10772,23 +10772,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 6',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '6 0 0 3',
+          frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 0 15',
-          fingers: '1 1 0 3',
+          baseFret: 5,
+          frets: '1 0 2 2',
+          fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '5 0 6 6',
-          fingers: '1 0 2 3',
+          baseFret: 13,
+          frets: '1 1 0 3',
+          fingers: '1 1 0 3',
         ),
       ],
     ),
@@ -10799,23 +10799,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 6 6',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '4 0 4 1',
+          fingers: '4 0 2 1',
+        ),
+        ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 6',
+          frets: '1 0 2 2',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 0 6 5',
+          frets: '2 0 2 1',
           fingers: '2 0 3 1',
-        ),
-        ChordPosition(
-          baseFret: 3,
-          frets: '6 0 6 3',
-          fingers: '4 0 2 1',
         ),
       ],
     ),
@@ -10830,19 +10830,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 4',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '1 0 2 3',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '7 0 6 7',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 14 13 15',
+          frets: '2 2 1 3',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '5 0 6 7',
-          fingers: '1 0 2 3',
         ),
       ],
     ),
@@ -10853,23 +10853,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 3 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '0 10 10 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '0 14 15 15',
+          frets: '0 1 2 2',
           fingers: '0 1 2 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '0 0 6 7',
-          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -10884,17 +10884,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 4',
         ),
         ChordPosition(
+          baseFret: 1,
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 10,
-          frets: '10 10 10 10',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 14 13 15',
-          fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
           frets: '2 2 1 3',
           fingers: '2 3 1 4',
         ),
@@ -10907,23 +10907,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 2 2',
+          frets: '2 1 1 1',
           fingers: '2 1 1 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 2 3',
-          fingers: '1 1 1 2',
-        ),
-        ChordPosition(
-          baseFret: 14,
-          frets: '14 14 14 15',
+          frets: '1 1 1 2',
           fingers: '1 1 1 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 6 7',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 14,
+          frets: '1 1 1 2',
+          fingers: '1 1 1 2',
         ),
       ],
     ),
@@ -10934,22 +10934,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 0 3',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 0 3',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '14 14 0 15',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 14,
-          frets: '15 14 0 15',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
       ],
@@ -10965,19 +10965,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 4',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '1 0 2 3',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '7 0 6 7',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 14 13 15',
+          frets: '2 2 1 3',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '5 0 6 7',
-          fingers: '1 0 2 3',
         ),
       ],
     ),
@@ -10992,19 +10992,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 10 10 10',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '7 5 6 7',
+          frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 14 13 15',
-          fingers: '3 2 1 4',
+          baseFret: 7,
+          frets: '1 4 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11016,22 +11016,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ChordPosition(
           baseFret: 1,
           frets: '3 1 1 3',
-          fingers: '3 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '1 3 4 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 6 6',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 10 9 10',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 13,
-          frets: '15 13 13 15',
-          fingers: '3 1 1 2',
         ),
       ],
     ),
@@ -11042,23 +11042,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 5 6',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 6',
+          frets: '1 0 2 2',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 13 15',
-          fingers: '2 1 1 3',
+          baseFret: 5,
+          frets: '2 0 2 1',
+          fingers: '2 0 3 1',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 0 6 5',
-          fingers: '2 0 3 1',
+          baseFret: 13,
+          frets: '2 1 1 3',
+          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -11074,18 +11074,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 6 6',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 13 15',
-          fingers: '2 1 1 3',
+          baseFret: 9,
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 10 9 10',
-          fingers: '2 3 1 4',
+          baseFret: 13,
+          frets: '2 1 1 3',
+          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -11106,12 +11106,12 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 0 15',
+          frets: '2 1 0 3',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '15 13 0 14',
+          frets: '3 1 0 2',
           fingers: '3 1 0 2',
         ),
       ],
@@ -11123,23 +11123,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 5 6',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 6',
+          frets: '1 0 2 2',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '14 13 13 15',
-          fingers: '2 1 1 3',
+          baseFret: 5,
+          frets: '2 0 2 1',
+          fingers: '2 0 3 1',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 0 6 5',
-          fingers: '2 0 3 1',
+          baseFret: 13,
+          frets: '2 1 1 3',
+          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -11154,19 +11154,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 0 1 2',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 0 13 15',
-          fingers: '3 0 1 2',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '5 0 6 3',
+          frets: '3 0 4 1',
           fingers: '3 0 4 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 6 5',
+          frets: '1 0 4 3',
           fingers: '1 0 4 3',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '3 0 1 3',
+          fingers: '3 0 1 2',
         ),
       ],
     ),
@@ -11181,19 +11181,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '15 15 13 15',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '8 5 6 8',
+          frets: '4 1 2 4',
           fingers: '4 1 2 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 10 11 10',
+          frets: '1 3 4 3',
           fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -11205,24 +11205,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '11',
       chordPositions: [
         ChordPosition(
-          baseFret: 3,
-          frets: '4 3 0 4',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '2 3 0 4',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '6 3 0 4',
-          fingers: '4 1 0 2',
+          baseFret: 2,
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 3 0 2',
-          fingers: '3 2 0 1',
+          baseFret: 3,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '4 1 0 2',
+          fingers: '4 1 0 2',
         ),
       ],
     ),
@@ -11232,24 +11232,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '13',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '3 2 1 1',
+          fingers: '3 2 1 1',
+        ),
+        ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '8 8 7 8',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 3 2 2',
-          fingers: '3 2 1 1',
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11260,23 +11260,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '8 0 7 8',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 0 7 8',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 0 7 5',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -11287,23 +11287,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '8 0 7 8',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 0 7 8',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 0 7 5',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -11313,24 +11313,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '6',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '8 8 7 8',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 3 2 4',
-          fingers: '3 2 1 4',
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11340,24 +11340,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '69',
       chordPositions: [
         ChordPosition(
+          baseFret: 2,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '8 8 7 8',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 3 2 4',
-          fingers: '3 2 1 4',
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11368,23 +11368,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 2',
+          frets: '3 2 1 1',
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
+          baseFret: 2,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 6 7 8',
+          frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 3 2 4',
-          fingers: '3 2 1 4',
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11395,23 +11395,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 2',
+          frets: '3 2 1 1',
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
+          baseFret: 2,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 8',
+          frets: '2 1 2 3',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 3 2 4',
-          fingers: '3 2 1 4',
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11420,16 +11420,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordKey: 'F#',
       suffix: '7b5',
       chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 3 5 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '8 9 7 8',
-          fingers: '2 3 1 4',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '2 3 1 4',
@@ -11440,6 +11430,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           frets: '4 3 1 2',
           fingers: '4 3 1 2',
         ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '2 1 3 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 3 1 2',
+          fingers: '2 3 1 4',
+        ),
       ],
     ),
     Chord(
@@ -11449,23 +11449,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 2',
+          frets: '3 2 1 1',
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '8 0 7 8',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 0 7 8',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '8 0 7 5',
+          frets: '4 0 3 1',
           fingers: '4 0 3 1',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -11476,23 +11476,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 11 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '0 0 7 8',
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '8 0 7 0',
+          frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -11503,22 +11503,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 4 0 2',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 4 0 4',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '9 11 0 11',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 11 0 9',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
       ],
@@ -11530,23 +11530,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 2',
+          frets: '3 2 1 1',
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
+          baseFret: 2,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 7 8',
+          frets: '1 1 2 3',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 3 2 4',
-          fingers: '3 2 1 4',
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11557,23 +11557,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 2',
+          frets: '3 2 1 1',
           fingers: '3 2 1 1',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 10,
-          frets: '10 11 11 11',
+          frets: '1 2 2 2',
           fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 11 10',
+          frets: '2 2 2 1',
           fingers: '2 3 4 1',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11582,16 +11582,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordKey: 'F#',
       suffix: '9b5',
       chordPositions: [
-        ChordPosition(
-          baseFret: 3,
-          frets: '4 3 5 4',
-          fingers: '2 1 3 4',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '8 9 7 8',
-          fingers: '2 3 1 4',
-        ),
         ChordPosition(
           baseFret: 1,
           frets: '2 3 1 4',
@@ -11602,6 +11592,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           frets: '4 3 1 2',
           fingers: '4 3 1 2',
         ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '2 1 3 2',
+          fingers: '2 1 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 3 1 2',
+          fingers: '2 3 1 4',
+        ),
       ],
     ),
     Chord(
@@ -11611,23 +11611,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 4',
+          frets: '3 2 1 3',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '6 6 7 8',
+          frets: '1 1 2 3',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 6 7 8',
+          frets: '3 1 2 3',
           fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -11638,22 +11638,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 5 0',
+          frets: '2 1 3 0',
           fingers: '2 1 3 0',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '0 3 5 4',
+          frets: '0 1 3 2',
           fingers: '0 1 3 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 9 7 8',
+          frets: '0 3 1 2',
           fingers: '0 3 1 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '8 9 7 0',
+          frets: '2 3 1 0',
           fingers: '2 3 1 0',
         ),
       ],
@@ -11665,23 +11665,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 11 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 4',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 8',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -11692,23 +11692,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 11 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 4',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 8',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -11719,23 +11719,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 11 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 4',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 8',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -11746,22 +11746,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 0',
+          frets: '0 1 1 0',
           fingers: '0 1 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 11 11 11',
+          frets: '0 1 1 1',
           fingers: '0 1 1 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 11 11 0',
+          frets: '1 1 1 0',
           fingers: '1 1 1 0',
         ),
       ],
@@ -11773,23 +11773,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 11 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 7,
-          frets: '0 0 7 8',
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '8 0 7 0',
+          frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -11804,19 +11804,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '7 5 7 7',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '7 5 7 4',
+          frets: '4 2 4 1',
           fingers: '4 2 3 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 5 7 7',
+          frets: '1 2 4 4',
           fingers: '1 2 4 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -11826,24 +11826,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'dim7',
       chordPositions: [
         ChordPosition(
+          baseFret: 1,
+          frets: '4 2 1 1',
+          fingers: '4 2 1 1',
+        ),
+        ChordPosition(
           baseFret: 2,
-          frets: '4 2 4 4',
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 5 7 7',
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '13 11 13 13',
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
-        ),
-        ChordPosition(
-          baseFret: 1,
-          frets: '4 2 1 1',
-          fingers: '4 2 1 1',
         ),
       ],
     ),
@@ -11854,22 +11854,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 0 4',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 2 0 4',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '7 6 0 4',
+          frets: '4 3 0 1',
           fingers: '4 3 0 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 7',
+          frets: '1 1 0 4',
           fingers: '1 1 0 4',
         ),
       ],
@@ -11881,23 +11881,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 2 4',
+          frets: '3 1 1 3',
           fingers: '3 1 1 2',
         ),
         ChordPosition(
+          baseFret: 2,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 11',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '4 2 4 4',
-          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -11908,22 +11908,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 2 4',
+          frets: '3 1 1 3',
           fingers: '3 1 1 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 7 7',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 11',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -11935,23 +11935,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 2 2',
+          frets: '3 1 1 1',
           fingers: '3 1 1 1',
         ),
         ChordPosition(
+          baseFret: 2,
+          frets: '1 1 1 3',
+          fingers: '1 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 11',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '2 2 2 4',
-          fingers: '1 1 1 3',
         ),
       ],
     ),
@@ -11966,11 +11966,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '7 5 7 7',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '2 2 1 4',
           fingers: '2 3 1 4',
@@ -11979,6 +11974,11 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '4 2 1 4',
           fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -11989,22 +11989,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 2 2',
+          frets: '3 1 1 1',
           fingers: '3 1 1 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 7 7',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 11',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -12021,17 +12021,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 7 7',
+          frets: '2 1 3 3',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 5 7 6',
+          frets: '3 1 3 2',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 5 7 7',
+          frets: '3 1 3 3',
           fingers: '3 1 2 4',
         ),
       ],
@@ -12043,22 +12043,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 2 4',
+          frets: '3 1 1 3',
           fingers: '3 1 1 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 7 7',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 11',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -12070,22 +12070,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 0 4',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 3 0 4',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '6 3 0 4',
+          frets: '4 1 0 2',
           fingers: '4 1 0 2',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 0 6',
+          frets: '2 1 0 4',
           fingers: '2 1 0 4',
         ),
       ],
@@ -12097,23 +12097,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 4 4',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '3 3 4 4',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '8 8 7 8',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -12124,23 +12124,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 3',
+          frets: '3 2 1 2',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 4',
+          frets: '2 2 1 3',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 4',
+          frets: '3 2 1 3',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -12151,23 +12151,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '4 3 3 0',
+          frets: '2 1 1 0',
           fingers: '2 1 1 0',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '0 11 11 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 3 3 4',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 7 8',
+          frets: '0 1 1 2',
           fingers: '0 1 1 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -12187,14 +12187,14 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 3 6 4',
-          fingers: '1 1 4 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '4 3 1 4',
           fingers: '4 3 1 2',
+        ),
+        ChordPosition(
+          baseFret: 3,
+          frets: '1 1 4 2',
+          fingers: '1 1 4 2',
         ),
       ],
     ),
@@ -12205,23 +12205,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 3',
+          frets: '3 2 1 2',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 4',
+          frets: '2 2 1 3',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 4',
+          frets: '3 2 1 3',
           fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -12232,23 +12232,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 4',
+          frets: '3 2 1 3',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '11 11 11 11',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '8 6 7 8',
+          frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 11 11 11',
+          frets: '1 4 4 4',
           fingers: '1 4 2 3',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -12259,23 +12259,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 2 4',
+          frets: '3 1 1 3',
           fingers: '3 1 1 2',
         ),
         ChordPosition(
+          baseFret: 4,
+          frets: '1 3 4 4',
+          fingers: '1 3 4 2',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 11',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 6 7 7',
-          fingers: '1 3 4 2',
         ),
       ],
     ),
@@ -12286,23 +12286,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 0 3',
+          frets: '3 1 0 2',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '3 2 0 4',
+          frets: '2 1 0 3',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '7 6 0 4',
-          fingers: '4 3 0 1',
+          baseFret: 2,
+          frets: '3 1 0 3',
+          fingers: '3 1 0 2',
         ),
         ChordPosition(
-          baseFret: 2,
-          frets: '4 2 0 4',
-          fingers: '3 1 0 2',
+          baseFret: 4,
+          frets: '4 3 0 1',
+          fingers: '4 3 0 1',
         ),
       ],
     ),
@@ -12313,23 +12313,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 2 3',
+          frets: '3 1 1 2',
           fingers: '3 1 1 2',
         ),
         ChordPosition(
+          baseFret: 2,
+          frets: '2 1 1 3',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 11',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
-        ),
-        ChordPosition(
-          baseFret: 2,
-          frets: '3 2 2 4',
-          fingers: '2 1 1 3',
         ),
       ],
     ),
@@ -12344,11 +12344,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '4 2 1 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '7 5 7 7',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 2 1 4',
           fingers: '3 2 1 4',
@@ -12357,6 +12352,11 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '4 2 1 4',
           fingers: '4 2 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -12367,22 +12367,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 2 2 3',
+          frets: '3 1 1 2',
           fingers: '3 1 1 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 6 7 7',
+          frets: '1 1 2 2',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '7 6 7 7',
+          frets: '2 1 2 2',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '11 11 10 11',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
       ],
@@ -12398,19 +12398,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '4 1 2 3',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '11 11 9 11',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '6 6 7 4',
+          frets: '3 3 4 1',
           fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 6 7 6',
+          frets: '1 3 4 3',
           fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -12421,23 +12421,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '4 4 2 4',
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
+          baseFret: 6,
+          frets: '4 1 2 4',
+          fingers: '4 1 2 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '9 11 0 11',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '11 11 0 9',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '9 6 7 9',
-          fingers: '4 1 2 3',
         ),
       ],
     ),
@@ -12454,19 +12454,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 0 0 3',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12481,19 +12481,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '0 0 0 2',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12504,22 +12504,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 3',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 6 0 5',
-          fingers: '2 3 0 1',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 0 0 2',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 0 6',
+          frets: '2 2 0 1',
+          fingers: '2 3 0 1',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
       ],
@@ -12535,19 +12535,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '0 0 0 2',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12562,19 +12562,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '0 0 0 2',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12589,19 +12589,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '0 0 0 2',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12616,19 +12616,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 0 0 3',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12643,19 +12643,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 0 0 3',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12666,22 +12666,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 5',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 4 0 5',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 6 0 5',
+          frets: '1 4 0 3',
           fingers: '1 4 0 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '5 0 0 3',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
       ],
@@ -12697,19 +12697,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 0 0 3',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12719,24 +12719,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7b9#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '5 0 0 6',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 12 0 13',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 0 0 5',
+          frets: '1 0 0 2',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -12751,19 +12751,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 8 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 0 3 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 0 6 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
         ),
       ],
     ),
@@ -12778,19 +12778,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 0 0 3',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12805,19 +12805,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 0 0 3',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12828,23 +12828,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 5',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 4 0 5',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '7 6 0 5',
-          fingers: '3 2 0 1',
+          baseFret: 3,
+          frets: '3 0 0 1',
+          fingers: '3 0 0 1',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '5 0 0 3',
-          fingers: '3 0 0 1',
+          baseFret: 5,
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
         ),
       ],
     ),
@@ -12859,19 +12859,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '0 0 0 5',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -12886,18 +12886,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 0 3',
         ),
         ChordPosition(
-          baseFret: 3,
-          frets: '3 3 0 5',
-          fingers: '1 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
+          baseFret: 3,
+          frets: '1 1 0 3',
+          fingers: '1 1 0 3',
+        ),
+        ChordPosition(
           baseFret: 13,
-          frets: '13 0 0 15',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
       ],
@@ -12909,23 +12909,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '5 4 0 5',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
-          baseFret: 12,
-          frets: '13 12 0 13',
+          frets: '2 1 0 2',
           fingers: '2 1 0 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '9 8 8 9',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '9 0 8 9',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -12940,19 +12940,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 0 3',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '13 12 0 13',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 5',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -12967,19 +12967,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 0 0 3',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '13 12 0 13',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
         ChordPosition(
           baseFret: 3,
-          frets: '3 0 0 5',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
         ),
       ],
     ),
@@ -12994,11 +12994,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 0 1',
           fingers: '0 0 0 1',
@@ -13007,6 +13002,11 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -13021,11 +13021,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 0 0 1',
           fingers: '0 0 0 1',
@@ -13034,6 +13029,11 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -13044,23 +13044,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 5',
+          frets: '4 0 1 4',
           fingers: '4 0 1 2',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '8 6 8 8',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '8 6 8 5',
+          frets: '4 2 4 1',
           fingers: '4 2 3 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 8 8',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -13071,23 +13071,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 2',
+          frets: '4 0 1 1',
           fingers: '4 0 1 1',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '8 6 8 8',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '2 0 5 5',
+          frets: '1 0 4 4',
           fingers: '1 0 4 2',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '5 0 2 5',
+          frets: '4 0 1 4',
           fingers: '4 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -13097,24 +13097,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm11',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 12 11 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 0 11 10',
+          frets: '0 0 2 1',
           fingers: '0 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
         ),
       ],
     ),
@@ -13124,23 +13124,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm6',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 12 11 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 12',
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
       ],
@@ -13151,23 +13151,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm69',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 12 11 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 12',
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
       ],
@@ -13178,23 +13178,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm7',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 12 11 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 12',
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
       ],
@@ -13205,24 +13205,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 6,
-          frets: '8 0 6 8',
-          fingers: '3 0 1 2',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '8 6 8 8',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '3 3 2 5',
+          frets: '2 2 1 4',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 6 8',
+          frets: '1 0 2 4',
           fingers: '1 0 2 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '3 0 1 3',
+          fingers: '3 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
         ),
       ],
     ),
@@ -13232,23 +13232,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm9',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 12 11 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 12',
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
       ],
@@ -13259,23 +13259,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm9b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '7 0 8 8',
-          fingers: '1 0 2 3',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '7 6 8 8',
+          frets: '2 1 3 3',
           fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 6 8 7',
+          frets: '3 1 3 2',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '8 0 8 7',
+          frets: '1 0 2 2',
+          fingers: '1 0 2 3',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 0 2 1',
           fingers: '2 0 3 1',
         ),
       ],
@@ -13286,23 +13286,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'madd9',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 12 11 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 8',
+          frets: '0 0 1 1',
           fingers: '0 0 1 1',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 12',
+          frets: '0 0 1 0',
+          fingers: '0 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 2 1 0',
+          fingers: '0 2 1 0',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
       ],
@@ -13318,19 +13318,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 0 0 4',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -13345,19 +13345,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '0 0 0 2',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 2,
-          frets: '2 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -13372,19 +13372,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 0 0 4',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -13394,23 +13394,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'maj7#5',
       chordPositions: [
         ChordPosition(
-          baseFret: 4,
-          frets: '4 0 0 5',
-          fingers: '1 0 0 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 4 0 5',
-          fingers: '1 1 0 2',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '5 0 0 4',
+          frets: '1 0 0 2',
+          fingers: '1 0 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '1 1 0 2',
+          fingers: '1 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
       ],
@@ -13422,22 +13422,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '4 0 0 5',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 5',
+          frets: '1 1 0 2',
           fingers: '1 1 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 6 0 5',
+          frets: '1 3 0 2',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '5 0 0 4',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
       ],
@@ -13453,19 +13453,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 0 0',
         ),
         ChordPosition(
-          baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '0 0 0 4',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
+        ),
+        ChordPosition(
+          baseFret: 12,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -13475,24 +13475,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'major',
       chordPositions: [
         ChordPosition(
-          baseFret: 1,
-          frets: '0 0 0 0',
-          fingers: '0 0 0 0',
+          baseFret: 3,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '3 1 2 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '1 4 4 4',
+          fingers: '1 2 3 4',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '0 12 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '0 0 0 5',
-          fingers: '0 0 0 1',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '5 0 0 0',
-          fingers: '1 0 0 0',
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -13502,24 +13502,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'minor',
       chordPositions: [
         ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 0',
-          fingers: '0 0 1 0',
+          baseFret: 3,
+          frets: '3 1 1 3',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
+          baseFret: 5,
+          frets: '1 3 4 4',
+          fingers: '1 2 3 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 12 11 0',
-          fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '0 0 8 8',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 11,
-          frets: '0 0 11 12',
-          fingers: '0 0 1 2',
+          frets: '2 2 1 2',
+          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -13529,24 +13529,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj11',
       chordPositions: [
         ChordPosition(
+          baseFret: 7,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 12 11 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '0 0 8 8',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '0 0 7 8',
-          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -13556,24 +13556,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj7',
       chordPositions: [
         ChordPosition(
+          baseFret: 7,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 12 11 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '0 0 8 8',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '0 0 7 8',
-          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -13583,24 +13583,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj7b5',
       chordPositions: [
         ChordPosition(
-          baseFret: 7,
-          frets: '8 0 7 8',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
-          baseFret: 6,
-          frets: '8 6 8 8',
-          fingers: '3 1 2 4',
-        ),
-        ChordPosition(
           baseFret: 2,
-          frets: '4 3 2 5',
+          frets: '3 2 1 4',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 7 8',
+          frets: '1 0 3 4',
           fingers: '1 0 3 4',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '3 1 3 3',
+          fingers: '3 1 2 4',
+        ),
+        ChordPosition(
+          baseFret: 7,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -13610,24 +13610,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'mmaj9',
       chordPositions: [
         ChordPosition(
+          baseFret: 7,
+          frets: '0 0 1 2',
+          fingers: '0 0 1 2',
+        ),
+        ChordPosition(
+          baseFret: 8,
+          frets: '0 0 1 1',
+          fingers: '0 0 1 1',
+        ),
+        ChordPosition(
           baseFret: 11,
-          frets: '0 0 11 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '0 12 11 0',
+          frets: '0 2 1 0',
           fingers: '0 2 1 0',
-        ),
-        ChordPosition(
-          baseFret: 8,
-          frets: '0 0 8 8',
-          fingers: '0 0 1 1',
-        ),
-        ChordPosition(
-          baseFret: 7,
-          frets: '0 0 7 8',
-          fingers: '0 0 1 2',
         ),
       ],
     ),
@@ -13638,22 +13638,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '0 0 3 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 7,
-          frets: '0 7 8 0',
+          frets: '0 1 2 0',
           fingers: '0 1 2 0',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
           baseFret: 10,
-          frets: '0 0 10 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
       ],
@@ -13669,18 +13669,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 0 1 0',
         ),
         ChordPosition(
-          baseFret: 7,
-          frets: '0 7 8 0',
-          fingers: '0 1 2 0',
-        ),
-        ChordPosition(
           baseFret: 3,
-          frets: '0 0 3 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
         ChordPosition(
+          baseFret: 7,
+          frets: '0 1 2 0',
+          fingers: '0 1 2 0',
+        ),
+        ChordPosition(
           baseFret: 8,
-          frets: '0 0 8 0',
+          frets: '0 0 1 0',
           fingers: '0 0 1 0',
         ),
       ],
@@ -13698,19 +13698,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 4,
+          frets: '3 2 1 1',
+          fingers: '3 2 1 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 8 9 10',
+          frets: '1 1 2 3',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '6 5 4 4',
-          fingers: '3 2 1 1',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -13725,19 +13725,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 5,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 10 9 10',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 5 6 6',
-          fingers: '2 1 3 4',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -13752,19 +13752,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 13 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '0 5 6 6',
+          frets: '0 1 2 2',
           fingers: '0 1 2 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 6 0',
+          frets: '2 1 2 0',
           fingers: '2 1 3 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -13779,19 +13779,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 5,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 10 9 10',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 5 6 6',
-          fingers: '2 1 3 4',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -13806,19 +13806,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 5,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 10 9 10',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 5 6 6',
-          fingers: '2 1 3 4',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -13833,19 +13833,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 5,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 10 9 10',
+          frets: '2 2 1 2',
           fingers: '2 3 1 4',
         ),
         ChordPosition(
-          baseFret: 5,
-          frets: '6 5 6 6',
-          fingers: '2 1 3 4',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -13860,19 +13860,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 4,
+          frets: '3 2 1 1',
+          fingers: '3 2 1 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 8 9 10',
+          frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '6 5 4 4',
-          fingers: '3 2 1 1',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -13882,24 +13882,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7#9',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '6 5 0 6',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 5 0 6',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 13 0 13',
-          fingers: '1 4 0 2',
+          baseFret: 4,
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '6 5 0 4',
-          fingers: '3 2 0 1',
+          baseFret: 5,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
       ],
     ),
@@ -13914,19 +13914,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 13 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 12,
-          frets: '0 13 13 12',
+          frets: '0 2 2 1',
           fingers: '0 2 3 1',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '12 13 13 0',
+          frets: '1 2 2 0',
           fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -13941,19 +13941,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 4,
+          frets: '3 2 1 1',
+          fingers: '3 2 1 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '7 5 7 6',
+          frets: '3 1 3 2',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '6 5 4 4',
-          fingers: '3 2 1 1',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -13968,18 +13968,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 3',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 10',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 13 14',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -13990,23 +13990,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: '7sus4',
       chordPositions: [
         ChordPosition(
-          baseFret: 4,
-          frets: '6 6 4 4',
-          fingers: '3 2 1 1',
-        ),
-        ChordPosition(
-          baseFret: 9,
-          frets: '11 11 9 11',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 1 2 4',
           fingers: '1 1 2 4',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '6 6 4 6',
+          frets: '3 3 1 1',
+          fingers: '3 2 1 1',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
         ),
       ],
@@ -14022,19 +14022,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 4,
+          frets: '3 2 1 1',
+          fingers: '3 2 1 1',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 8 9 10',
+          frets: '1 1 2 3',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '6 5 4 4',
-          fingers: '3 2 1 1',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -14049,11 +14049,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 13 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '0 1 1 1',
           fingers: '0 1 1 1',
@@ -14062,6 +14057,11 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '1 1 1 0',
           fingers: '1 1 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -14076,19 +14076,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 13 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 12,
-          frets: '0 13 13 12',
+          frets: '0 2 2 1',
           fingers: '0 2 3 1',
         ),
         ChordPosition(
           baseFret: 12,
-          frets: '12 13 13 0',
+          frets: '1 2 2 0',
           fingers: '1 2 3 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -14103,19 +14103,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 4,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '8 8 9 10',
+          frets: '1 1 2 3',
           fingers: '1 1 2 3',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '6 5 4 6',
-          fingers: '3 2 1 4',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -14126,22 +14126,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '6 5 0 4',
+          frets: '3 2 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 5 0 6',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '0 5 7 6',
+          frets: '0 1 3 2',
           fingers: '0 1 3 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 7 0',
+          frets: '2 1 3 0',
           fingers: '2 1 3 0',
         ),
       ],
@@ -14157,18 +14157,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 3',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 10',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 13 14',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -14184,18 +14184,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 3',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 10',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 13 14',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -14211,18 +14211,18 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 3',
         ),
         ChordPosition(
+          baseFret: 5,
+          frets: '2 1 1 2',
+          fingers: '2 1 1 3',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '10 9 9 10',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '14 13 13 14',
-          fingers: '2 1 1 3',
-        ),
-        ChordPosition(
-          baseFret: 5,
-          frets: '6 5 5 6',
+          frets: '2 1 1 2',
           fingers: '2 1 1 3',
         ),
       ],
@@ -14233,24 +14233,24 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'b13#9',
       chordPositions: [
         ChordPosition(
-          baseFret: 5,
-          frets: '6 5 0 6',
-          fingers: '2 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 4,
-          frets: '4 5 0 6',
+          frets: '1 2 0 3',
           fingers: '1 2 0 3',
         ),
         ChordPosition(
-          baseFret: 10,
-          frets: '10 13 0 13',
-          fingers: '1 4 0 2',
+          baseFret: 4,
+          frets: '3 2 0 1',
+          fingers: '3 2 0 1',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '6 5 0 4',
-          fingers: '3 2 0 1',
+          baseFret: 5,
+          frets: '2 1 0 2',
+          fingers: '2 1 0 3',
+        ),
+        ChordPosition(
+          baseFret: 10,
+          frets: '1 4 0 4',
+          fingers: '1 4 0 2',
         ),
       ],
     ),
@@ -14265,11 +14265,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 1 1 2',
           fingers: '1 1 1 2',
@@ -14278,6 +14273,11 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '2 1 1 1',
           fingers: '2 1 1 1',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -14292,19 +14292,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '0 7 0 6',
+          frets: '0 2 0 1',
           fingers: '0 2 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 7 0 0',
+          frets: '1 2 0 0',
           fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -14319,19 +14319,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '0 7 0 6',
+          frets: '0 2 0 1',
           fingers: '0 2 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 7 0 0',
+          frets: '1 2 0 0',
           fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -14342,22 +14342,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '6 4 0 6',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 6',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 6 0 6',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '6 6 0 4',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
       ],
@@ -14373,19 +14373,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 0 3',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 0 15',
-          fingers: '1 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '6 4 0 6',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '1 1 0 3',
+          fingers: '1 1 0 3',
         ),
       ],
     ),
@@ -14400,19 +14400,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 0 3',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '8 8 0 6',
-          fingers: '3 2 0 1',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '6 4 0 6',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 6,
+          frets: '3 3 0 1',
+          fingers: '3 2 0 1',
         ),
       ],
     ),
@@ -14422,16 +14422,6 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       suffix: 'm7',
       chordPositions: [
         ChordPosition(
-          baseFret: 4,
-          frets: '6 4 0 6',
-          fingers: '3 1 0 2',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '4 4 0 6',
-          fingers: '1 1 0 3',
-        ),
-        ChordPosition(
           baseFret: 1,
           frets: '1 1 0 4',
           fingers: '1 1 0 4',
@@ -14440,6 +14430,16 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           baseFret: 1,
           frets: '4 1 0 4',
           fingers: '4 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '3 1 0 3',
+          fingers: '3 1 0 2',
+        ),
+        ChordPosition(
+          baseFret: 4,
+          frets: '1 1 0 3',
+          fingers: '1 1 0 3',
         ),
       ],
     ),
@@ -14454,19 +14454,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '0 7 0 6',
+          frets: '0 2 0 1',
           fingers: '0 2 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 7 0 0',
+          frets: '1 2 0 0',
           fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -14477,22 +14477,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '6 4 0 6',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 4,
-          frets: '4 4 0 6',
+          frets: '1 1 0 3',
           fingers: '1 1 0 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 8 0 6',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 8 0 8',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
       ],
@@ -14508,19 +14508,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 0 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 0 0',
-          fingers: '0 1 0 0',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '0 7 0 6',
+          frets: '0 2 0 1',
           fingers: '0 2 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 7 0 0',
+          frets: '1 2 0 0',
           fingers: '1 2 0 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 0 0',
+          fingers: '0 1 0 0',
         ),
       ],
     ),
@@ -14531,22 +14531,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '6 4 0 6',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 8 0 6',
+          frets: '3 3 0 1',
           fingers: '3 2 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '9 8 0 6',
+          frets: '4 3 0 1',
           fingers: '4 3 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 8 0 8',
+          frets: '1 3 0 3',
           fingers: '1 3 0 2',
         ),
       ],
@@ -14562,19 +14562,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 0 9 10',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 9 10',
+          frets: '1 0 2 3',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 0 9 8',
+          frets: '3 0 2 1',
           fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -14589,19 +14589,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 0 9 10',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 9 10',
+          frets: '1 0 2 3',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 0 9 8',
+          frets: '3 0 2 1',
           fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -14616,19 +14616,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
+          baseFret: 4,
+          frets: '2 2 1 3',
+          fingers: '2 3 1 4',
+        ),
+        ChordPosition(
           baseFret: 9,
-          frets: '10 0 9 10',
+          frets: '2 0 1 2',
           fingers: '2 0 1 3',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '13 13 13 13',
+          frets: '1 1 1 1',
           fingers: '1 1 1 1',
-        ),
-        ChordPosition(
-          baseFret: 4,
-          frets: '5 5 4 6',
-          fingers: '2 3 1 4',
         ),
       ],
     ),
@@ -14643,19 +14643,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '2 1 1 3',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 0 9 10',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 5,
-          frets: '5 5 5 6',
+          frets: '1 1 1 2',
           fingers: '1 1 1 2',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '6 5 5 5',
+          frets: '2 1 1 1',
           fingers: '2 1 1 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -14670,19 +14670,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '0 1 1 0',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '0 13 13 0',
-          fingers: '0 1 1 0',
-        ),
-        ChordPosition(
           baseFret: 9,
-          frets: '0 0 9 10',
+          frets: '0 0 1 2',
           fingers: '0 0 1 2',
         ),
         ChordPosition(
           baseFret: 9,
-          frets: '10 0 9 0',
+          frets: '2 0 1 0',
           fingers: '2 0 1 0',
+        ),
+        ChordPosition(
+          baseFret: 13,
+          frets: '0 1 1 0',
+          fingers: '0 1 1 0',
         ),
       ],
     ),
@@ -14697,19 +14697,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 9,
-          frets: '10 0 9 10',
-          fingers: '2 0 1 3',
-        ),
-        ChordPosition(
           baseFret: 8,
-          frets: '8 0 9 10',
+          frets: '1 0 2 3',
           fingers: '1 0 2 3',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 0 9 8',
+          frets: '3 0 2 1',
           fingers: '3 0 2 1',
+        ),
+        ChordPosition(
+          baseFret: 9,
+          frets: '2 0 1 2',
+          fingers: '2 0 1 3',
         ),
       ],
     ),
@@ -14724,19 +14724,19 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
           fingers: '1 1 1 1',
         ),
         ChordPosition(
-          baseFret: 13,
-          frets: '13 13 13 13',
-          fingers: '1 1 1 1',
+          baseFret: 4,
+          frets: '3 2 1 3',
+          fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '10 8 9 10',
+          frets: '3 1 2 3',
           fingers: '3 1 2 4',
         ),
         ChordPosition(
-          baseFret: 4,
-          frets: '6 5 4 6',
-          fingers: '3 2 1 4',
+          baseFret: 13,
+          frets: '1 1 1 1',
+          fingers: '1 1 1 1',
         ),
       ],
     ),
@@ -14747,23 +14747,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '6 4 0 6',
+          frets: '3 1 0 3',
           fingers: '3 1 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '9 8 0 6',
+          frets: '4 3 0 1',
           fingers: '4 3 0 1',
         ),
         ChordPosition(
-          baseFret: 8,
-          frets: '9 8 9 9',
-          fingers: '2 1 3 4',
+          baseFret: 6,
+          frets: '1 3 0 4',
+          fingers: '1 3 0 4',
         ),
         ChordPosition(
-          baseFret: 6,
-          frets: '6 8 0 9',
-          fingers: '1 3 0 4',
+          baseFret: 8,
+          frets: '2 1 2 2',
+          fingers: '2 1 3 4',
         ),
       ],
     ),
@@ -14774,22 +14774,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '6 0 0 5',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 0 6',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 0 0 8',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 0 0 6',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
       ],
@@ -14801,22 +14801,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '6 0 0 5',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 0 6',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 0 0 9',
+          frets: '1 0 0 4',
           fingers: '1 0 0 4',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '9 0 0 6',
+          frets: '4 0 0 1',
           fingers: '4 0 0 1',
         ),
       ],
@@ -14833,17 +14833,17 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '0 0 0 6',
+          frets: '0 0 0 1',
           fingers: '0 0 0 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 0 0 0',
+          frets: '1 0 0 0',
           fingers: '1 0 0 0',
         ),
         ChordPosition(
           baseFret: 13,
-          frets: '0 13 0 0',
+          frets: '0 1 0 0',
           fingers: '0 1 0 0',
         ),
       ],
@@ -14855,22 +14855,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 5,
-          frets: '6 0 0 5',
+          frets: '2 0 0 1',
           fingers: '2 0 0 1',
         ),
         ChordPosition(
           baseFret: 5,
-          frets: '5 0 0 6',
+          frets: '1 0 0 2',
           fingers: '1 0 0 2',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 0 0 8',
+          frets: '1 0 0 3',
           fingers: '1 0 0 3',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '8 0 0 6',
+          frets: '3 0 0 1',
           fingers: '3 0 0 1',
         ),
       ],
@@ -14882,23 +14882,23 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 3,
-          frets: '6 3 4 6',
+          frets: '4 1 2 4',
           fingers: '4 1 2 3',
         ),
         ChordPosition(
-          baseFret: 11,
-          frets: '13 13 11 13',
-          fingers: '3 2 1 4',
-        ),
-        ChordPosition(
           baseFret: 6,
-          frets: '8 8 9 6',
+          frets: '3 3 4 1',
           fingers: '3 2 4 1',
         ),
         ChordPosition(
           baseFret: 6,
-          frets: '6 8 9 8',
+          frets: '1 3 4 3',
           fingers: '1 3 4 2',
+        ),
+        ChordPosition(
+          baseFret: 11,
+          frets: '3 3 1 3',
+          fingers: '3 2 1 4',
         ),
       ],
     ),
@@ -14909,22 +14909,22 @@ final Map<String, List<Chord>> brazilianUkuleleDataSet = {
       chordPositions: [
         ChordPosition(
           baseFret: 4,
-          frets: '6 6 4 6',
+          frets: '3 3 1 3',
           fingers: '3 2 1 4',
         ),
         ChordPosition(
           baseFret: 8,
-          frets: '11 8 9 11',
+          frets: '4 1 2 4',
           fingers: '4 1 2 3',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '11 13 14 13',
+          frets: '1 3 4 3',
           fingers: '1 3 4 2',
         ),
         ChordPosition(
           baseFret: 11,
-          frets: '13 13 14 11',
+          frets: '3 3 4 1',
           fingers: '3 2 4 1',
         ),
       ],
