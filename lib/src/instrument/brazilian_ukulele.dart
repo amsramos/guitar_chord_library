@@ -53,7 +53,7 @@ class BrazilianUkulele extends Instrument {
     String suffix,
   ) {
     try {
-      if (!sharpToFlat.containsKey(key)) key = sharpToFlat[key]!;
+      if (!sharpToFlat.containsKey(key)) key = flatToSharp[key]!;
 
       var k = brazilianUkuleleDataSet[key];
       if (k == null) return null;
