@@ -1,5 +1,22 @@
 import '../chord.dart';
 
+/// Cavaquinho brasileiro dataset, tuning `D G B D` (low to high).
+///
+/// Positions are generated from a validated candidate search anchored by
+/// `_preferredVoicings`, a table of classic shapes used by the cavaquinho
+/// community. Selection policy:
+///
+/// * Classic (preferred) shapes always come first, in table order.
+/// * Remaining slots are filled with validated generated shapes, ordered by
+///   neck position (lowest fret region first).
+/// * Generated shapes avoid open-string-heavy voicings (at most 1 open
+///   string, never between fretted strings) and unplayable stretches.
+/// * Four-note chords must be complete; the perfect fifth may be omitted in
+///   fully fretted shapes for `_fifthOptionalSuffixes` (standard practice).
+/// * Five-plus-note chords may omit notes but keep their defining intervals;
+///   rootless voicings are accepted only for these jazz extensions.
+/// * `dim` and `dim7` accept the diminished seventh (community plays `dim`
+///   as `dim7`).
 final Map<String, List<Chord>> brazilianUkuleleDataSet =
     _buildBrazilianUkuleleDataSet();
 
@@ -83,347 +100,510 @@ const Map<String, int> _noteValues = {
 };
 
 const List<int> _brazilianUkuleleTuning = [2, 7, 11, 2];
-const int _maxGeneratedFret = 12;
+const int _maxGeneratedFret = 14;
 const int _maxOpenVoicingFret = 7;
-const int _beginnerVoicingMaxFret = 5;
 const int _maxLowPositionSpan = 3;
 const int _maxHighPositionSpan = 4;
 const int _positionsPerChord = 4;
+const int _allOpenPosition = 99;
+
+/// Suffixes that must contain a natural ninth (interval 2).
+const Set<String> _ninthSuffixes = {
+  '9',
+  'm9',
+  'maj9',
+  'add9',
+  'madd9',
+  '69',
+  'm69',
+  'aug9',
+  'mmaj9',
+  'm9b5',
+};
+
+/// Four-note chords whose perfect fifth may be omitted in fully fretted
+/// generated shapes. The fifth never defines these qualities.
+const Set<String> _fifthOptionalSuffixes = {
+  '7',
+  'm7',
+  'maj7',
+  'mmaj7',
+  '7sus4',
+  '11',
+  'add9',
+  'madd9',
+};
+
+/// Classic shapes played by the cavaquinho community (real frets, `D G B D`).
+/// These anchor the first positions of each chord, in table order.
 const Map<String, Map<String, List<List<int>>>> _preferredVoicings = {
-  'A': {
-    'major': [
-      [2, 2, 2, 2],
-    ],
-    'minor': [
-      [2, 2, 1, 2],
-    ],
-    'aug': [
-      [3, 2, 2, 3],
-    ],
-    'dim': [
-      [1, 2, 1, 1],
-    ],
-    '6': [
-      [2, 2, 2, 4],
-    ],
-    '7': [
-      [2, 2, 2, 5],
-    ],
-    'maj7': [
-      [6, 6, 5, 7],
-    ],
-    'm7': [
-      [5, 5, 5, 7],
-    ],
-  },
-  'A#': {
-    'major': [
-      [0, 3, 3, 3],
-    ],
-    'minor': [
-      [3, 3, 2, 3],
-    ],
-    'aug': [
-      [0, 3, 3, 4],
-    ],
-    'dim': [
-      [2, 3, 2, 2],
-    ],
-    '6': [
-      [3, 3, 3, 5],
-    ],
-    '7': [
-      [0, 3, 6, 6],
-    ],
-    'maj7': [
-      [7, 7, 6, 8],
-    ],
-    'm7': [
-      [6, 6, 6, 8],
-    ],
-  },
-  'B': {
-    'major': [
-      [4, 4, 4, 4],
-    ],
-    'minor': [
-      [0, 4, 0, 4],
-    ],
-    'aug': [
-      [1, 0, 0, 1],
-    ],
-    'dim': [
-      [0, 4, 0, 3],
-    ],
-    '6': [
-      [1, 1, 0, 4],
-    ],
-    '7': [
-      [1, 2, 0, 4],
-    ],
-    'maj7': [
-      [1, 3, 0, 4],
-    ],
-    'm7': [
-      [0, 2, 0, 4],
-    ],
-  },
-  'C': {
-    'major': [
+  'major': {
+    'C': [
       [2, 0, 1, 2],
     ],
-    'minor': [
+    'C#': [
+      [3, 1, 2, 3],
+    ],
+    'D': [
+      [0, 2, 3, 4],
+    ],
+    'D#': [
+      [5, 3, 4, 5],
+    ],
+    'E': [
+      [2, 1, 0, 2],
+    ],
+    'F': [
+      [3, 2, 1, 3],
+    ],
+    'F#': [
+      [4, 3, 2, 4],
+    ],
+    'G': [
+      [5, 4, 3, 5],
+      [0, 0, 0, 0],
+    ],
+    'G#': [
+      [1, 1, 1, 1],
+    ],
+    'A': [
+      [2, 2, 2, 2],
+    ],
+    'A#': [
+      [3, 3, 3, 3],
+      [0, 3, 3, 3],
+    ],
+    'B': [
+      [4, 4, 4, 4],
+    ],
+  },
+  'minor': {
+    'C': [
       [1, 0, 1, 1],
     ],
-    'aug': [
-      [2, 1, 1, 2],
+    'C#': [
+      [2, 1, 2, 2],
     ],
-    'dim': [
-      [4, 5, 4, 4],
+    'D': [
+      [0, 2, 3, 3],
     ],
-    '6': [
+    'D#': [
+      [1, 3, 4, 4],
+    ],
+    'E': [
+      [2, 0, 0, 2],
+    ],
+    'F': [
+      [3, 1, 1, 3],
+    ],
+    'F#': [
+      [4, 2, 2, 4],
+    ],
+    'G': [
+      [5, 3, 3, 5],
+    ],
+    'G#': [
+      [1, 1, 0, 1],
+    ],
+    'A': [
+      [2, 2, 1, 2],
+    ],
+    'A#': [
+      [3, 3, 2, 3],
+    ],
+    'B': [
+      [4, 4, 3, 4],
+      [0, 4, 3, 4],
+    ],
+  },
+  '7': {
+    'C': [
+      [2, 3, 1, 2],
+    ],
+    'C#': [
+      [3, 4, 2, 3],
+    ],
+    'D': [
+      [0, 2, 1, 4],
+    ],
+    'D#': [
+      [5, 6, 4, 5],
+    ],
+    'E': [
+      [0, 1, 0, 2],
+      [2, 1, 0, 0],
+    ],
+    'F': [
+      [1, 2, 1, 3],
+    ],
+    'F#': [
+      [2, 3, 2, 4],
+    ],
+    'G': [
+      [0, 0, 0, 3],
+    ],
+    'G#': [
+      [1, 1, 1, 4],
+    ],
+    'A': [
+      [2, 2, 2, 5],
+    ],
+    'A#': [
+      [3, 3, 3, 6],
+    ],
+    'B': [
+      [1, 2, 0, 1],
+      [4, 4, 4, 7],
+    ],
+  },
+  'm7': {
+    'C': [
+      [1, 3, 1, 1],
+    ],
+    'C#': [
+      [2, 4, 2, 2],
+    ],
+    'D': [
+      [0, 2, 1, 3],
+    ],
+    'D#': [
+      [1, 3, 2, 4],
+    ],
+    'E': [
+      [0, 0, 0, 2],
+    ],
+    'F': [
+      [1, 1, 1, 3],
+    ],
+    'F#': [
+      [2, 2, 2, 4],
+    ],
+    'G': [
+      [5, 3, 3, 3],
+    ],
+    'G#': [
+      [4, 4, 4, 6],
+    ],
+    'A': [
       [5, 5, 5, 7],
     ],
-    '7': [
-      [5, 5, 5, 8],
+    'A#': [
+      [6, 6, 6, 8],
     ],
-    'maj7': [
+    'B': [
+      [0, 2, 0, 4],
+      [7, 7, 7, 9],
+    ],
+  },
+  'maj7': {
+    'C': [
       [2, 5, 0, 5],
     ],
-    'm7': [
-      [10, 8, 8, 8],
+    'C#': [
+      [6, 6, 6, 10],
     ],
-    '11': [
-      [2, 0, 1, 3],
+    'D': [
+      [0, 2, 2, 4],
     ],
-    '9': [
+    'D#': [
+      [0, 3, 4, 5],
+    ],
+    'E': [
+      [1, 1, 0, 2],
+    ],
+    'F': [
+      [2, 2, 1, 3],
+    ],
+    'F#': [
+      [3, 3, 2, 4],
+    ],
+    'G': [
+      [0, 0, 0, 4],
+    ],
+    'G#': [
+      [5, 5, 4, 6],
+    ],
+    'A': [
+      [6, 6, 5, 7],
+    ],
+    'A#': [
+      [7, 7, 6, 8],
+    ],
+    'B': [
+      [1, 3, 0, 4],
+    ],
+  },
+  '6': {
+    'C': [
+      [2, 2, 1, 2],
+    ],
+    'C#': [
+      [3, 3, 2, 3],
+    ],
+    'D': [
+      [0, 2, 0, 4],
+    ],
+    'D#': [
+      [1, 0, 1, 1],
+    ],
+    'E': [
+      [2, 1, 2, 2],
+    ],
+    'F': [
+      [0, 2, 1, 3],
+    ],
+    'F#': [
+      [1, 3, 2, 4],
+    ],
+    'G': [
+      [0, 0, 0, 2],
+    ],
+    'G#': [
+      [1, 1, 1, 3],
+    ],
+    'A': [
+      [2, 2, 2, 4],
+    ],
+    'A#': [
+      [3, 3, 3, 5],
+    ],
+    'B': [
+      [1, 1, 0, 4],
+      [4, 4, 4, 6],
+    ],
+  },
+  'm6': {
+    'C': [
+      [1, 2, 1, 1],
+    ],
+    'C#': [
+      [2, 3, 2, 2],
+    ],
+    'D': [
+      [0, 2, 0, 3],
+    ],
+    'D#': [
+      [1, 3, 1, 4],
+    ],
+    'E': [
+      [2, 0, 2, 2],
+      [2, 4, 2, 5],
+    ],
+    'F': [
+      [3, 1, 3, 3],
+      [3, 5, 3, 6],
+    ],
+    'F#': [
+      [4, 2, 4, 4],
+      [4, 6, 4, 7],
+    ],
+    'G': [
+      [5, 3, 3, 2],
+    ],
+    'G#': [
+      [6, 4, 4, 3],
+    ],
+    'A': [
+      [2, 2, 1, 4],
+    ],
+    'A#': [
+      [3, 3, 2, 5],
+    ],
+    'B': [
+      [4, 4, 3, 6],
+    ],
+  },
+  '9': {
+    'C': [
       [0, 3, 1, 2],
     ],
-    'add9': [
-      [0, 0, 1, 2],
+    'C#': [
+      [1, 4, 2, 3],
     ],
-    'dim7': [
+    'D': [
+      [2, 5, 3, 4],
+    ],
+    'D#': [
+      [3, 6, 4, 5],
+    ],
+    'E': [
+      [4, 7, 5, 6],
+    ],
+    'F': [
+      [5, 8, 6, 7],
+    ],
+    'F#': [
+      [6, 9, 7, 8],
+    ],
+    'G': [
+      [5, 4, 6, 7],
+    ],
+    'G#': [
+      [6, 5, 7, 8],
+    ],
+    'A': [
+      [7, 6, 8, 9],
+    ],
+    'A#': [
+      [8, 7, 9, 10],
+    ],
+    'B': [
+      [9, 8, 10, 11],
+    ],
+  },
+  'dim': {
+    'C': [
+      [4, 5, 4, 4],
       [1, 2, 1, 4],
     ],
-    'm9': [
+    'C#': [
+      [5, 6, 5, 5],
+      [2, 3, 2, 5],
+    ],
+    'D': [
+      [0, 1, 3, 3],
+      [0, 1, 0, 3],
+    ],
+    'D#': [
+      [1, 2, 4, 4],
+      [1, 2, 1, 4],
+    ],
+    'E': [
+      [2, 3, 5, 5],
+      [2, 3, 2, 5],
+    ],
+    'F': [
+      [3, 4, 6, 6],
+      [3, 4, 3, 6],
+    ],
+    'F#': [
+      [4, 5, 7, 7],
+      [1, 2, 1, 4],
+    ],
+    'G': [
+      [5, 6, 8, 8],
+      [2, 3, 2, 5],
+    ],
+    'G#': [
+      [0, 1, 0, 0],
+      [0, 1, 0, 3],
+    ],
+    'A': [
+      [1, 2, 1, 1],
+      [1, 2, 1, 4],
+    ],
+    'A#': [
+      [2, 3, 2, 2],
+      [2, 3, 2, 5],
+    ],
+    'B': [
+      [3, 4, 3, 3],
+      [3, 4, 3, 6],
+    ],
+  },
+  'dim7': {
+    'C': [
+      [1, 2, 1, 4],
+    ],
+    'C#': [
+      [2, 3, 2, 5],
+    ],
+    'D': [
+      [0, 1, 0, 3],
+    ],
+    'D#': [
+      [1, 2, 1, 4],
+    ],
+    'E': [
+      [2, 3, 2, 5],
+    ],
+    'F': [
+      [3, 4, 3, 6],
+    ],
+    'F#': [
+      [1, 2, 1, 4],
+    ],
+    'G': [
+      [2, 3, 2, 5],
+    ],
+    'G#': [
+      [0, 1, 0, 3],
+    ],
+    'A': [
+      [1, 2, 1, 4],
+    ],
+    'A#': [
+      [2, 3, 2, 5],
+    ],
+    'B': [
+      [3, 4, 3, 6],
+    ],
+  },
+  'aug': {
+    'C': [
+      [2, 1, 1, 2],
+    ],
+    'C#': [
+      [3, 2, 2, 3],
+    ],
+    'D': [
+      [4, 3, 3, 4],
+    ],
+    'D#': [
+      [1, 0, 0, 1],
+    ],
+    'E': [
+      [2, 1, 1, 2],
+    ],
+    'F': [
+      [3, 2, 2, 3],
+    ],
+    'F#': [
+      [4, 3, 3, 4],
+    ],
+    'G': [
+      [1, 0, 0, 1],
+    ],
+    'G#': [
+      [2, 1, 1, 2],
+    ],
+    'A': [
+      [3, 2, 2, 3],
+    ],
+    'A#': [
+      [4, 3, 3, 4],
+    ],
+    'B': [
+      [1, 0, 0, 1],
+    ],
+  },
+  '11': {
+    'C': [
+      [2, 0, 1, 3],
+    ],
+  },
+  'add9': {
+    'C': [
+      [0, 0, 1, 2],
+    ],
+  },
+  'm9': {
+    'C': [
       [0, 3, 1, 1],
     ],
-    'sus2': [
+  },
+  'sus2': {
+    'C': [
       [0, 0, 1, 0],
     ],
-    'sus4': [
+  },
+  'sus4': {
+    'C': [
       [3, 0, 1, 3],
     ],
   },
-  'C#': {
-    'major': [
-      [3, 1, 2, 3],
-    ],
-    'minor': [
-      [2, 1, 2, 2],
-    ],
-    'aug': [
-      [3, 2, 2, 3],
-    ],
-    'dim': [
-      [2, 0, 2, 2],
-    ],
-    '6': [
-      [6, 6, 6, 8],
-    ],
-    '7': [
-      [3, 6, 0, 6],
-    ],
-    'maj7': [
-      [10, 6, 6, 6],
-    ],
-    'm7': [
-      [6, 6, 5, 9],
-    ],
-  },
-  'D': {
-    'major': [
-      [0, 2, 3, 4],
-    ],
-    'minor': [
-      [0, 2, 3, 3],
-    ],
-    'aug': [
-      [0, 3, 3, 4],
-    ],
-    'dim': [
-      [0, 1, 3, 3],
-    ],
-    '6': [
-      [0, 2, 0, 4],
-    ],
-    '7': [
-      [0, 2, 1, 4],
-    ],
-    'maj7': [
-      [0, 2, 2, 4],
-    ],
-    'm7': [
-      [0, 2, 1, 3],
-    ],
-  },
-  'D#': {
-    'major': [
-      [5, 3, 4, 5],
-    ],
-    'minor': [
-      [4, 3, 4, 4],
-    ],
-    'aug': [
-      [1, 0, 0, 1],
-    ],
-    'dim': [
-      [4, 2, 4, 4],
-    ],
-    '6': [
-      [10, 8, 8, 8],
-    ],
-    '7': [
-      [11, 8, 8, 8],
-    ],
-    'maj7': [
-      [0, 3, 4, 5],
-    ],
-    'm7': [
-      [1, 3, 2, 4],
-    ],
-  },
-  'E': {
-    'major': [
-      [2, 1, 0, 2],
-    ],
-    'minor': [
-      [2, 0, 0, 2],
-    ],
-    'aug': [
-      [2, 1, 1, 2],
-    ],
-    'dim': [
-      [5, 3, 5, 5],
-    ],
-    '6': [
-      [6, 6, 5, 9],
-    ],
-    '7': [
-      [0, 1, 0, 2],
-    ],
-    'maj7': [
-      [1, 1, 0, 2],
-    ],
-    'm7': [
-      [0, 0, 0, 2],
-    ],
-  },
-  'F': {
-    'major': [
-      [3, 2, 1, 3],
-    ],
-    'minor': [
-      [3, 1, 1, 3],
-    ],
-    'aug': [
-      [3, 2, 2, 3],
-    ],
-    'dim': [
-      [3, 1, 0, 3],
-    ],
-    '6': [
-      [0, 2, 1, 3],
-    ],
-    '7': [
-      [1, 2, 1, 3],
-    ],
-    'maj7': [
-      [2, 2, 1, 3],
-    ],
-    'm7': [
-      [1, 1, 1, 3],
-    ],
-  },
-  'F#': {
-    'major': [
-      [4, 3, 2, 4],
-    ],
-    'minor': [
-      [4, 2, 2, 4],
-    ],
-    'aug': [
-      [0, 3, 3, 4],
-    ],
-    'dim': [
-      [4, 2, 1, 4],
-    ],
-    '6': [
-      [1, 3, 2, 4],
-    ],
-    '7': [
-      [2, 3, 2, 4],
-    ],
-    'maj7': [
-      [3, 3, 2, 4],
-    ],
-    'm7': [
-      [2, 2, 2, 4],
-    ],
-  },
-  'G': {
-    'major': [
-      [5, 4, 3, 5],
-    ],
-    'minor': [
-      [0, 3, 3, 5],
-    ],
-    'aug': [
-      [1, 0, 0, 1],
-    ],
-    'dim': [
-      [5, 3, 2, 5],
-    ],
-    '6': [
-      [0, 0, 0, 2],
-    ],
-    '7': [
-      [0, 0, 0, 3],
-    ],
-    'maj7': [
-      [0, 0, 0, 4],
-    ],
-    'm7': [
-      [5, 3, 3, 3],
-    ],
-  },
-  'G#': {
-    'major': [
-      [1, 1, 1, 1],
-    ],
-    'minor': [
-      [1, 1, 0, 1],
-    ],
-    'aug': [
-      [2, 1, 1, 2],
-    ],
-    'dim': [
-      [0, 1, 0, 0],
-    ],
-    '6': [
-      [1, 1, 1, 3],
-    ],
-    '7': [
-      [1, 1, 1, 4],
-    ],
-    'maj7': [
-      [5, 5, 4, 6],
-    ],
-    'm7': [
-      [1, 1, 0, 4],
-    ],
-  },
 };
+
 final List<_Candidate> _allCandidates = _buildCandidates();
 
 Map<String, List<Chord>> _buildBrazilianUkuleleDataSet() {
@@ -443,115 +623,166 @@ Map<String, List<Chord>> _buildBrazilianUkuleleDataSet() {
 
 List<ChordPosition> _buildPositions(String key, String suffix) {
   final root = _noteValues[key]!;
-  final formula = _formulas[suffix]!;
-  final allowedIntervals = _pitchClassMask(formula);
-  final requiredIntervals = _requiredIntervalMask(suffix, formula);
-  final requiresCompleteVoicing = _bitCount(allowedIntervals) <= 4;
-  final candidates = <_RankedCandidate>[];
-  final candidateSignatures = <String>{};
+  final preferred = <_Candidate>[
+    for (final frets in _preferredVoicings[suffix]?[key] ?? const <List<int>>[])
+      _Candidate(frets),
+  ];
+
+  for (final candidate in preferred) {
+    if (!_isValidVoicing(candidate, root, suffix, isPreferred: true)) {
+      throw StateError(
+          'Invalid preferred $key$suffix voicing: ${candidate.frets}');
+    }
+  }
+
+  final preferredMirrors = {
+    for (final candidate in preferred) candidate.mirrorSignature,
+  };
+
+  // Deduplicate mirrored shapes: strings 1 and 4 are both D, so swapping
+  // their frets produces the same notes. Keep the better-quality shape.
+  final generated = <String, _Candidate>{};
+  for (final candidate in _allCandidates) {
+    if (!_isValidVoicing(candidate, root, suffix, isPreferred: false)) {
+      continue;
+    }
+
+    final mirror = candidate.mirrorSignature;
+    if (preferredMirrors.contains(mirror)) continue;
+
+    final existing = generated[mirror];
+    if (existing == null ||
+        _compareQuality(candidate, existing, root, suffix) < 0) {
+      generated[mirror] = candidate;
+    }
+  }
+
+  final buckets = <int, List<_Candidate>>{};
+  for (final candidate in generated.values) {
+    buckets.putIfAbsent(candidate.position, () => []).add(candidate);
+  }
+  for (final bucket in buckets.values) {
+    bucket.sort((a, b) => _compareQuality(a, b, root, suffix));
+  }
+
+  final chosen = preferred.take(_positionsPerChord).toList();
+  final bucketPositions = buckets.keys.toList()..sort();
+
+  // One shape per neck region first, from the lowest region up.
+  for (final position in bucketPositions) {
+    if (chosen.length >= _positionsPerChord) break;
+    chosen.add(buckets[position]!.first);
+  }
+
+  if (chosen.length < _positionsPerChord) {
+    final rest = <_Candidate>[
+      for (final position in bucketPositions) ...buckets[position]!.skip(1),
+    ];
+    rest.sort((a, b) => _comparePositionThenQuality(a, b, root, suffix));
+    for (final candidate in rest) {
+      if (chosen.length >= _positionsPerChord) break;
+      chosen.add(candidate);
+    }
+  }
+
+  final preferredCount = preferred.length > _positionsPerChord
+      ? _positionsPerChord
+      : preferred.length;
+  final tail = chosen.sublist(preferredCount)
+    ..sort((a, b) => _comparePositionThenQuality(a, b, root, suffix));
+
   final positions = <ChordPosition>[];
   final signatures = <String>{};
-
-  for (final frets in _preferredVoicings[key]?[suffix] ?? const <List<int>>[]) {
-    final candidate = _Candidate(frets);
-
-    if (!_isValidCandidate(
-      candidate,
-      root,
-      allowedIntervals,
-      requiredIntervals,
-      requiresCompleteVoicing,
-    )) {
-      throw StateError('Invalid preferred $key$suffix voicing: $frets');
-    }
-
-    _addCandidate(candidates, candidateSignatures, candidate, true);
-  }
-
-  for (final candidate in _allCandidates) {
-    if (_isValidCandidate(
-      candidate,
-      root,
-      allowedIntervals,
-      requiredIntervals,
-      requiresCompleteVoicing,
-    )) {
-      _addCandidate(candidates, candidateSignatures, candidate, false);
-    }
-  }
-
-  candidates.sort((a, b) => _compareCandidatesForRoot(root, a, b));
-
-  for (final candidate in candidates) {
-    _addPosition(positions, signatures, candidate.candidate.frets);
-    if (positions.length == _positionsPerChord) break;
+  for (final candidate in chosen.take(preferredCount).followedBy(tail)) {
+    _addPosition(positions, signatures, candidate.frets);
   }
 
   return positions;
 }
 
-bool _isValidCandidate(
+int _allowedIntervalMask(String suffix) {
+  var mask = _pitchClassMask(_formulas[suffix]!);
+
+  // The community plays dim as dim7; accept the diminished seventh.
+  if (suffix == 'dim' || suffix == 'dim7') {
+    mask |= (1 << 3) | (1 << 6) | (1 << 9);
+  }
+
+  return mask;
+}
+
+bool _isValidVoicing(
   _Candidate candidate,
   int root,
-  int allowedIntervals,
-  int requiredIntervals,
-  bool requiresCompleteVoicing,
-) {
+  String suffix, {
+  required bool isPreferred,
+}) {
+  if (!_isPlayable(candidate)) return false;
+
+  final formulaMask = _pitchClassMask(_formulas[suffix]!);
+  final noteCount = _bitCount(formulaMask);
+  final allowed = _allowedIntervalMask(suffix);
+  final required = _requiredIntervalMask(suffix, _formulas[suffix]!);
   final intervals = candidate.intervalMaskFrom(root);
 
-  if (!_isPlayable(candidate)) return false;
-  if (intervals & ~allowedIntervals != 0) return false;
-  if (intervals & requiredIntervals != requiredIntervals) return false;
-  if (requiresCompleteVoicing &&
-      intervals & allowedIntervals != allowedIntervals) {
-    return false;
+  if (intervals & ~allowed != 0) return false;
+
+  if (noteCount >= 5 && !isPreferred) {
+    // Jazz extensions may drop the root (documented rootless voicings).
+    final rootless = required & ~1;
+    if (intervals & required != required && intervals & rootless != rootless) {
+      return false;
+    }
+  } else {
+    if (intervals & required != required) return false;
+  }
+
+  if (noteCount <= 4 && !isPreferred) {
+    var must = formulaMask;
+    if (suffix == 'dim') {
+      must = (1 << 0) | (1 << 3) | (1 << 6);
+    }
+    if (_fifthOptionalSuffixes.contains(suffix) && !candidate.hasOpenStrings) {
+      must &= ~(1 << 7);
+    }
+    if (intervals & must != must) return false;
+  }
+
+  if (!isPreferred) {
+    // Avoid open-string-heavy shapes in generated voicings.
+    if (candidate.openCount >= 2) return false;
+    if (candidate.hasInteriorOpen) return false;
   }
 
   return true;
 }
 
-void _addCandidate(
-  List<_RankedCandidate> candidates,
-  Set<String> signatures,
-  _Candidate candidate,
-  bool isPreferred,
-) {
-  if (signatures.add(candidate.frets.join(' '))) {
-    candidates.add(_RankedCandidate(candidate, isPreferred));
-  }
-}
+int _compareQuality(_Candidate a, _Candidate b, int root, String suffix) {
+  final formulaMask = _pitchClassMask(_formulas[suffix]!);
 
-int _compareCandidatesForRoot(
-    int root, _RankedCandidate a, _RankedCandidate b) {
-  final candidateA = a.candidate;
-  final candidateB = b.candidate;
+  int rooted(_Candidate candidate) =>
+      candidate.intervalMaskFrom(root) & 1 != 0 ? 0 : 1;
+  int complete(_Candidate candidate) =>
+      candidate.intervalMaskFrom(root) & formulaMask == formulaMask ? 0 : 1;
+
   final comparisons = [
-    _boolScore(candidateA.isBeginnerVoicing)
-        .compareTo(_boolScore(candidateB.isBeginnerVoicing)),
-    _boolScore(!candidateA.isAllOpen)
-        .compareTo(_boolScore(!candidateB.isAllOpen)),
-    _boolScore(candidateA.hasRootBass(root))
-        .compareTo(_boolScore(candidateB.hasRootBass(root))),
-    _boolScore(a.isPreferred).compareTo(_boolScore(b.isPreferred)),
-    _boolScore(candidateA.hasMatchingOuterStrings)
-        .compareTo(_boolScore(candidateB.hasMatchingOuterStrings)),
-    candidateA.maxFret.compareTo(candidateB.maxFret),
-    candidateA.span.compareTo(candidateB.span),
-    candidateA.sum.compareTo(candidateB.sum),
-    candidateA.signature.compareTo(candidateB.signature),
+    rooted(a).compareTo(rooted(b)),
+    complete(a).compareTo(complete(b)),
+    a.difficulty.compareTo(b.difficulty),
+    a.sum.compareTo(b.sum),
+    a.signature.compareTo(b.signature),
   ];
 
   return comparisons.firstWhere((comparison) => comparison != 0,
       orElse: () => 0);
 }
 
-int _boolScore(bool value) => value ? 0 : 1;
+int _comparePositionThenQuality(
+    _Candidate a, _Candidate b, int root, String suffix) {
+  final position = a.position.compareTo(b.position);
+  if (position != 0) return position;
 
-class _RankedCandidate {
-  final _Candidate candidate;
-  final bool isPreferred;
-
-  _RankedCandidate(this.candidate, this.isPreferred);
+  return _compareQuality(a, b, root, suffix);
 }
 
 void _addPosition(
@@ -602,7 +833,6 @@ List<_Candidate> _buildCandidates() {
     }
   }
 
-  candidates.sort();
   return candidates;
 }
 
@@ -689,6 +919,10 @@ int _requiredIntervalMask(String suffix, List<int> formula) {
     }
   }
 
+  if (_ninthSuffixes.contains(suffix)) {
+    required |= 1 << 2;
+  }
+
   return required;
 }
 
@@ -724,7 +958,7 @@ List<int> _fingersFor(List<int> frets) {
   return fingers;
 }
 
-class _Candidate implements Comparable<_Candidate> {
+class _Candidate {
   final List<int> frets;
   late final List<int> _intervalMasks = [
     for (var root = 0; root < 12; root++) _intervalMaskFrom(root),
@@ -749,13 +983,32 @@ class _Candidate implements Comparable<_Candidate> {
     return mask;
   }
 
-  int get _maxFret => frets.reduce((a, b) => a > b ? a : b);
+  late final int sum = frets.reduce((a, b) => a + b);
 
-  int get _sum => frets.reduce((a, b) => a + b);
+  late final int openCount = frets.where((fret) => fret == 0).length;
 
-  int get _openStrings => frets.where((fret) => fret == 0).length;
+  bool get hasOpenStrings => openCount > 0;
 
-  int get _span {
+  /// Open string with fretted strings on both sides (hard to keep clean).
+  late final bool hasInteriorOpen = _computeInteriorOpen();
+
+  bool _computeInteriorOpen() {
+    for (var stringIndex = 1; stringIndex < frets.length - 1; stringIndex++) {
+      if (frets[stringIndex] != 0) continue;
+
+      final hasFrettedBefore =
+          frets.sublist(0, stringIndex).any((fret) => fret > 0);
+      final hasFrettedAfter =
+          frets.sublist(stringIndex + 1).any((fret) => fret > 0);
+      if (hasFrettedBefore && hasFrettedAfter) return true;
+    }
+
+    return false;
+  }
+
+  late final int span = _computeSpan();
+
+  int _computeSpan() {
     final positiveFrets = frets.where((fret) => fret > 0).toList();
     if (positiveFrets.isEmpty) return 0;
 
@@ -764,39 +1017,26 @@ class _Candidate implements Comparable<_Candidate> {
     return max - min;
   }
 
-  bool hasRootBass(int root) {
-    return (_brazilianUkuleleTuning.first + frets.first - root) % 12 == 0;
+  /// Fret region of the shape on the neck; all-open shapes sort last.
+  late final int position = _computePosition();
+
+  int _computePosition() {
+    final positiveFrets = frets.where((fret) => fret > 0).toList();
+    if (positiveFrets.isEmpty) return _allOpenPosition;
+
+    return positiveFrets.reduce((a, b) => a < b ? a : b);
   }
 
-  bool get isAllOpen => _maxFret == 0;
+  late final int fingerCount =
+      _fingersFor(frets).where((finger) => finger > 0).toSet().length;
 
-  bool get isBeginnerVoicing => _maxFret <= _beginnerVoicingMaxFret;
+  late final int difficulty =
+      fingerCount + span + (openCount >= 2 ? 1 : 0);
 
-  bool get hasMatchingOuterStrings {
-    final first = (_brazilianUkuleleTuning.first + frets.first) % 12;
-    final last = (_brazilianUkuleleTuning.last + frets.last) % 12;
-    return first == last;
-  }
-
-  int get maxFret => _maxFret;
-
-  int get sum => _sum;
-
-  int get span => _span;
+  /// Signature treating strings 1 and 4 (both D) as interchangeable.
+  late final String mirrorSignature = frets[0] <= frets[3]
+      ? '${frets[0]} ${frets[1]} ${frets[2]} ${frets[3]}'
+      : '${frets[3]} ${frets[1]} ${frets[2]} ${frets[0]}';
 
   String get signature => _signature;
-
-  @override
-  int compareTo(_Candidate other) {
-    final comparisons = [
-      _maxFret.compareTo(other._maxFret),
-      _span.compareTo(other._span),
-      _sum.compareTo(other._sum),
-      other._openStrings.compareTo(_openStrings),
-      _signature.compareTo(other._signature),
-    ];
-
-    return comparisons.firstWhere((comparison) => comparison != 0,
-        orElse: () => 0);
-  }
 }

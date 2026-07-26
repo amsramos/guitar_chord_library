@@ -48,3 +48,26 @@ void main() {
 }
 ```
 
+## Chord Diagram Widget
+
+The package also includes a stylable Flutter widget for rendering chord
+positions.
+
+```dart
+final instrument =
+    GuitarChordLibrary.instrument(InstrumentType.brazilianUkulele);
+final position = instrument.getChordPositions('G', '7')!.first;
+
+ChordDiagram(
+  title: 'G7',
+  position: position,
+  stringCount: instrument.stringCount,
+  style: const ChordDiagramStyle(
+    fingerColor: Color(0xFF2563EB),
+    stringColor: Color(0xFF111827),
+    fretColor: Color(0xFF6B7280),
+    showFingerNumbers: true,
+  ),
+)
+```
+

@@ -37,6 +37,8 @@ void main() {
           expect(chord.name, '$key${chord.suffix}');
           expect(chord.chordPositions, isNotEmpty,
               reason: '${chord.name} should have generated positions');
+          expect(chord.chordPositions.length, lessThanOrEqualTo(4),
+              reason: chord.name);
 
           final seen = <String>{};
           for (final position in chord.chordPositions) {
@@ -120,70 +122,103 @@ void main() {
       }
     });
 
-    test('documents root-bass exceptions', () {
-      final exceptions = <String>{};
+    test('contains only notes allowed by each chord formula', () {
+      for (final chordList in brazilianUkuleleDataSet.values) {
+        for (final chord in chordList) {
+          final formula = _formulas[chord.suffix]!;
+          final formulaNotes = _pitchClasses(formula);
+          final allowed = _allowedIntervals(chord.suffix);
+          final required = _requiredIntervals(chord.suffix, formula);
+          final root = _noteValues[chord.chordKey]!;
 
-      for (final key in brazilianUkuleleDataSet.keys) {
-        for (final suffix in _formulas.keys) {
-          if (!_hasPracticalRootBassVoicing(key, suffix)) {
-            exceptions.add('$key|$suffix');
+          for (final position in chord.chordPositions) {
+            final intervals = _intervalsFor(root, position);
+
+            expect(intervals.every(allowed.contains), isTrue,
+                reason: '${chord.name} has notes outside $allowed: $position');
+
+            if (formulaNotes.length >= 5) {
+              // Jazz extensions may use documented rootless voicings.
+              final rootless = required.difference({0});
+              expect(
+                  required.every(intervals.contains) ||
+                      rootless.every(intervals.contains),
+                  isTrue,
+                  reason:
+                      '${chord.name} misses required intervals $required: $position');
+            } else {
+              expect(required.every(intervals.contains), isTrue,
+                  reason:
+                      '${chord.name} misses required intervals $required: $position');
+            }
+
+            if (formulaNotes.length <= 4) {
+              var must = Set<int>.of(formulaNotes);
+              if (chord.suffix == 'dim') must = {0, 3, 6};
+              if (_fifthOptionalSuffixes.contains(chord.suffix)) {
+                must.remove(7);
+              }
+              expect(intervals.containsAll(must), isTrue,
+                  reason:
+                      '${chord.name} should include all of $must: $position');
+            }
+          }
+        }
+      }
+    });
+
+    test('has at least 3 variations except documented rare chords', () {
+      final actualExceptions = <String, int>{};
+
+      for (final MapEntry(key: key, value: chords)
+          in brazilianUkuleleDataSet.entries) {
+        for (final chord in chords) {
+          final count = chord.chordPositions.length;
+          if (count < 3) {
+            actualExceptions['$key|${chord.suffix}'] = count;
           }
         }
       }
 
-      expect(exceptions, _rootBassExceptions);
+      expect(actualExceptions, _fewVoicingExceptions,
+          reason: 'documented set of chords with fewer than 3 shapes changed');
+      expect(_fewVoicingExceptions.values.every((count) => count >= 1), isTrue);
     });
 
-    test('starts with beginner voicings whenever practical', () {
-      for (final MapEntry(key: key, value: chords)
-          in brazilianUkuleleDataSet.entries) {
-        for (final chord in chords) {
-          if (!_hasPracticalBeginnerVoicing(key, chord.suffix)) continue;
+    test('starts every chord with its classic community shapes in order', () {
+      for (final MapEntry(key: chordId, value: shapes)
+          in _classicShapes.entries) {
+        final [key, suffix] = chordId.split('|');
+        final chord = brazilianUkuleleDataSet[key]!
+            .firstWhere((chord) => chord.suffix == suffix);
 
-          final realFrets = _realFretsFor(chord.chordPositions.first);
-
-          expect(realFrets.every((fret) => fret <= _beginnerVoicingMaxFret),
-              isTrue,
-              reason: '${chord.name} should prefer low-position voicings');
-        }
-      }
-    });
-
-    test('uses root bass as a secondary priority after beginner voicings', () {
-      for (final MapEntry(key: key, value: chords)
-          in brazilianUkuleleDataSet.entries) {
-        for (final chord in chords) {
-          if (_hasPracticalBeginnerVoicing(key, chord.suffix)) continue;
-          if (_rootBassExceptions.contains('$key|${chord.suffix}')) continue;
-
-          final realFrets = _realFretsFor(chord.chordPositions.first);
-
-          expect(_hasRootBass(key, realFrets), isTrue,
+        for (var i = 0; i < shapes.length; i++) {
+          expect(_realFretsFor(chord.chordPositions[i]), shapes[i],
               reason:
-                  '${chord.name} should prefer tonic bass when no low voicing exists');
+                  '$chordId should keep classic shape ${shapes[i]} at index $i');
         }
       }
     });
 
-    test('does not start fully open when a practical fretted voicing exists',
-        () {
+    test('orders generated variations from low to high neck positions', () {
       for (final MapEntry(key: key, value: chords)
           in brazilianUkuleleDataSet.entries) {
         for (final chord in chords) {
-          if (!_hasPracticalFrettedVoicing(key, chord.suffix)) continue;
+          final classicCount =
+              _classicShapes['$key|${chord.suffix}']?.length ?? 0;
+          final tail = chord.chordPositions.skip(classicCount).toList();
 
-          expect(
-              _realFretsFor(chord.chordPositions.first).any((fret) => fret > 0),
-              isTrue,
-              reason: '${chord.name} should not start with all open strings');
+          for (var i = 1; i < tail.length; i++) {
+            expect(
+              _positionOf(tail[i]),
+              greaterThanOrEqualTo(_positionOf(tail[i - 1])),
+              reason:
+                  '${chord.name} generated shapes should ascend the neck: '
+                  '${tail.map(_realFretsFor).toList()}',
+            );
+          }
         }
       }
-    });
-
-    test('uses refined first voicings for highlighted chords', () {
-      expect(_firstRealFrets('D', 'major'), [0, 2, 3, 4]);
-      expect(_firstRealFrets('G', 'major'), [5, 4, 3, 5]);
-      expect(_firstRealFrets('G', 'm7'), [5, 3, 3, 3]);
     });
 
     test('keeps common C chords in beginner positions', () {
@@ -198,13 +233,19 @@ void main() {
       expect(_firstRealFrets('C', 'dim7'), [1, 2, 1, 4]);
     });
 
+    test('uses refined first voicings for highlighted chords', () {
+      expect(_firstRealFrets('D', 'major'), [0, 2, 3, 4]);
+      expect(_firstRealFrets('G', 'major'), [5, 4, 3, 5]);
+      expect(_firstRealFrets('G', 'm7'), [5, 3, 3, 3]);
+    });
+
     test('keeps natural elevenths in 11 chord voicings', () {
       final c11Intervals = _intervalsForRealFrets(
         _noteValues['C']!,
         _firstRealFrets('C', '11'),
       );
 
-      expect(c11Intervals, containsAll(<int>{0, 4, 5, 7}));
+      expect(c11Intervals, containsAll(<int>{0, 4, 5}));
       expect(c11Intervals, isNot(contains(10)),
           reason: 'C11 should not collapse to a C7 voicing');
 
@@ -223,28 +264,22 @@ void main() {
       }
     });
 
-    test('contains only notes allowed by each chord formula', () {
-      for (final chordList in brazilianUkuleleDataSet.values) {
-        for (final chord in chordList) {
-          final formula = _formulas[chord.suffix]!;
-          final allowed = _pitchClasses(formula);
-          final required = _requiredIntervals(chord.suffix, formula);
-          final root = _noteValues[chord.chordKey]!;
+    test('avoids open-string-heavy generated shapes', () {
+      for (final MapEntry(key: key, value: chords)
+          in brazilianUkuleleDataSet.entries) {
+        for (final chord in chords) {
+          final classicCount =
+              _classicShapes['$key|${chord.suffix}']?.length ?? 0;
 
-          for (final position in chord.chordPositions) {
-            final intervals = _intervalsFor(root, position);
+          for (final position
+              in chord.chordPositions.skip(classicCount)) {
+            final realFrets = _realFretsFor(position);
+            final opens = realFrets.where((fret) => fret == 0).length;
 
-            expect(intervals.every(allowed.contains), isTrue,
-                reason: '${chord.name} has notes outside $allowed: $position');
-            expect(required.every(intervals.contains), isTrue,
+            expect(opens, lessThanOrEqualTo(1),
                 reason:
-                    '${chord.name} misses required intervals $required: $position');
-
-            if (allowed.length <= 4) {
-              expect(intervals.containsAll(allowed), isTrue,
-                  reason:
-                      '${chord.name} should include all $allowed: $position');
-            }
+                    '${chord.name} generated shape has too many open strings: '
+                    '$realFrets');
           }
         }
       }
@@ -367,54 +402,502 @@ const Map<String, int> _noteValues = {
 
 const List<int> _tuning = [2, 7, 11, 2];
 const int _maxOpenVoicingFret = 7;
-const int _beginnerVoicingMaxFret = 5;
 const int _maxLowPositionSpan = 3;
 const int _maxHighPositionSpan = 4;
 const Set<String> _naturalEleventhSuffixes = {'11', 'm11', 'maj11', 'mmaj11'};
-const Set<String> _rootBassExceptions = {
-  'A#|11',
-  'B|11',
-  'C|11',
-  'C#|11',
-  'C#|add9',
-  'C#|madd9',
-  'D#|11',
-  'D#|13b5b9',
-  'D#|6',
-  'D#|7',
-  'D#|7b5',
-  'D#|7sus4',
-  'D#|9#11',
-  'D#|9b5',
-  'D#|add9',
-  'D#|aug7',
-  'D#|madd9',
-  'D#|maj11',
-  'D#|maj7',
-  'D#|maj7b5',
-  'D#|major',
-  'D#|sus4',
-  'E|11',
-  'E|13b5b9',
-  'E|6',
-  'E|7b5',
-  'E|9#11',
-  'E|9b5',
-  'E|maj11',
-  'E|maj7b5',
-  'F|11',
-  'F|add9',
-  'F|madd9',
-  'F|maj11',
-  'F#|11',
-  'F#|add9',
-  'F#|madd9',
-  'G|madd9',
-  'G#|11',
-  'G#|add9',
-  'G#|madd9',
+
+/// Suffixes that must contain a natural ninth (interval 2).
+const Set<String> _ninthSuffixes = {
+  '9',
+  'm9',
+  'maj9',
+  'add9',
+  'madd9',
+  '69',
+  'm69',
+  'aug9',
+  'mmaj9',
+  'm9b5',
 };
-final List<List<int>> _testCandidates = _buildTestCandidates();
+
+/// Chords whose perfect fifth may be omitted (never defines the quality).
+const Set<String> _fifthOptionalSuffixes = {
+  '7',
+  'm7',
+  'maj7',
+  'mmaj7',
+  '7sus4',
+  '11',
+  'add9',
+  'madd9',
+  '6',
+  'm6',
+};
+
+/// Rare altered chords where the 4-string neck cannot produce 3 playable
+/// complete voicings up to the 14th fret. Values are the achievable count.
+const Map<String, int> _fewVoicingExceptions = {
+  'A|maj7#5': 2,
+  'A#|madd9': 2,
+  'A#|maj7#5': 2,
+  'B|7b5': 2,
+  'B|maj7#5': 2,
+  'B|maj7b5': 2,
+  'C#|aug7': 2,
+  'C#|maj7#5': 2,
+  'C#|maj7b5': 2,
+  'D#|aug7': 2,
+  'D#|madd9': 1,
+  'E|maj7b5': 2,
+  'F|7b5': 2,
+  'F|aug7': 2,
+  'F|maj7#5': 2,
+  'F|maj7b5': 1,
+  'F|mmaj7b5': 2,
+  'F#|maj7#5': 2,
+  'F#|maj7b5': 2,
+  'G|aug7': 2,
+  'G|maj7#5': 2,
+  'G#|maj7#5': 2,
+};
+
+/// Source of truth: classic cavaquinho shapes (real frets, `D G B D`).
+/// Every chord listed here must expose these shapes first, in this order.
+const Map<String, List<List<int>>> _classicShapes = {
+  'C|major': [
+    [2, 0, 1, 2]
+  ],
+  'C#|major': [
+    [3, 1, 2, 3]
+  ],
+  'D|major': [
+    [0, 2, 3, 4]
+  ],
+  'D#|major': [
+    [5, 3, 4, 5]
+  ],
+  'E|major': [
+    [2, 1, 0, 2]
+  ],
+  'F|major': [
+    [3, 2, 1, 3]
+  ],
+  'F#|major': [
+    [4, 3, 2, 4]
+  ],
+  'G|major': [
+    [5, 4, 3, 5],
+    [0, 0, 0, 0]
+  ],
+  'G#|major': [
+    [1, 1, 1, 1]
+  ],
+  'A|major': [
+    [2, 2, 2, 2]
+  ],
+  'A#|major': [
+    [3, 3, 3, 3],
+    [0, 3, 3, 3]
+  ],
+  'B|major': [
+    [4, 4, 4, 4]
+  ],
+  'C|minor': [
+    [1, 0, 1, 1]
+  ],
+  'C#|minor': [
+    [2, 1, 2, 2]
+  ],
+  'D|minor': [
+    [0, 2, 3, 3]
+  ],
+  'D#|minor': [
+    [1, 3, 4, 4]
+  ],
+  'E|minor': [
+    [2, 0, 0, 2]
+  ],
+  'F|minor': [
+    [3, 1, 1, 3]
+  ],
+  'F#|minor': [
+    [4, 2, 2, 4]
+  ],
+  'G|minor': [
+    [5, 3, 3, 5]
+  ],
+  'G#|minor': [
+    [1, 1, 0, 1]
+  ],
+  'A|minor': [
+    [2, 2, 1, 2]
+  ],
+  'A#|minor': [
+    [3, 3, 2, 3]
+  ],
+  'B|minor': [
+    [4, 4, 3, 4],
+    [0, 4, 3, 4]
+  ],
+  'C|7': [
+    [2, 3, 1, 2]
+  ],
+  'C#|7': [
+    [3, 4, 2, 3]
+  ],
+  'D|7': [
+    [0, 2, 1, 4]
+  ],
+  'D#|7': [
+    [5, 6, 4, 5]
+  ],
+  'E|7': [
+    [0, 1, 0, 2],
+    [2, 1, 0, 0]
+  ],
+  'F|7': [
+    [1, 2, 1, 3]
+  ],
+  'F#|7': [
+    [2, 3, 2, 4]
+  ],
+  'G|7': [
+    [0, 0, 0, 3]
+  ],
+  'G#|7': [
+    [1, 1, 1, 4]
+  ],
+  'A|7': [
+    [2, 2, 2, 5]
+  ],
+  'A#|7': [
+    [3, 3, 3, 6]
+  ],
+  'B|7': [
+    [1, 2, 0, 1],
+    [4, 4, 4, 7]
+  ],
+  'C|m7': [
+    [1, 3, 1, 1]
+  ],
+  'C#|m7': [
+    [2, 4, 2, 2]
+  ],
+  'D|m7': [
+    [0, 2, 1, 3]
+  ],
+  'D#|m7': [
+    [1, 3, 2, 4]
+  ],
+  'E|m7': [
+    [0, 0, 0, 2]
+  ],
+  'F|m7': [
+    [1, 1, 1, 3]
+  ],
+  'F#|m7': [
+    [2, 2, 2, 4]
+  ],
+  'G|m7': [
+    [5, 3, 3, 3]
+  ],
+  'G#|m7': [
+    [4, 4, 4, 6]
+  ],
+  'A|m7': [
+    [5, 5, 5, 7]
+  ],
+  'A#|m7': [
+    [6, 6, 6, 8]
+  ],
+  'B|m7': [
+    [0, 2, 0, 4],
+    [7, 7, 7, 9]
+  ],
+  'C|maj7': [
+    [2, 5, 0, 5]
+  ],
+  'C#|maj7': [
+    [6, 6, 6, 10]
+  ],
+  'D|maj7': [
+    [0, 2, 2, 4]
+  ],
+  'D#|maj7': [
+    [0, 3, 4, 5]
+  ],
+  'E|maj7': [
+    [1, 1, 0, 2]
+  ],
+  'F|maj7': [
+    [2, 2, 1, 3]
+  ],
+  'F#|maj7': [
+    [3, 3, 2, 4]
+  ],
+  'G|maj7': [
+    [0, 0, 0, 4]
+  ],
+  'G#|maj7': [
+    [5, 5, 4, 6]
+  ],
+  'A|maj7': [
+    [6, 6, 5, 7]
+  ],
+  'A#|maj7': [
+    [7, 7, 6, 8]
+  ],
+  'B|maj7': [
+    [1, 3, 0, 4]
+  ],
+  'C|6': [
+    [2, 2, 1, 2]
+  ],
+  'C#|6': [
+    [3, 3, 2, 3]
+  ],
+  'D|6': [
+    [0, 2, 0, 4]
+  ],
+  'D#|6': [
+    [1, 0, 1, 1]
+  ],
+  'E|6': [
+    [2, 1, 2, 2]
+  ],
+  'F|6': [
+    [0, 2, 1, 3]
+  ],
+  'F#|6': [
+    [1, 3, 2, 4]
+  ],
+  'G|6': [
+    [0, 0, 0, 2]
+  ],
+  'G#|6': [
+    [1, 1, 1, 3]
+  ],
+  'A|6': [
+    [2, 2, 2, 4]
+  ],
+  'A#|6': [
+    [3, 3, 3, 5]
+  ],
+  'B|6': [
+    [1, 1, 0, 4],
+    [4, 4, 4, 6]
+  ],
+  'C|m6': [
+    [1, 2, 1, 1]
+  ],
+  'C#|m6': [
+    [2, 3, 2, 2]
+  ],
+  'D|m6': [
+    [0, 2, 0, 3]
+  ],
+  'D#|m6': [
+    [1, 3, 1, 4]
+  ],
+  'E|m6': [
+    [2, 0, 2, 2],
+    [2, 4, 2, 5]
+  ],
+  'F|m6': [
+    [3, 1, 3, 3],
+    [3, 5, 3, 6]
+  ],
+  'F#|m6': [
+    [4, 2, 4, 4],
+    [4, 6, 4, 7]
+  ],
+  'G|m6': [
+    [5, 3, 3, 2]
+  ],
+  'G#|m6': [
+    [6, 4, 4, 3]
+  ],
+  'A|m6': [
+    [2, 2, 1, 4]
+  ],
+  'A#|m6': [
+    [3, 3, 2, 5]
+  ],
+  'B|m6': [
+    [4, 4, 3, 6]
+  ],
+  'C|9': [
+    [0, 3, 1, 2]
+  ],
+  'C#|9': [
+    [1, 4, 2, 3]
+  ],
+  'D|9': [
+    [2, 5, 3, 4]
+  ],
+  'D#|9': [
+    [3, 6, 4, 5]
+  ],
+  'E|9': [
+    [4, 7, 5, 6]
+  ],
+  'F|9': [
+    [5, 8, 6, 7]
+  ],
+  'F#|9': [
+    [6, 9, 7, 8]
+  ],
+  'G|9': [
+    [5, 4, 6, 7]
+  ],
+  'G#|9': [
+    [6, 5, 7, 8]
+  ],
+  'A|9': [
+    [7, 6, 8, 9]
+  ],
+  'A#|9': [
+    [8, 7, 9, 10]
+  ],
+  'B|9': [
+    [9, 8, 10, 11]
+  ],
+  'C|dim': [
+    [4, 5, 4, 4],
+    [1, 2, 1, 4]
+  ],
+  'C#|dim': [
+    [5, 6, 5, 5],
+    [2, 3, 2, 5]
+  ],
+  'D|dim': [
+    [0, 1, 3, 3],
+    [0, 1, 0, 3]
+  ],
+  'D#|dim': [
+    [1, 2, 4, 4],
+    [1, 2, 1, 4]
+  ],
+  'E|dim': [
+    [2, 3, 5, 5],
+    [2, 3, 2, 5]
+  ],
+  'F|dim': [
+    [3, 4, 6, 6],
+    [3, 4, 3, 6]
+  ],
+  'F#|dim': [
+    [4, 5, 7, 7],
+    [1, 2, 1, 4]
+  ],
+  'G|dim': [
+    [5, 6, 8, 8],
+    [2, 3, 2, 5]
+  ],
+  'G#|dim': [
+    [0, 1, 0, 0],
+    [0, 1, 0, 3]
+  ],
+  'A|dim': [
+    [1, 2, 1, 1],
+    [1, 2, 1, 4]
+  ],
+  'A#|dim': [
+    [2, 3, 2, 2],
+    [2, 3, 2, 5]
+  ],
+  'B|dim': [
+    [3, 4, 3, 3],
+    [3, 4, 3, 6]
+  ],
+  'C|dim7': [
+    [1, 2, 1, 4]
+  ],
+  'C#|dim7': [
+    [2, 3, 2, 5]
+  ],
+  'D|dim7': [
+    [0, 1, 0, 3]
+  ],
+  'D#|dim7': [
+    [1, 2, 1, 4]
+  ],
+  'E|dim7': [
+    [2, 3, 2, 5]
+  ],
+  'F|dim7': [
+    [3, 4, 3, 6]
+  ],
+  'F#|dim7': [
+    [1, 2, 1, 4]
+  ],
+  'G|dim7': [
+    [2, 3, 2, 5]
+  ],
+  'G#|dim7': [
+    [0, 1, 0, 3]
+  ],
+  'A|dim7': [
+    [1, 2, 1, 4]
+  ],
+  'A#|dim7': [
+    [2, 3, 2, 5]
+  ],
+  'B|dim7': [
+    [3, 4, 3, 6]
+  ],
+  'C|aug': [
+    [2, 1, 1, 2]
+  ],
+  'C#|aug': [
+    [3, 2, 2, 3]
+  ],
+  'D|aug': [
+    [4, 3, 3, 4]
+  ],
+  'D#|aug': [
+    [1, 0, 0, 1]
+  ],
+  'E|aug': [
+    [2, 1, 1, 2]
+  ],
+  'F|aug': [
+    [3, 2, 2, 3]
+  ],
+  'F#|aug': [
+    [4, 3, 3, 4]
+  ],
+  'G|aug': [
+    [1, 0, 0, 1]
+  ],
+  'G#|aug': [
+    [2, 1, 1, 2]
+  ],
+  'A|aug': [
+    [3, 2, 2, 3]
+  ],
+  'A#|aug': [
+    [4, 3, 3, 4]
+  ],
+  'B|aug': [
+    [1, 0, 0, 1]
+  ],
+  'C|11': [
+    [2, 0, 1, 3]
+  ],
+  'C|add9': [
+    [0, 0, 1, 2]
+  ],
+  'C|m9': [
+    [0, 3, 1, 1]
+  ],
+  'C|sus2': [
+    [0, 0, 1, 0]
+  ],
+  'C|sus4': [
+    [3, 0, 1, 3]
+  ],
+};
 
 List<int> _parse(String values) {
   return values.split(' ').map(int.parse).toList();
@@ -430,6 +913,17 @@ bool _isContiguous(List<int> indexes) {
 
 Set<int> _pitchClasses(List<int> intervals) {
   return intervals.map((interval) => interval % 12).toSet();
+}
+
+Set<int> _allowedIntervals(String suffix) {
+  final allowed = _pitchClasses(_formulas[suffix]!);
+
+  // The community plays dim as dim7; accept the diminished seventh.
+  if (suffix == 'dim' || suffix == 'dim7') {
+    allowed.addAll({3, 6, 9});
+  }
+
+  return allowed;
 }
 
 Set<int> _requiredIntervals(String suffix, List<int> formula) {
@@ -473,71 +967,15 @@ Set<int> _requiredIntervals(String suffix, List<int> formula) {
     }
   }
 
+  if (_ninthSuffixes.contains(suffix)) {
+    required.add(2);
+  }
+
   return required;
 }
 
 Set<int> _intervalsFor(int root, ChordPosition position) {
-  final frets = _parse(position.frets);
-
-  return {
-    for (var stringIndex = 0; stringIndex < frets.length; stringIndex++)
-      (_tuning[stringIndex] +
-              _realFret(position.baseFret, frets[stringIndex]) -
-              root) %
-          12,
-  };
-}
-
-bool _hasPracticalRootBassVoicing(String key, String suffix) {
-  return _hasPracticalVoicing(
-    key,
-    suffix,
-    requireRootBass: true,
-  );
-}
-
-bool _hasPracticalFrettedVoicing(String key, String suffix) {
-  return _hasPracticalVoicing(
-    key,
-    suffix,
-    requireFretted: true,
-  );
-}
-
-bool _hasPracticalBeginnerVoicing(String key, String suffix) {
-  return _hasPracticalVoicing(
-    key,
-    suffix,
-    maxFret: _beginnerVoicingMaxFret,
-  );
-}
-
-bool _hasPracticalVoicing(
-  String key,
-  String suffix, {
-  bool requireRootBass = false,
-  bool requireFretted = false,
-  int? maxFret,
-}) {
-  final root = _noteValues[key]!;
-  final formula = _formulas[suffix]!;
-  final allowed = _pitchClasses(formula);
-  final required = _requiredIntervals(suffix, formula);
-
-  for (final frets in _testCandidates) {
-    if (requireRootBass && !_hasRootBass(key, frets)) continue;
-    if (requireFretted && !frets.any((fret) => fret > 0)) continue;
-    if (maxFret != null && frets.any((fret) => fret > maxFret)) continue;
-
-    final intervals = _intervalsForRealFrets(root, frets);
-    if (!intervals.every(allowed.contains)) continue;
-    if (!required.every(intervals.contains)) continue;
-    if (allowed.length <= 4 && !intervals.containsAll(allowed)) continue;
-
-    return true;
-  }
-
-  return false;
+  return _intervalsForRealFrets(root, _realFretsFor(position));
 }
 
 Set<int> _intervalsForRealFrets(int root, List<int> frets) {
@@ -545,46 +983,6 @@ Set<int> _intervalsForRealFrets(int root, List<int> frets) {
     for (var stringIndex = 0; stringIndex < frets.length; stringIndex++)
       (_tuning[stringIndex] + frets[stringIndex] - root) % 12,
   };
-}
-
-bool _hasRootBass(String key, List<int> realFrets) {
-  final root = _noteValues[key]!;
-  return (_tuning.first + realFrets.first - root) % 12 == 0;
-}
-
-List<List<int>> _buildTestCandidates() {
-  final candidates = <List<int>>[];
-
-  for (var first = 0; first <= 12; first++) {
-    for (var second = 0; second <= 12; second++) {
-      for (var third = 0; third <= 12; third++) {
-        for (var fourth = 0; fourth <= 12; fourth++) {
-          final frets = [first, second, third, fourth];
-          if (_isPlayable(frets)) {
-            candidates.add(frets);
-          }
-        }
-      }
-    }
-  }
-
-  return candidates;
-}
-
-bool _isPlayable(List<int> frets) {
-  final fretted = frets.where((fret) => fret > 0).toList();
-  if (fretted.isEmpty) return true;
-
-  if (fretted.toSet().length > 4) return false;
-
-  final minFret = fretted.reduce((a, b) => a < b ? a : b);
-  final maxFret = fretted.reduce((a, b) => a > b ? a : b);
-  final spanLimit = minFret <= 4 ? _maxLowPositionSpan : _maxHighPositionSpan;
-
-  if (maxFret - minFret > spanLimit) return false;
-  if (frets.contains(0) && maxFret > _maxOpenVoicingFret) return false;
-
-  return true;
 }
 
 int _realFret(int baseFret, int displayedFret) {
@@ -597,6 +995,15 @@ List<int> _realFretsFor(ChordPosition position) {
     for (final fret in _parse(position.frets))
       _realFret(position.baseFret, fret),
   ];
+}
+
+/// Neck region of a shape; all-open shapes sort last.
+int _positionOf(ChordPosition position) {
+  final fretted =
+      _realFretsFor(position).where((fret) => fret > 0).toList();
+  if (fretted.isEmpty) return 99;
+
+  return fretted.reduce((a, b) => a < b ? a : b);
 }
 
 List<int> _firstRealFrets(String key, String suffix) {
